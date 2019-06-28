@@ -1,0 +1,14 @@
+header {
+  width: 100%;
+  background-color: var(--soft-blue);
+}
+
+header .main-header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 15px;
+  padding: 20px 15px;
+}
+/*# sourceMappingURL=Header.css.map */

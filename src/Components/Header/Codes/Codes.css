@@ -1,0 +1,30 @@
+.codes {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: end;
+}
+
+.codes ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30px 30px;
+      grid-template-columns: 30px 30px;
+  grid-gap: 15px;
+}
+
+.codes ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.codes ul li a {
+  color: #fff;
+}
+
+.codes ul li a i {
+  font-size: 30px;
+}
+/*# sourceMappingURL=Codes.css.map */
