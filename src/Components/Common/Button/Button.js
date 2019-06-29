@@ -4,7 +4,7 @@ import './Button.css';
 class Button extends Component {
     render() {
         return(
-            <button>
+            <button className="ghost-btn">
                 <p>Tell me about your project</p>
             </button>
         );
