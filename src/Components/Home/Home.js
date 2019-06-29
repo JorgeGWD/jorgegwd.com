@@ -5,8 +5,10 @@ import './Home.css';
 
 const Home = () => (
     <div className="home">
-        <Typing />
-        <Button />
+        <div className="home-content">
+            <Typing />
+            <Button />
+        </div>
     </div>
 )
 
