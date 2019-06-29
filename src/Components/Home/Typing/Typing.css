@@ -1,5 +1,9 @@
-.typing {
-  margin: 0px;
-  padding: 0px;
+.typing h1 {
+  font-size: 46px;
+  font-weight: lighter;
+}
+
+.typing h1 span {
+  font-style: italic;
 }
 /*# sourceMappingURL=Typing.css.map */

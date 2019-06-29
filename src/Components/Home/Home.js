@@ -1,9 +1,10 @@
 import React from 'react';
+import Typing from './Typing/Typing';
 import './Home.css';
 
 const Home = () => (
     <div className="home">
-        <h1>Home</h1>
+        <Typing />
     </div>
 )
 
