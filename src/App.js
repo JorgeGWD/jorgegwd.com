@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
+import About from './Components/About/About';
 import './App.css';
 import './reset.css';
 
@@ -10,6 +11,7 @@ function App() {
 
       <Header />
       <Home />
+      <About />
 
     </div>
   );
