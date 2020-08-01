@@ -2,8 +2,10 @@ import React from 'react';
 import './About.css';
 
 const About = () => (
-    <div className="about">
-        <h1>About</h1>
+    <div className="container">
+        <div className="about-content">
+            <h1>About</h1>
+        </div>
     </div>
 )
 

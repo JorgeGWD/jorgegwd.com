@@ -4,10 +4,12 @@ import Button from '../Common/Button/Button';
 import './Home.css';
 
 const Home = () => (
-    <div className="home">
+    <div className="container">
         <div className="home-content">
-            <Typing />
-            <Button />
+            <div className="home-box">
+                <Typing />
+                <Button />
+            </div>
         </div>
     </div>
 )
