@@ -7,4 +7,10 @@
 .typing h1 span {
   font-style: italic;
 }
+
+@media (max-width: 600px) {
+  .typing h1 {
+    font-size: 8vw;
+  }
+}
 /*# sourceMappingURL=Typing.css.map */
