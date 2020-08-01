@@ -2,11 +2,11 @@
   position: relative;
 }
 
-.container .skills-content {
+.container .skills {
   padding: 7vh 0px;
 }
 
-.container .skills-content::before {
+.container .skills::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -19,7 +19,7 @@
   -webkit-mask-size: cover;
 }
 
-.container .skills-content::after {
+.container .skills::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -32,13 +32,13 @@
   -webkit-mask-size: cover;
 }
 
-.container .skills-content .skills-box {
+.container .skills .skills-box {
   padding: 50px;
   height: 100%;
   background: -webkit-gradient(linear, left top, right top, from(var(--soft-blue)), to(var(--dark-blue)));
 }
 
-.container .skills-content .skills-box h1 {
+.container .skills .skills-box h1 {
   color: #fff;
 }
 /*# sourceMappingURL=Skills.css.map */

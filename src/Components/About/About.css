@@ -1,4 +1,41 @@
-.about-content {
-  padding: 50px;
+.about {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr;
+      grid-template-rows: auto 1fr;
+  grid-gap: 20px;
+}
+
+.about .section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.about .section .profile-pic {
+  text-align: center;
+}
+
+.about .section .profile-pic img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about .section .profile-description {
+  color: #444;
+}
+
+.about .section .profile-description p {
+  font-size: 3vmin;
+  font-weight: lighter;
+  line-height: 45px;
+}
+
+.about .section .profile-description p span {
+  color: #21729a;
+  font-weight: 400;
 }
 /*# sourceMappingURL=About.css.map */

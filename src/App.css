@@ -10,4 +10,13 @@
 .container h1 {
   color: var(--soft-blue);
 }
+
+.content {
+  padding: 50px;
+}
+
+section {
+  margin: auto;
+  max-width: 80%;
+}
 /*# sourceMappingURL=App.css.map */
