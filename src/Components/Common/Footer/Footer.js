@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer>
             <div className="footer-content">
-                <p>JorgeGWD</p>
+                <p>JorgeGWD &copy; {new Date().getFullYear()}</p>
             </div> 
         </footer>
     )
