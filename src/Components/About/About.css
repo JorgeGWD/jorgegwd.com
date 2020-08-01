@@ -1,4 +1,4 @@
-.about {
+.about section {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: auto 1fr;
@@ -6,7 +6,7 @@
   grid-gap: 20px;
 }
 
-.about .section {
+.about section .section-content {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr;
@@ -14,27 +14,27 @@
   grid-gap: 20px;
 }
 
-.about .section .profile-pic {
+.about section .section-content .profile-pic {
   text-align: center;
 }
 
-.about .section .profile-pic img {
+.about section .section-content .profile-pic img {
   width: 50%;
   height: auto;
   border-radius: 50%;
 }
 
-.about .section .profile-description {
+.about section .section-content .profile-description {
   color: #444;
 }
 
-.about .section .profile-description p {
+.about section .section-content .profile-description p {
   font-size: 3vmin;
   font-weight: lighter;
   line-height: 45px;
 }
 
-.about .section .profile-description p span {
+.about section .section-content .profile-description p span {
   color: #21729a;
   font-weight: 400;
 }
