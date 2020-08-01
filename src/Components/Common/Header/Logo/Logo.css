@@ -1,5 +1,14 @@
+.logo {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .logo img {
-  width: auto;
-  height: 50px;
+  width: 50vw;
+  max-width: 250px;
+  height: auto;
 }
 /*# sourceMappingURL=Logo.css.map */

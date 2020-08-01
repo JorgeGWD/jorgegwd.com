@@ -3,6 +3,10 @@
   --soft-blue: #21729A;
 }
 
+.container {
+  font-size: 1.5rem;
+}
+
 .container h1 {
   color: var(--soft-blue);
 }
