@@ -1,7 +1,6 @@
 header {
   z-index: 1000;
   position: fixed;
-  width: 100%;
   background-color: var(--soft-blue);
 }
 
