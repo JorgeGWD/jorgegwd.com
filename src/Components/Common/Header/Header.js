@@ -38,7 +38,7 @@ export default class Header extends Component {
                     backgroundColor: this.state.status === "top" ? "transparent" : "var(--soft-blue)",
                     color: this.state.status === "top" ? "white" : "blue",
                     position: "fixed",
-                    width: "calc(100vw - 45px)",
+                    width: "calc(100% - 30px)",
                     transition: "all .3s ease-in-out"
                 }}>
 

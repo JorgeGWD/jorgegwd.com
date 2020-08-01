@@ -1,14 +1,12 @@
 header {
   z-index: 1000;
-  position: fixed;
-  background-color: var(--soft-blue);
 }
 
 header .main-header {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  -ms-grid-columns: 1fr auto;
+      grid-template-columns: 1fr auto;
   grid-gap: 15px;
   padding: 20px 15px;
 }

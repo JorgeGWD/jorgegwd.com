@@ -21,7 +21,7 @@ TxtRotate.prototype.tick = function() {
     this.txt = fullTxt.substring(0, this.txt.length + 1);
   }
 
-  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+  this.el.innerHTML = '<span className="wrap">'+this.txt+'</span>';
 
   var that = this;
   var delta = 300 - Math.random() * 100;
@@ -63,7 +63,7 @@ class Typing extends Component {
         return(
             <div className="typing">
                 <h1>We can <span
-                class="txt-rotate"
+                className="txt-rotate"
                 data-period="2000"
                 data-rotate='[ "create", "design", "develop" ]'></span> <br/> greats things together.</h1>
             </div>
