@@ -1,54 +1,44 @@
-import React, { Component } from 'react';
-import Logo from './Logo';
-import Codes from './Codes';
-import './Header.css';
+import React, { useEffect, useRef, useState } from 'react'
+import './Header.css'
+import Logo from './Logo/Logo'
+import Codes from './Codes/Codes'
 
-export default class Header extends Component {
-    constructor(props) {
-        super(props);
-        this.listener = null;
-        this.state = {
-          status: "top"
+const Header = () => {
+
+    const [ sticky, setSticky ] = useState({ isSticky: false, offset: 0 });
+
+    const ref = useRef(null);
+
+    const handleScroll = () => {
+        if (window.pageYOffset > 0 ) {
+          setSticky({ isSticky: true });
+        } else {
+          setSticky({ isSticky: false, offset: 0 });
+        }
+    };
+
+      useEffect(() => {
+        var header = ref.current.getBoundingClientRect();
+        const handleScrollEvent = () => {
+          handleScroll(header.top, header.height)
+        }
+       
+        window.addEventListener('scroll', handleScrollEvent);
+       
+        return () => {
+          window.removeEventListener('scroll', handleScrollEvent);
         };
-      }
-    
-      componentDidMount() {
-        this.listener = document.addEventListener("scroll", e => {
-          var scrolled = document.scrollingElement.scrollTop;
-          if (scrolled >= 400) {
-            if (this.state.status !== "amir") {
-              this.setState({ status: "amir" });
-            }
-          } else {
-            if (this.state.status !== "top") {
-              this.setState({ status: "top" });
-            }
-          }
-        });
-      }
-    
-      componentDidUpdate() {
-        document.removeEventListener("scroll", this.listener);
-      }
-    render() {
-        return (
-            <header>
+    }, []);
 
-                <div className="main-header" style={{
-                    backgroundColor: this.state.status === "top" ? "transparent" : "var(--soft-blue)",
-                    color: this.state.status === "top" ? "white" : "blue",
-                    position: "fixed",
-                    width: "calc(100% - 30px)",
-                    transition: "all .3s ease-in-out",
-                    zIndex: "1000"
-                }}>
-
-                    <Logo />
-                    <Codes />
-
-                </div>
-
-            </header>
-        )
-    }
+  return (
+    <header className={`header${sticky.isSticky ? ' sticky' : ''}`} ref={ref}>
+        <div className="main-header">
+            <Logo />
+            <Codes />
+        </div>
+    </header>
+  )
 }
+
+export default Header
+
