@@ -47,7 +47,7 @@
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 60px;
   color: #fff;
 }
 
@@ -61,5 +61,27 @@
   font-size: 3vmin;
   font-weight: lighter;
   line-height: 5vmin;
+}
+
+.container .skills .skills-box section .experience {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 5vmin;
+  margin-top: 5vmin;
+}
+
+.container .skills .skills-box section .experience h2 {
+  margin: 0px;
+  color: var(--soft-blue);
+}
+
+.container .skills .skills-box section .experience span {
+  font-size: 3vmin;
+  color: var(--dark-blue);
+}
+
+.container .skills .skills-box section .experience p {
+  color: gray;
+  font-size: 2.5vmin;
 }
 /*# sourceMappingURL=Skills.css.map */

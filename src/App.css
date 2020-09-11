@@ -19,4 +19,12 @@ section {
   margin: auto;
   max-width: 80%;
 }
+
+.box {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
 /*# sourceMappingURL=App.css.map */
