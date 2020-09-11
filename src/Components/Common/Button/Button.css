@@ -8,5 +8,14 @@ button.ghost-btn {
   padding: 15px 40px;
   background-color: transparent;
   border: 1px solid #fff;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+button.ghost-btn:hover {
+  color: #21729A;
+  background-color: #fff;
+  -webkit-transition: all .25s;
+  transition: all .25s;
 }
 /*# sourceMappingURL=Button.css.map */

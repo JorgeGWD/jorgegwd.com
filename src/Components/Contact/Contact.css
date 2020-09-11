@@ -30,6 +30,19 @@
   color: #fff;
 }
 
+.contact.content ul li a i {
+  font-size: 30px;
+  -webkit-transition: all .15s;
+  transition: all .15s;
+}
+
+.contact.content ul li a i:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: all .15s;
+  transition: all .15s;
+}
+
 .contact.content .contact-data {
   display: -ms-grid;
   display: grid;
