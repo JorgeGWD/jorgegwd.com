@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=Portfolio.css.map */
+.portfolio-info {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 5vmin;
+  margin-top: 5vmin;
+}
+/*# sourceMappingURL=Portfolio.css.map */
