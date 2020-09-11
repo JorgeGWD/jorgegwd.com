@@ -1,9 +1,46 @@
 .contact.content {
+  color: #fff;
+  text-align: center;
   background: -webkit-gradient(linear, left top, right top, from(#21729A), to(#002450));
 }
 
 .contact.content h1 {
   color: #fff;
-  text-align: center;
+}
+
+.contact.content h3, .contact.content h4 {
+  font-weight: lighter;
+}
+
+.contact.content ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin: 20px auto;
+  max-width: 100px;
+}
+
+.contact.content ul li {
+  list-style: none;
+}
+
+.contact.content ul li a {
+  color: #fff;
+}
+
+.contact.content .contact-data {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin: 20px auto 0px auto;
+  max-width: 600px;
+}
+
+.contact.content .contact-data .phone {
+  text-align: right;
 }
 /*# sourceMappingURL=Contact.css.map */

@@ -1,7 +1,29 @@
 @import ../../_variables
     
 .contact.content
+    color: #fff
+    text-align: center
     background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
     h1
         color: #fff
-        text-align: center
+    h3, h4
+        font-weight: lighter
+    ul
+        display: grid
+        grid-template-columns: repeat(2,1fr)
+        grid-gap: 40px
+        margin: 20px auto
+        max-width: 100px
+        li
+            list-style: none
+            a
+                color: #fff
+    .contact-data
+        display: grid
+        grid-template-columns: repeat(2,1fr)
+        grid-gap: 40px
+        margin: 20px auto 0px auto
+        max-width: 600px
+        .phone
+            text-align: right
+
