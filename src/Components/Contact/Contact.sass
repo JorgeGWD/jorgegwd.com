@@ -1,35 +1,52 @@
 @import ../../_variables
-    
+
+.contact
+    &::before
+        content: ""
+        position: absolute
+        z-index: -1
+        top: 0px
+        left: 0px
+        width: 100%
+        height: 7vh
+        background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
+        -webkit-mask: url("../../assets/images/bruhspainted-top.svg") top center
+        -webkit-mask-size: cover
+
 .contact.content
+    padding: 7vh 0px 0px 0px
     color: #fff
     text-align: center
-    background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
-    h1
-        color: #fff
-    h3, h4
-        font-weight: lighter
-    ul
-        display: grid
-        grid-template-columns: repeat(2,1fr)
-        grid-gap: 40px
-        margin: 20px auto
-        max-width: 100px
-        li
-            list-style: none
-            a
-                color: #fff
-                i
-                    font-size: 30px
-                    transition: all .15s
-                    &:hover
-                        transform: scale(1.5)
+    .contact-box
+        padding: 50px
+        height: 100%
+        background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
+        h1
+            color: #fff
+        h3, h4
+            font-weight: lighter
+        ul
+            display: grid
+            grid-template-columns: repeat(2,1fr)
+            grid-gap: 40px
+            margin: 20px auto
+            max-width: 100px
+            li
+                list-style: none
+                a
+                    color: #fff
+                    i
+                        font-size: 30px
                         transition: all .15s
-    .contact-data
-        display: grid
-        grid-template-columns: repeat(2,1fr)
-        grid-gap: 40px
-        margin: 20px auto 0px auto
-        max-width: 600px
-        .phone
-            text-align: right
+                        &:hover
+                            transform: scale(1.5)
+                            transition: all .15s
+        .contact-data
+            display: grid
+            grid-template-columns: repeat(2,1fr)
+            grid-gap: 40px
+            margin: 20px auto 0px auto
+            max-width: 600px
+            .phone
+                text-align: right
 
