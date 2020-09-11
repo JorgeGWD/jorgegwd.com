@@ -14,7 +14,7 @@ const Home = () => {
             <div className="home-content">
                 <div className="home-box">
                     <Typing />
-                    <Button onClick={openModal} />
+                    <Button onClick={openModal} text="Tell me about your project" />
                     {
                         open ? (
                             <Modal

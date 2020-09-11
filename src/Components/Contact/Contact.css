@@ -1,5 +1,5 @@
 .contact.content {
-  background: -webkit-gradient(linear, left top, right top, from(var(--soft-blue)), to(var(--dark-blue)));
+  background: -webkit-gradient(linear, left top, right top, from(#21729A), to(#002450));
 }
 
 .contact.content h1 {

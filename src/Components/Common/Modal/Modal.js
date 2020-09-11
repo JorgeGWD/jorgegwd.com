@@ -1,11 +1,8 @@
 import React from "react"
 import './Modal.css'
 import Portal from "./Portal"
-import useModal from './useModal'
 
 const Modal = ({ children, close, render }) => {
-
-    const { closeModal } = useModal()
 
     return (
         <Portal>
@@ -17,7 +14,7 @@ const Modal = ({ children, close, render }) => {
                         <button onClick={close}>Close</button>
                     </div>
                 </div>
-                <div className="modal-background" close={closeModal}/>
+                <div className="modal-background" onClick={close} />
             </div>
         </Portal>
     );
