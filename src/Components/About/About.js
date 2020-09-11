@@ -1,6 +1,6 @@
-import React from 'react';
-import ProfilePic from "../../assets/images/profile-pic.jpg";
-import './About.css';
+import React from 'react'
+import ProfilePic from "../../assets/images/profile-pic.jpg"
+import './About.css'
 
 const About = () => (
     <div className="container">
@@ -22,4 +22,4 @@ const About = () => (
     </div>
 )
 
-export default About;
+export default About

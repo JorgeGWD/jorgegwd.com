@@ -1,7 +1,7 @@
-import React from 'react';
-import "./Contact.css";
+import React from 'react'
+import "./Contact.css"
 
-export default function Contact() {
+const Contact = () => {
     return (
         <div className="container">
             <div className="contact content">
@@ -12,3 +12,5 @@ export default function Contact() {
         </div>
     )
 }
+
+export default Contact

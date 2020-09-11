@@ -1,6 +1,6 @@
-import React from 'react';
-import LogoImg from '../../../../assets/images/logo.svg';
-import './Logo.css';
+import React from 'react'
+import LogoImg from '../../../../assets/images/logo.svg'
+import './Logo.css'
 
 const Logo = () => (
     <div className="logo">
@@ -8,4 +8,4 @@ const Logo = () => (
     </div>
 )
 
-export default Logo;
+export default Logo

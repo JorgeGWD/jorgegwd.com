@@ -1,7 +1,7 @@
-import React from 'react';
-import Typing from './Typing/Typing';
-import Button from '../Common/Button/Button';
-import './Home.css';
+import React from 'react'
+import Typing from './Typing/Typing'
+import Button from '../Common/Button/Button'
+import './Home.css'
 
 const Home = () => (
     <div className="container">
@@ -14,4 +14,4 @@ const Home = () => (
     </div>
 )
 
-export default Home;
+export default Home

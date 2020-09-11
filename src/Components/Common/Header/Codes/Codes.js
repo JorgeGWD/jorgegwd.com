@@ -1,5 +1,5 @@
-import React from 'react';
-import './Codes.css';
+import React from 'react'
+import './Codes.css'
 
 const Codes = () => (
     <div className="codes">
@@ -10,4 +10,4 @@ const Codes = () => (
     </div>
 )
 
-export default Codes;
+export default Codes

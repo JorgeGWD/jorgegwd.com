@@ -1,7 +1,7 @@
-import React from 'react';
-import "./Skills.css";
+import React from 'react'
+import "./Skills.css"
 
-export default function Skills() {
+const Skills = () => {
     return (
         <div className="container">
             <div className="skills content">
@@ -14,3 +14,5 @@ export default function Skills() {
         </div>
     )
 }
+
+export default Skills
