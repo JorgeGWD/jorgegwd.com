@@ -41,4 +41,25 @@
 .container .skills .skills-box h1 {
   color: #fff;
 }
+
+.container .skills .skills-box section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  color: #fff;
+}
+
+.container .skills .skills-box section h2 {
+  margin-top: 3vmin;
+  font-size: 4vmin;
+  font-weight: 500;
+}
+
+.container .skills .skills-box section p {
+  font-size: 3vmin;
+  font-weight: lighter;
+  line-height: 5vmin;
+}
 /*# sourceMappingURL=Skills.css.map */
