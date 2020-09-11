@@ -70,17 +70,17 @@
   margin-top: 5vmin;
 }
 
-.container .skills .skills-box section .experience h2 {
+.container .skills .skills-box section .experience .experience-data h2 {
   margin: 0px;
   color: var(--soft-blue);
 }
 
-.container .skills .skills-box section .experience span {
+.container .skills .skills-box section .experience .experience-data span {
   font-size: 3vmin;
   color: var(--dark-blue);
 }
 
-.container .skills .skills-box section .experience p {
+.container .skills .skills-box section .experience .experience-data p {
   color: gray;
   font-size: 2.5vmin;
 }
