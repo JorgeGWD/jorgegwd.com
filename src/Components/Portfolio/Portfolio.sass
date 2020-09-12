@@ -9,13 +9,19 @@
         display: grid
         grid-template-columns: 200px 1fr
         grid-gap: 20px
+        &:hover
+            img
+                transform: translateY(calc( -100% + 200px ))
+                transition: all 3.5s
         &.box
+            display: flex
             padding: 0px
             max-height: 200px
         img
             // margin: -20px
             width: 100%
             height: auto
+            transition: all 2s
         .porfolio-data-text
             padding: 20px
             align-self: center
