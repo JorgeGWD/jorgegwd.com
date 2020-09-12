@@ -23,14 +23,15 @@
 }
 
 .portfolio-info .porfolio-data.box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   padding: 0px;
   max-height: 200px;
 }
 
-.portfolio-info .porfolio-data img {
+.portfolio-info .porfolio-data .porfolio-data-img {
+  max-height: 200px;
+}
+
+.portfolio-info .porfolio-data .porfolio-data-img img {
   width: 100%;
   height: auto;
   -webkit-transition: all 2s;
