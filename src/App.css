@@ -25,8 +25,17 @@ h1, h2, h3, h4, h5, h6 {
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
-  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+.box:hover {
+  -webkit-box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+  -webkit-transition: all .25s;
+  transition: all .25s;
 }
 /*# sourceMappingURL=App.css.map */

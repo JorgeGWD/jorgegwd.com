@@ -2,17 +2,22 @@
     
 .portfolio-info
     display: grid
+    grid-template-columns: repeat(2,1fr)
     grid-gap: 5vmin
     margin-top: 5vmin
     .porfolio-data
         display: grid
-        grid-template-columns: 1fr 4fr
+        grid-template-columns: 200px 1fr
         grid-gap: 20px
+        &.box
+            padding: 0px
+            max-height: 200px
         img
-            margin: -20px
-            width: 110%
+            // margin: -20px
+            width: 100%
             height: auto
         .porfolio-data-text
+            padding: 20px
             align-self: center
             p
                 color: $soft-blue
