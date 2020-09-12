@@ -7,12 +7,14 @@
         grid-gap: 20px
         .section-content
             display: grid
-            grid-template-columns: 1fr 1fr
+            grid-template-columns: repeat(2,1fr)
+            grid-template-areas: "description pic"
             grid-gap: 20px
             .profile-pic
                 text-align: center
                 img
                     width: 50%
+                    min-width: 200px
                     height: auto
                     border-radius: 50%
             .profile-description
@@ -24,3 +26,19 @@
                     span
                         color: $soft-blue
                         font-weight: 400
+
+.profile-description
+    grid-area: description
+
+.profile-pic
+    grid-area: pic
+
+@media screen and ( max-width: 850px )
+    .about
+        section
+            .section-content
+                grid-template-columns: 1fr
+                grid-template-areas: "pic" "description"
+                .profile-pic
+                    img
+                        min-width: 200px

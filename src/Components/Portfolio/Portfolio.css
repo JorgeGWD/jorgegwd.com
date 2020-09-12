@@ -49,9 +49,11 @@
   font-size: 18px;
 }
 
-.portfolio-info .porfolio-data .porfolio-data-text span {
+.portfolio-info .porfolio-data .porfolio-data-text p.tech {
+  margin: 5px 0px;
   color: #444;
   font-size: 14px;
+  line-height: 18px;
 }
 
 .portfolio-info .porfolio-data .porfolio-data-text a {
@@ -61,5 +63,12 @@
 .portfolio-info .porfolio-data .porfolio-data-text a p {
   float: left;
   font-size: 12px;
+}
+
+@media screen and (max-width: 850px) {
+  .portfolio-info {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
 }
 /*# sourceMappingURL=Portfolio.css.map */

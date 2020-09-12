@@ -42,8 +42,8 @@ const Portfolio = () => {
                                 <div className="porfolio-data-text">
                                     <h3>{data.title}</h3>
                                     <p>{data.description}</p>
-                                    <span>{data.tech}</span>
-                                    <a href={data.url} target="_blank" rel="noopener noreferrer"><p>http://jorgegwd.com/</p></a>
+                                    <p className="tech"><span>{data.tech}</span></p>
+                                    <a href={data.url} target="_blank" rel="noopener noreferrer"><p>{data.url}</p></a>
                                 </div>
                             </div>
                             )

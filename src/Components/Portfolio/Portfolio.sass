@@ -28,11 +28,17 @@
             p
                 color: $soft-blue
                 font-size: 18px
-            span
+            p.tech
+                margin: 5px 0px
                 color: $soft-gray
                 font-size: 14px
+                line-height: 18px
             a
                 display: block
                 p
                     float: left
                     font-size: 12px
+
+@media screen and ( max-width: 850px )
+    .portfolio-info
+        grid-template-columns: 1fr
