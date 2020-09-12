@@ -10,8 +10,8 @@
 .portfolio-info .porfolio-data {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 200px 1fr;
-      grid-template-columns: 200px 1fr;
+  -ms-grid-columns: 28vh 1fr;
+      grid-template-columns: 28vh 1fr;
   grid-gap: 20px;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .portfolio-info .porfolio-data .porfolio-data-text {
-  padding: 20px;
+  padding: 20px 20px 20px 0px;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
