@@ -1,4 +1,27 @@
+@import ../../_variables
+    
 .portfolio-info
     display: grid
     grid-gap: 5vmin
     margin-top: 5vmin
+    .porfolio-data
+        display: grid
+        grid-template-columns: 1fr 4fr
+        grid-gap: 20px
+        img
+            margin: -20px
+            width: 110%
+            height: auto
+        .porfolio-data-text
+            align-self: center
+            p
+                color: $soft-blue
+                font-size: 18px
+            span
+                color: $soft-gray
+                font-size: 14px
+            a
+                display: block
+                p
+                    float: left
+                    font-size: 12px

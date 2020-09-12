@@ -4,4 +4,43 @@
   grid-gap: 5vmin;
   margin-top: 5vmin;
 }
+
+.portfolio-info .porfolio-data {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr;
+      grid-template-columns: 1fr 4fr;
+  grid-gap: 20px;
+}
+
+.portfolio-info .porfolio-data img {
+  margin: -20px;
+  width: 110%;
+  height: auto;
+}
+
+.portfolio-info .porfolio-data .porfolio-data-text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.portfolio-info .porfolio-data .porfolio-data-text p {
+  color: #21729A;
+  font-size: 18px;
+}
+
+.portfolio-info .porfolio-data .porfolio-data-text span {
+  color: #444;
+  font-size: 14px;
+}
+
+.portfolio-info .porfolio-data .porfolio-data-text a {
+  display: block;
+}
+
+.portfolio-info .porfolio-data .porfolio-data-text a p {
+  float: left;
+  font-size: 12px;
+}
 /*# sourceMappingURL=Portfolio.css.map */

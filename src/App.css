@@ -5,6 +5,7 @@
 
 .container h1 {
   color: #21729A;
+  font-weight: bold;
 }
 
 .content {
@@ -16,11 +17,16 @@ section {
   max-width: 80%;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter;
+}
+
 .box {
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
   -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
 /*# sourceMappingURL=App.css.map */

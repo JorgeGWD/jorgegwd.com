@@ -5,9 +5,11 @@ const Portfolio = () => {
 
     const [ data ] = useState([
         {
-            image: 'Image URL',
-            title: 'Title',
-            description: 'Description'
+            image: require('../../assets/images/portfolio-jorgegwd-web.png'),
+            title: 'JorgeGWD',
+            description: 'Peersonal web page / Portfolio.',
+            tech: 'ReacJS, HTML5, Sass, Javascript.',
+            url: 'http://jorgegwd.com/'
         }
     ])
 
@@ -20,9 +22,15 @@ const Portfolio = () => {
                         {
                             data.map((data, key) =>
                             <div className="porfolio-data" key={key}>
-                                <p>{data.image}</p>
-                                <h3>{data.title}</h3>
-                                <p>{data.description}</p>
+                                <div className="porfolio-data-img">
+                                    <img src={data.image} alt={data.title}/>
+                                </div>
+                                <div className="porfolio-data-text">
+                                    <h3>{data.title}</h3>
+                                    <p>{data.description}</p>
+                                    <span>{data.tech}</span>
+                                    <a href={data.url} target="_blank"><p>http://jorgegwd.com/</p></a>
+                                </div>
                             </div>
                             )
                         }
