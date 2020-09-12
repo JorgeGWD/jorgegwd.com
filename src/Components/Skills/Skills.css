@@ -80,4 +80,12 @@
   color: gray;
   font-size: 2.5vmin;
 }
+
+@media screen and (max-width: 850px) {
+  .container .skills .skills-box section {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 40px;
+  }
+}
 /*# sourceMappingURL=Skills.css.map */

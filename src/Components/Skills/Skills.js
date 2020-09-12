@@ -3,7 +3,7 @@ import "./Skills.css"
 
 const Skills = () => {
 
-    const [ data ] = useState(
+    const [ experience ] = useState(
         [
             {
                 title: "Frontend Developer",
@@ -41,6 +41,27 @@ const Skills = () => {
                 date: "August 2010 - September 2011"
             }
     ])
+
+    const [ skills ] = useState(
+        [
+            {
+                title: "Tools",
+                skills: "Visual Studio Code, Sublime Text, Git (Github, Bitbucket, Gitlab), Jira, Trello, Slack."
+            },
+            {
+                title: "Languajes",
+                skills: "Javascript, PHP, HTML/5, CSS/3, Bash."
+            },
+            {
+                title: "Frameworks And Libraries",
+                skills: "React, Redux, React Native, SASS, LESS, MaterialUI for React, Bootstrap, Materialize CSS, JQuery."
+            },
+            {
+                title: "Other skills",
+                skills: "Wordpress, Design UI/UX, Responsive design."
+            }
+    ])
+
     return (
         <div className="container">
             <div className="skills content">
@@ -50,11 +71,11 @@ const Skills = () => {
                             <h1>Experience</h1>
                             <div className="experience">
                                 {
-                                    data.map((data, key) =>
-                                        <div id={data.id} className="experience-data box" key={key}>
-                                            <h2>{data.title}</h2>
-                                            <span>{data.company}</span>
-                                            <p>{data.date}</p>
+                                    experience.map((experience, key) =>
+                                        <div id={experience.id} className="experience-data box" key={key}>
+                                            <h2>{experience.title}</h2>
+                                            <span>{experience.company}</span>
+                                            <p>{experience.date}</p>
                                         </div>
                                     )
                                 }
@@ -62,12 +83,14 @@ const Skills = () => {
                         </div>
                         <div className="skills-section">
                             <h1>Skills</h1>
-                            <h2>Tools</h2>
-                            <p>Visual Studio Code, Sublime Text, Git (Github, Bitbucket, Gitlab), Jira, Trello, Slack.</p>
-                            <h2>Languajes</h2>
-                            <p>Javascript, PHP, HTML/5, CSS/3, Bash.</p>
-                            <h2>Frameworks And Libraries</h2>
-                            <p>React, Redux, React Native, SASS, LESS, MaterialUI for React, Bootstrap, Materialize CSS, JQuery.</p>
+                            {
+                                skills.map((skills, key) =>
+                                    <div id={skills.id} className="skills-data" key={key}>
+                                        <h2>{skills.title}</h2>
+                                        <p>{skills.skills}</p>
+                                    </div>
+                                )
+                            }
                         </div>
                     </section>
                 </div>
