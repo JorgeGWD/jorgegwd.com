@@ -1,7 +1,39 @@
+.contact-form h1 {
+  margin-bottom: 20px;
+}
+
 .contact-form input, .contact-form textarea {
-  margin-bottom: 10px;
-  padding: 10px;
+  margin-bottom: 20px;
+  padding: 15px 10px;
   max-width: calc( 100% - 20px);
   min-width: calc( 100% - 20px);
+  border: none;
+  border-bottom: 2px solid #21729A;
+  resize: none;
+}
+
+.contact-form input::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form input:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form input::-ms-input-placeholder, .contact-form textarea::-ms-input-placeholder {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form input::placeholder, .contact-form textarea::placeholder {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form button {
+  margin: 0px;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=Form.css.map */

@@ -8,10 +8,9 @@ const Modal = ({ children, close, render }) => {
         <Portal>
             <div>
                 <div className="modal-container">
+                    <button onClick={close}>Close</button>
                     <div className="modal-content" >
                         {render(children) || children}
-                        <hr />
-                        <button onClick={close}>Close</button>
                     </div>
                 </div>
                 <div className="modal-background" onClick={close} />
