@@ -9,7 +9,7 @@ const Form = () => {
             <form>
                 <input type="text" name="name" placeholder="Enter you name" />
                 <input type="email" name="email" placeholder="Enter your email address" />
-                <textarea name="message" placeholder="Your message here..." />
+                <textarea name="message" rows="6" placeholder="Your message here..." />
                 <Button className={"primary-btn"} type={"submit"} text="Submit" />
             </form>
         </div>
