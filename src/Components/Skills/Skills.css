@@ -29,7 +29,6 @@
 }
 
 .container .skills .skills-box {
-  padding: 50px;
   height: 100%;
   background: -webkit-gradient(linear, left top, right top, from(#21729A), to(#002450));
 }
@@ -44,19 +43,11 @@
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   grid-gap: 60px;
-  color: #fff;
 }
 
 .container .skills .skills-box section h2 {
   margin-top: 3vmin;
-  font-size: 4vmin;
   font-weight: 500;
-}
-
-.container .skills .skills-box section p {
-  font-size: 3vmin;
-  font-weight: lighter;
-  line-height: 5vmin;
 }
 
 .container .skills .skills-box section .experience {
@@ -71,14 +62,8 @@
   color: #21729A;
 }
 
-.container .skills .skills-box section .experience .experience-data span {
-  font-size: 3vmin;
-  color: #002450;
-}
-
-.container .skills .skills-box section .experience .experience-data p {
-  color: gray;
-  font-size: 2.5vmin;
+.container .skills .skills-box section .skills-section {
+  color: #fff;
 }
 
 @media screen and (max-width: 850px) {

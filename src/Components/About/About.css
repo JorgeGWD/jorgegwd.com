@@ -26,25 +26,20 @@
   border-radius: 50%;
 }
 
-.about section .section-content .profile-description {
-  color: #444;
-}
-
-.about section .section-content .profile-description p {
-  font-size: 3vmin;
-  font-weight: lighter;
+.about section .section-content .profile-pic p {
   line-height: 45px;
-}
-
-.about section .section-content .profile-description p span {
-  color: #21729A;
-  font-weight: 400;
 }
 
 .profile-description {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: description;
+}
+
+.profile-description .data-text {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
 }
 
 .profile-pic {

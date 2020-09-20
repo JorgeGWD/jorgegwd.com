@@ -5,11 +5,17 @@
 }
 
 .typing h1 span {
+  color: #fff;
+  font-size: 46px;
+  font-weight: lighter;
   font-style: italic;
 }
 
 @media (max-width: 600px) {
   .typing h1 {
+    font-size: 8vw;
+  }
+  .typing h1 span {
     font-size: 8vw;
   }
 }

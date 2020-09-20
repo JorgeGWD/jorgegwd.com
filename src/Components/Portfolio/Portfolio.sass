@@ -27,19 +27,21 @@
             padding: 20px 20px 20px 0px
             align-self: center
             p
-                color: $soft-blue
-                font-size: 18px
-            p.tech
                 margin: 5px 0px
-                color: $soft-gray
-                font-size: 14px
+                color: $soft-blue
                 line-height: 18px
+                span
+                    color: $soft-gray
+                    font-size: 14px
             a
                 display: block
                 p
                     float: left
                     font-size: 12px
+                    line-height: 14px
 
 @media screen and ( max-width: 850px )
     .portfolio-info
         grid-template-columns: 1fr
+        .porfolio-data
+            grid-template-columns: 22vh 1fr

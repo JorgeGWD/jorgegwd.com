@@ -3,6 +3,10 @@ button {
   cursor: pointer;
 }
 
+button p {
+  font-size: 16px;
+}
+
 button.ghost-btn {
   color: #fff;
   padding: 15px 40px;

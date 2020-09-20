@@ -26,7 +26,7 @@
             -webkit-mask: url("../../assets/images/bruhspainted-bottom.svg") bottom center
             -webkit-mask-size: cover
         .skills-box
-            padding: 50px
+            // padding: 50px
             height: 100%
             background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
             h1
@@ -35,15 +35,9 @@
                 display: grid
                 grid-template-columns: repeat(2,1fr)
                 grid-gap: 60px
-                color: #fff
                 h2
                     margin-top: 3vmin
-                    font-size: 4vmin
                     font-weight: 500
-                p
-                    font-size: 3vmin
-                    font-weight: lighter
-                    line-height: 5vmin
                 .experience
                     display: grid
                     grid-gap: 5vmin
@@ -56,12 +50,8 @@
                         h2
                             margin: 0px
                             color: $soft-blue
-                        span
-                            font-size: 3vmin
-                            color: $dark-blue
-                        p
-                            color: gray
-                            font-size: 2.5vmin
+                .skills-section
+                    color: #fff
 
 @media screen and ( max-width: 850px )
     .container
