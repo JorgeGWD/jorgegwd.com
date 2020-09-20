@@ -7,6 +7,15 @@ button p {
   font-size: 16px;
 }
 
+button.primary-btn {
+  color: #fff;
+  padding: 15px 40px;
+  background-color: #21729A;
+  border: 1px solid #21729A;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
 button.ghost-btn {
   color: #fff;
   padding: 15px 40px;

@@ -1,0 +1,7 @@
+.contact-form input, .contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  max-width: calc( 100% - 20px);
+  min-width: calc( 100% - 20px);
+}
+/*# sourceMappingURL=Form.css.map */

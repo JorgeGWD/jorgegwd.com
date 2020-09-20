@@ -4,6 +4,7 @@ import Button from '../Common/Button/Button'
 import './Home.css'
 import Modal from '../Common/Modal/Modal'
 import useModal from '../Common/Modal/useModal'
+import Form from '../Common/Form/Form'
 
 const Home = () => {
 
@@ -14,12 +15,12 @@ const Home = () => {
             <div className="home-content">
                 <div className="home-box">
                     <Typing />
-                    <Button onClick={openModal} text="Tell me about your project" />
+                    <Button className={"ghost-btn"} onClick={openModal} text="Tell me about your project" />
                     {
                         open ? (
                             <Modal
                                 close={closeModal}
-                                render={() => <h1>This is a Modal using Portals!</h1>}
+                                render={() => <Form />}
                             />
                         ) : null
                     }

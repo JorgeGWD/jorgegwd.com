@@ -14,7 +14,7 @@ const Contact = () => {
                 <div className="contact-box">
                     <section>
                         <h1>Contact</h1>
-                        <Button onClick={openModal} text="Let's talk" />
+                        <Button className={"ghost-btn"} onClick={openModal} text="Let's talk" />
                         {
                             open ? (
                                 <Modal
