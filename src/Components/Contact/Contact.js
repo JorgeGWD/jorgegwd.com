@@ -3,6 +3,7 @@ import "./Contact.css"
 import Button from '../Common/Button/Button'
 import Modal from '../Common/Modal/Modal'
 import useModal from '../Common/Modal/useModal'
+import Form from '../Common/Form/Form'
 
 const Contact = () => {
 
@@ -19,7 +20,7 @@ const Contact = () => {
                             open ? (
                                 <Modal
                                     close={closeModal}
-                                    render={() => <h1>This is a Modal using Portals!</h1>}
+                                    render={() => <Form />}
                                 />
                             ) : null
                         }
