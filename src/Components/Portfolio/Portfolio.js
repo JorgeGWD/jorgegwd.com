@@ -12,6 +12,13 @@ const Portfolio = () => {
             url: 'https://tratamientos-medicos-co-pmqajvfj2.vercel.app/'
         },
         {
+            image: require('../../assets/images/portfolio-kiero-web.jpg'),
+            title: 'Kiero Marketplace',
+            description: 'Online shop.',
+            tech: 'ReacJS, HTML5, Sass, Javascript.',
+            url: 'https://kiero.co/'
+        },
+        {
             image: require('../../assets/images/portfolio-softars-web.jpg'),
             title: 'SoftArs',
             description: 'Company website.',
