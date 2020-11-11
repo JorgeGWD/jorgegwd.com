@@ -50,29 +50,25 @@ const Portfolio = () => {
             image: require('../../assets/images/portfolio-equifax-web.jpg'),
             title: 'Equifax Ignite™',
             description: 'Demo page.',
-            tech: 'HTML5, Css3, Javascript.',
-            //url: 'https://laika.com.co/city/bog/dog'
+            tech: 'HTML5, Css3, Javascript.'
         },
         {
             image: require('../../assets/images/portfolio-konvergy-web.jpg'),
             title: 'Konvergy web',
             description: 'Demo page.',
-            tech: 'Web design, HTML5, Css3, Javascript.',
-            //url: 'https://laika.com.co/city/bog/dog'
+            tech: 'Web design, HTML5, Css3, Javascript.'
         },
         {
             image: require('../../assets/images/portfolio-hollywood-hel-web.jpg'),
             title: 'Hollywood heladeria web',
             description: 'Demo page.',
-            tech: 'Web design, HTML5, Css3, Javascript.',
-            //url: 'https://laika.com.co/city/bog/dog'
+            tech: 'Web design, HTML5, Css3, Javascript.'
         },
         {
             image: require('../../assets/images/portfolio-mealtohome-web.jpg'),
             title: 'Delivery web',
             description: 'Demo page.',
-            tech: 'Web design, HTML5, Css3, Javascript.',
-            //url: 'https://laika.com.co/city/bog/dog'
+            tech: 'Web design, HTML5, Css3, Javascript.'
         }
     ])
 
@@ -92,7 +88,7 @@ const Portfolio = () => {
                                     <h3>{data.title}</h3>
                                     <p>{data.description}</p>
                                     <p className="tech"><span>{data.tech}</span></p>
-                                    <a href={data.url} target="_blank" rel="noopener noreferrer"><p>{data.url}</p></a>
+                                    <a href={data.url} target="_blank" rel="noopener noreferrer"><p>View web</p></a>
                                 </div>
                             </div>
                             )

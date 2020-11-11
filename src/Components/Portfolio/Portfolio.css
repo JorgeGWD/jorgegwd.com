@@ -61,9 +61,13 @@
 }
 
 .portfolio-info .porfolio-data .porfolio-data-text a p {
+  padding: 5px 10px;
   float: left;
+  color: #fff;
   font-size: 12px;
   line-height: 14px;
+  background-color: #21729A;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 850px) {
