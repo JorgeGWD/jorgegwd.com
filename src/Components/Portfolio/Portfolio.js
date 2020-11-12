@@ -88,7 +88,7 @@ const Portfolio = () => {
                                     <h3>{data.title}</h3>
                                     <p>{data.description}</p>
                                     <p className="tech"><span>{data.tech}</span></p>
-                                    <a href={data.url} target="_blank" rel="noopener noreferrer"><p>View web</p></a>
+                                    {data.url ? <a href={data.url} target="_blank" rel="noopener noreferrer"><p>View web</p></a> : ''}
                                 </div>
                             </div>
                             )
