@@ -19,13 +19,6 @@ const Portfolio = () => {
             url: 'https://kiero.co/'
         },
         {
-            image: require('../../assets/images/portfolio-softars-web.jpg'),
-            title: 'SoftArs',
-            description: 'Company website.',
-            tech: 'ReacJS, HTML5, Sass, Javascript.',
-            url: 'http://softars.com/'
-        },
-        {
             image: require('../../assets/images/portfolio-laika-app.jpg'),
             title: 'Laika app',
             description: 'Mobile app.',
@@ -38,6 +31,13 @@ const Portfolio = () => {
             description: 'Web app / Social network.',
             tech: 'ReacJS, HTML5, React Router Dom, Sass, Javascript.',
             url: 'https://tigyweb.tigyapp.com/'
+        },
+        {
+            image: require('../../assets/images/portfolio-softars-web.jpg'),
+            title: 'SoftArs',
+            description: 'Company website.',
+            tech: 'ReacJS, HTML5, Sass, Javascript.',
+            url: 'http://softars.com/'
         },
         {
             image: require('../../assets/images/portfolio-lorusso-web.jpg'),
@@ -62,7 +62,7 @@ const Portfolio = () => {
             image: require('../../assets/images/portfolio-hollywood-hel-web.jpg'),
             title: 'Hollywood heladeria web',
             description: 'Demo page.',
-            tech: 'Web design, HTML5, Css3, Javascript.'
+            tech: 'Web design, WordPress, HTML5, Css3, Javascript.'
         },
         {
             image: require('../../assets/images/portfolio-mealtohome-web.jpg'),
