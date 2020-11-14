@@ -2,29 +2,30 @@
     
 .portfolio-info
     display: grid
-    grid-template-columns: repeat(2,1fr)
+    grid-template-columns: repeat(3,1fr)
     grid-gap: 5vmin
     margin-top: 5vmin
     .porfolio-data
         display: grid
-        grid-template-columns: 28vh 1fr
-        grid-gap: 20px
+        grid-template-row: 28vh 1fr
+        // grid-gap: 20px
         &:hover
             img
                 transform: translateY(calc( -100% + 200px ))
                 transition: all 3.5s
         &.box
             padding: 0px
-            max-height: 200px
+            // max-height: 200px
         .porfolio-data-img
             max-height: 200px
+            overflow: hidden
             img
                 // margin: -20px
                 width: 100%
                 height: auto
-                transition: all 2s
+                transition: all 5s
         .porfolio-data-text
-            padding: 20px 20px 20px 0px
+            padding: 20px
             align-self: center
             p
                 margin: 5px 0px

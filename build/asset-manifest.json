@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/jorgegwd-web/static/css/main.e0463791.chunk.css",
+    "main.js": "/jorgegwd-web/static/js/main.e536afbb.chunk.js",
+    "main.js.map": "/jorgegwd-web/static/js/main.e536afbb.chunk.js.map",
+    "runtime~main.js": "/jorgegwd-web/static/js/runtime~main.9d10bb10.js",
+    "runtime~main.js.map": "/jorgegwd-web/static/js/runtime~main.9d10bb10.js.map",
+    "static/js/2.987f52e5.chunk.js": "/jorgegwd-web/static/js/2.987f52e5.chunk.js",
+    "static/js/2.987f52e5.chunk.js.map": "/jorgegwd-web/static/js/2.987f52e5.chunk.js.map",
+    "index.html": "/jorgegwd-web/index.html",
+    "precache-manifest.4fc094c1d6d01a0c3cd2affb452b079a.js": "/jorgegwd-web/precache-manifest.4fc094c1d6d01a0c3cd2affb452b079a.js",
+    "service-worker.js": "/jorgegwd-web/service-worker.js",
+    "static/css/main.e0463791.chunk.css.map": "/jorgegwd-web/static/css/main.e0463791.chunk.css.map",
+    "static/media/Home.css": "/jorgegwd-web/static/media/bruhspainted-bg.414c2fcd.svg",
+    "static/media/Skills.css": "/jorgegwd-web/static/media/bruhspainted-bottom.5d0a5482.svg",
+    "static/media/Contact.css": "/jorgegwd-web/static/media/bruhspainted-top.a14e51e2.svg",
+    "static/media/logo.svg": "/jorgegwd-web/static/media/logo.dd29f64c.svg",
+    "static/media/portfolio-equifax-web.jpg": "/jorgegwd-web/static/media/portfolio-equifax-web.01bf211c.jpg",
+    "static/media/portfolio-hollywood-hel-web.jpg": "/jorgegwd-web/static/media/portfolio-hollywood-hel-web.c45efa3f.jpg",
+    "static/media/portfolio-kiero-web.jpg": "/jorgegwd-web/static/media/portfolio-kiero-web.2862c8ab.jpg",
+    "static/media/portfolio-konvergy-web.jpg": "/jorgegwd-web/static/media/portfolio-konvergy-web.a7f72412.jpg",
+    "static/media/portfolio-laika-app.jpg": "/jorgegwd-web/static/media/portfolio-laika-app.2f914c69.jpg",
+    "static/media/portfolio-lorusso-web.jpg": "/jorgegwd-web/static/media/portfolio-lorusso-web.60a2c17e.jpg",
+    "static/media/portfolio-luvania-web.jpg": "/jorgegwd-web/static/media/portfolio-luvania-web.452a9473.jpg",
+    "static/media/portfolio-mealtohome-web.jpg": "/jorgegwd-web/static/media/portfolio-mealtohome-web.0c40a5ee.jpg",
+    "static/media/portfolio-softars-web.jpg": "/jorgegwd-web/static/media/portfolio-softars-web.f6a1b607.jpg",
+    "static/media/portfolio-tigy-web.jpg": "/jorgegwd-web/static/media/portfolio-tigy-web.0038dfe9.jpg",
+    "static/media/profile-pic.jpg": "/jorgegwd-web/static/media/profile-pic.a49ae873.jpg"
+  }
+}
