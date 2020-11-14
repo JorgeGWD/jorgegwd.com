@@ -57,7 +57,35 @@
   margin-top: 5vmin;
 }
 
-.container .skills .skills-box section .experience .experience-data h2 {
+.container .skills .skills-box section .experience .experience-data .experience-data-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  grid-gap: 10px;
+}
+
+.container .skills .skills-box section .experience .experience-data .experience-data-info svg {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.container .skills .skills-box section .experience .experience-data .experience-data-info.title svg {
+  color: #21729A;
+}
+
+.container .skills .skills-box section .experience .experience-data .experience-data-info.place svg {
+  color: #21729A;
+  font-size: 18px;
+}
+
+.container .skills .skills-box section .experience .experience-data .experience-data-info.date svg {
+  color: #444;
+  font-size: 16px;
+}
+
+.container .skills .skills-box section .experience .experience-data .experience-data-info h2 {
   margin: 0px;
   color: #21729A;
 }
