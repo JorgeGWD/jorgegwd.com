@@ -20,11 +20,18 @@
 .modal-box button.close-btn {
   z-index: 1000;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 10px;
+  right: 10px;
   margin: 0px;
+  padding: 0px;
   border: none;
   background: transparent;
+}
+
+.modal-box button.close-btn p {
+  display: contents;
+  color: #21729A;
+  font-size: 18px;
 }
 
 .modal-content {
