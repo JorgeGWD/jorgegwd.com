@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import "./Skills.css"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
 
@@ -73,7 +75,7 @@ const Skills = () => {
                                 {
                                     experience.map((experience, key) =>
                                         <div id={experience.id} className="experience-data box" key={key}>
-                                            <h2>{experience.title}</h2>
+                                            <FontAwesomeIcon icon={faHome} /><h2>{experience.title}</h2>
                                             <span>{experience.company}</span>
                                             <p>{experience.date}</p>
                                         </div>
