@@ -7,17 +7,15 @@ const Modal = ({ children, close, render }) => {
 
     return (
         <Portal>
-            <div>
-                <div className="modal-container">
-                    <div className="modal-box">
-                        <div className="modal-content" >
-                            <Button className={"close-btn"} onClick={close} text="X" />
-                            {render(children) || children}
-                        </div>
+            <div className="modal-container">
+                <div className="modal-box">
+                    <div className="modal-content" >
+                        <Button className={"close-btn"} onClick={close} text="X" />
+                        {render(children) || children}
                     </div>
                 </div>
-                <div className="modal-background" onClick={close} />
             </div>
+            <div className="modal-background" onClick={close} />
         </Portal>
     );
 };

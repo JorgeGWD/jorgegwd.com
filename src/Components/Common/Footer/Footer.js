@@ -5,7 +5,8 @@ export default function Footer() {
     return (
         <footer>
             <div className="footer-content">
-                <p>JorgeGWD | &copy; Jorge Grphic & Web Designer {new Date().getFullYear()}</p>
+                <p>JorgeGWD | Jorge Graphic & Web Designer</p>
+                <p>&copy; Copyright {new Date().getFullYear()}</p>
             </div> 
         </footer>
     )
