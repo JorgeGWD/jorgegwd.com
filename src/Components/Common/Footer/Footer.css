@@ -5,4 +5,8 @@ footer {
   text-align: center;
   background-color: #21729A;
 }
+
+footer .footer-content p {
+  font-size: 12px;
+}
 /*# sourceMappingURL=Footer.css.map */
