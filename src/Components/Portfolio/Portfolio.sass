@@ -4,10 +4,10 @@
     display: grid
     grid-gap: 5vmin
     margin-top: 5vmin
-    &.small-card
-        grid-template-columns: repeat(4,1fr)
     &.big-card
         grid-template-columns: repeat(3,1fr)
+    &.small-card
+        grid-template-columns: repeat(4,1fr)
     .porfolio-data
         // display: grid
         // grid-template-row: 28vh 1fr
@@ -45,10 +45,18 @@
                     font-size: 12px
                     line-height: 14px
                     background-color: $soft-blue
-                    border-radius: 5px
+                    // border-radius: 5px
 
-@media screen and ( max-width: 850px )
+@media screen and ( max-width: 1150px )
     .portfolio-info
-        grid-template-columns: 1fr
-        .porfolio-data
-            grid-template-columns: 22vh 1fr
+        &.big-card
+            grid-template-columns: repeat(2,1fr)
+        &.small-card
+            grid-template-columns: repeat(2,1fr)
+
+@media screen and ( max-width: 500px )
+    .portfolio-info
+        &.big-card
+            grid-template-columns: 1fr
+        &.small-card
+            grid-template-columns: 1fr
