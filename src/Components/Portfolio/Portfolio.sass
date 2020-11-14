@@ -2,12 +2,15 @@
     
 .portfolio-info
     display: grid
-    grid-template-columns: repeat(3,1fr)
     grid-gap: 5vmin
     margin-top: 5vmin
+    &.small-card
+        grid-template-columns: repeat(4,1fr)
+    &.big-card
+        grid-template-columns: repeat(3,1fr)
     .porfolio-data
-        display: grid
-        grid-template-row: 28vh 1fr
+        // display: grid
+        // grid-template-row: 28vh 1fr
         // grid-gap: 20px
         &:hover
             img
@@ -26,7 +29,7 @@
                 transition: all 5s
         .porfolio-data-text
             padding: 20px
-            align-self: center
+            // align-self: center
             p
                 margin: 5px 0px
                 color: $soft-blue
@@ -35,10 +38,9 @@
                     color: $soft-gray
                     font-size: 14px
             a
-                display: block
                 p
+                    display: inline
                     padding: 5px 10px
-                    float: left
                     color: #fff
                     font-size: 12px
                     line-height: 14px

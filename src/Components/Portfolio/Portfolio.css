@@ -1,16 +1,18 @@
 .portfolio-info {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
   grid-gap: 5vmin;
   margin-top: 5vmin;
 }
 
-.portfolio-info .porfolio-data {
-  display: -ms-grid;
-  display: grid;
-  grid-template-row: 28vh 1fr;
+.portfolio-info.small-card {
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+.portfolio-info.big-card {
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
 }
 
 .portfolio-info .porfolio-data:hover img {
@@ -38,9 +40,6 @@
 
 .portfolio-info .porfolio-data .porfolio-data-text {
   padding: 20px;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
 }
 
 .portfolio-info .porfolio-data .porfolio-data-text p {
@@ -54,13 +53,9 @@
   font-size: 14px;
 }
 
-.portfolio-info .porfolio-data .porfolio-data-text a {
-  display: block;
-}
-
 .portfolio-info .porfolio-data .porfolio-data-text a p {
+  display: inline;
   padding: 5px 10px;
-  float: left;
   color: #fff;
   font-size: 12px;
   line-height: 14px;

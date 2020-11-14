@@ -3,7 +3,7 @@ import './Portfolio.css'
 
 const Portfolio = () => {
 
-    const [ data ] = useState([
+    const [ bigCard ] = useState([
         {
             image: require('../../assets/images/portfolio-luvania-web.jpg'),
             title: 'Luvania',
@@ -45,7 +45,10 @@ const Portfolio = () => {
             description: 'Company website.',
             tech: 'HTML5, Css3, Javascript.',
             url: 'http://www.lorussonet.com/'
-        },
+        }
+    ])
+
+    const [ smallCard ] = useState([
         {
             image: require('../../assets/images/portfolio-equifax-web.jpg'),
             title: 'Equifax Ignite™',
@@ -77,9 +80,26 @@ const Portfolio = () => {
             <div className="portfolio content">
                 <section>
                     <h1>Portfolio</h1>
-                    <div className="portfolio-info">
+                    <div className="portfolio-info big-card">
                         {
-                            data.map((data, key) =>
+                            bigCard.map((data, key) =>
+                            <div className="porfolio-data box" key={key}>
+                                <div className="porfolio-data-img">
+                                    <img src={data.image} alt={data.title}/>
+                                </div>
+                                <div className="porfolio-data-text">
+                                    <h3>{data.title}</h3>
+                                    <p>{data.description}</p>
+                                    <p className="tech"><span>{data.tech}</span></p>
+                                    {data.url ? <a href={data.url} target="_blank" rel="noopener noreferrer"><p>View web</p></a> : ''}
+                                </div>
+                            </div>
+                            )
+                        }
+                    </div>
+                    <div className="portfolio-info small-card">
+                        {
+                            smallCard.map((data, key) =>
                             <div className="porfolio-data box" key={key}>
                                 <div className="porfolio-data-img">
                                     <img src={data.image} alt={data.title}/>
