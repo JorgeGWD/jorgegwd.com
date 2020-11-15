@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55f3b27a87e28d80d658cc8576854175",
+    "revision": "5a8f5419806d1601ce8f59693cd91c9b",
     "url": "/jorgegwd-web/index.html"
   },
   {
-    "revision": "df37f663b3a1999943e2",
-    "url": "/jorgegwd-web/static/css/main.e0463791.chunk.css"
+    "revision": "fd2d48903be1f690a0a7",
+    "url": "/jorgegwd-web/static/css/main.1dcb53bf.chunk.css"
   },
   {
-    "revision": "84464f3903c382f36871",
-    "url": "/jorgegwd-web/static/js/2.987f52e5.chunk.js"
+    "revision": "03dccf118939ad8e9d82",
+    "url": "/jorgegwd-web/static/js/2.91b9d307.chunk.js"
   },
   {
-    "revision": "df37f663b3a1999943e2",
-    "url": "/jorgegwd-web/static/js/main.e536afbb.chunk.js"
+    "revision": "fd2d48903be1f690a0a7",
+    "url": "/jorgegwd-web/static/js/main.f1e461b2.chunk.js"
   },
   {
     "revision": "a2d0775c58fa290df0a0",
