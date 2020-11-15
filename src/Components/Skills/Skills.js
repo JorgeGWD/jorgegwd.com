@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Skills.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDesktop, faBuilding, faCalendarAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faDesktop, faBuilding, faCalendarAlt } from "@fortawesome/free-solid-svg-icons"
 
 const Skills = () => {
 

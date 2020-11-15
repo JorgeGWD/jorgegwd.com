@@ -30,48 +30,30 @@
   font-weight: lighter;
 }
 
-.contact.content .contact-box ul {
+.contact.content .contact-box .contact-data-box {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  grid-gap: 40px;
-  margin: 20px auto;
-  max-width: 100px;
+  grid-gap: 20px;
+  text-align: left;
 }
 
-.contact.content .contact-box ul li {
-  list-style: none;
+.contact.content .contact-box .contact-data-box .contact-data {
+  display: -ms-grid;
+  display: grid;
 }
 
-.contact.content .contact-box ul li a {
+.contact.content .contact-box .contact-data-box .contact-data a {
   color: #fff;
 }
 
-.contact.content .contact-box ul li a i {
-  font-size: 30px;
-  -webkit-transition: all .15s;
-  transition: all .15s;
-}
-
-.contact.content .contact-box ul li a i:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-  -webkit-transition: all .15s;
-  transition: all .15s;
-}
-
-.contact.content .contact-box .contact-data {
+.contact.content .contact-box .contact-data-box .contact-data .contact-data-info {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  grid-gap: 40px;
-  margin: 20px auto 0px auto;
-  max-width: 600px;
-}
-
-.contact.content .contact-box .contact-data .phone {
-  text-align: right;
+  -ms-grid-columns: auto 1fr;
+      grid-template-columns: auto 1fr;
+  grid-gap: 15px;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=Contact.css.map */

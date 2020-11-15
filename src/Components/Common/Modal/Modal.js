@@ -1,9 +1,9 @@
 import React from "react"
-import Button from "../Button/Button";
+import Button from "../Button/Button"
 import './Modal.css'
 import Portal from "./Portal"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faTimes } from "@fortawesome/free-solid-svg-icons"
 
 const Modal = ({ children, close, render }) => {
 
