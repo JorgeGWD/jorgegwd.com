@@ -56,4 +56,11 @@
   grid-gap: 15px;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 600px) {
+  .contact.content .contact-box .contact-data-box {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
 /*# sourceMappingURL=Contact.css.map */
