@@ -10,37 +10,67 @@ const Skills = () => {
             {
                 title: "Frontend Developer",
                 company: "Laika",
-                date: "December 2019 - March 2020"
-            },
-            {
-                title: "Frontend Developer",
-                company: "Tigy",
-                date: "July 2019 - October 2019"
+                date: "December 2019 - March 2020",
+                functions: {
+                    description: "",
+                    details: "<li>Layout mobile application according to design</li>"+
+                    "<li>Connect API to application</li>"
+                }
             },
             {
                 title: "Development Lead / Frontend",
                 company: "SoftArs",
-                date: "April 2018 - April 2019"
+                date: "April 2018 - April 2019",
+                functions: {
+                    description: "<p>Study and implementation of new web technologies, team management and workflow development.</p>",
+                    details: ""
+                }
             },
             {
                 title: "Development Lead / Frontend",
                 company: "Minami Digital",
-                date: "October 2017 - April 2018"
+                date: "October 2017 - April 2018",
+                functions: {
+                    description: "<p>Develop layout web according to design approved by the client</p>",
+                    details: "<li>Use of CMS (WordPress)</li>"+
+                    "<li>Use React JS to build a dashboard for Aera</li>"
+                }
             },
             {
                 title: "Frontend Developer",
                 company: "Lear Express",
-                date: "October 2014 - August 2015"
+                date: "October 2014 - August 2015",
+                functions: {
+                    description: "<p>Redesign of the website and web api, achieving a more friendly design and intuitive for service users of the company. In addition to using analytics tools to optimize load times and improve SEO management</p>",
+                    details: "<li>Use of CMS (WordPress) for better handling and modification of content</li>"+
+                    "<li>Use and modification of plugins</li>"+
+                    "<li> SEO Analysis and Optimization</li>"+
+                    "<li>Responsive design implementation</li>"
+                }
             },
             {
                 title: "Web Developer and Graphic Designer",
                 company: "Fundación CENAMEC",
-                date: "July 2013 - September 2014"
+                date: "July 2013 - September 2014",
+                functions: {
+                    description: "<p>Development of a portal for the dissemination of news about the works, events and achievements of the foundation. Implementation of a distribution system of digital material for national teacher training</p>",
+                    details: "<li>Creation of digital platforms using a CMS (Joomla)</li>"+
+                    "<li>Use and modification of plugins for managing news and events.</li>"+
+                    "<li>Using SEO to position both portals.</li>"+
+                    "<li>User system analysis.</li>"+
+                    "<li>Content analysis and categorization.</li>"
+                }
             },
             {
                 title: "Web Developer",
                 company: "Tecnología Venova, C.A.",
-                date: "August 2010 - September 2011"
+                date: "August 2010 - September 2011",
+                functions: {
+                    description: "<p>Design and development of the company website and creation of a catalog for offer the products and services thereof</p>",
+                    details: "<li>Layout in HTML and layout in CSS and JavaScript</li>"+
+                    "<li>Implementation of a CMS (Joomla) to create a catalog of products and services.</li>"+
+                    "<li>Use and modification of plugins.</li>"
+                }
             }
     ])
 

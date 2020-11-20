@@ -30,8 +30,8 @@ const Contact = () => {
                         <div className="contact-data-box">
                             <div className="contact-data">
                                 <h3>We can also speak for</h3>
-                                <a className="contact-data-info" href="https://twitter.com/JorgeGWD" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /><h5>JorgeGWD</h5></a>
-                                <a className="contact-data-info" href="https://ve.linkedin.com/in/jorgegwd" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /><h5>JorgeGWD</h5></a>
+                                <a className="contact-data-info" href="https://twitter.com/JorgeGWD" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /><h5>twitter.com/jorgegwd</h5></a>
+                                <a className="contact-data-info" href="https://ve.linkedin.com/in/jorgegwd" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /><h5>linkedin.com/in/jorgegwd</h5></a>
                             </div>
                             <div className="contact-data">
                                 <h3>Or maybe</h3>
