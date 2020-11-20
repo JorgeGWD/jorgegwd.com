@@ -105,7 +105,7 @@ const Skills = () => {
                                 {
                                     experience.map((experience, key) =>
                                         <div className="experience-data" key={key}>
-                                            <div className="box">
+                                            <div className="data box">
                                                 <div className="experience-data-info title">
                                                     <FontAwesomeIcon icon={faDesktop} /><h2>{experience.title}</h2>
                                                 </div>

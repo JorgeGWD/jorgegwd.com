@@ -115,10 +115,10 @@
   color: #fff;
 }
 
-.box {
+.data {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
-  grid-area: box;
+  grid-area: data;
 }
 
 .list {
@@ -128,11 +128,11 @@
 }
 
 .experience-data:nth-child(odd) {
-      grid-template-areas: "box list";
+      grid-template-areas: "data list";
 }
 
 .experience-data:nth-child(even) {
-      grid-template-areas: "list box";
+      grid-template-areas: "list data";
 }
 
 @media screen and (max-width: 850px) {
