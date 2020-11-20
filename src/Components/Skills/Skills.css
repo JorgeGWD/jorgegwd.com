@@ -61,7 +61,7 @@
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
+  grid-gap: 40px;
 }
 
 .container .skills .skills-box section .experience .experience-data .box .experience-data-info {
@@ -113,6 +113,26 @@
 
 .container .skills .skills-box section .skills-section {
   color: #fff;
+}
+
+.box {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: box;
+}
+
+.list {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: list;
+}
+
+.experience-data:nth-child(odd) {
+      grid-template-areas: "box list";
+}
+
+.experience-data:nth-child(even) {
+      grid-template-areas: "list box";
 }
 
 @media screen and (max-width: 850px) {

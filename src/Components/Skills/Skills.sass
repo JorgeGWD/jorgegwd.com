@@ -45,7 +45,7 @@
                     .experience-data
                         display: grid
                         grid-template-columns: repeat(2,1fr)
-                        grid-gap: 20px
+                        grid-gap: 40px
                         .box
                             .experience-data-info
                                 display: grid
@@ -77,6 +77,19 @@
                                 font-size: 2vmin
                 .skills-section
                     color: #fff
+
+.box
+    grid-area: box
+
+.list
+    grid-area: list
+
+.experience-data
+    &:nth-child(odd)
+        grid-template-areas: "box list"
+    &:nth-child(even)
+        grid-template-areas: "list box"
+        
 
 @media screen and ( max-width: 850px )
     .container
