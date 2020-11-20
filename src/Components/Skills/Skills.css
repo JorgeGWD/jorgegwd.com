@@ -40,9 +40,8 @@
 .container .skills .skills-box section {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  grid-gap: 60px;
+  grid-template-row: repeat(2, 1fr);
+  grid-gap: 40px;
 }
 
 .container .skills .skills-box section h2 {
@@ -57,7 +56,15 @@
   margin-top: 5vmin;
 }
 
-.container .skills .skills-box section .experience .experience-data .experience-data-info {
+.container .skills .skills-box section .experience .experience-data {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.container .skills .skills-box section .experience .experience-data .box .experience-data-info {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto 1fr;
@@ -65,29 +72,43 @@
   grid-gap: 10px;
 }
 
-.container .skills .skills-box section .experience .experience-data .experience-data-info svg {
+.container .skills .skills-box section .experience .experience-data .box .experience-data-info svg {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
-.container .skills .skills-box section .experience .experience-data .experience-data-info.title svg {
+.container .skills .skills-box section .experience .experience-data .box .experience-data-info.title svg {
   color: #21729A;
 }
 
-.container .skills .skills-box section .experience .experience-data .experience-data-info.place svg {
+.container .skills .skills-box section .experience .experience-data .box .experience-data-info.place svg {
   color: #21729A;
   font-size: 18px;
 }
 
-.container .skills .skills-box section .experience .experience-data .experience-data-info.date svg {
+.container .skills .skills-box section .experience .experience-data .box .experience-data-info.date svg {
   color: #444;
   font-size: 16px;
 }
 
-.container .skills .skills-box section .experience .experience-data .experience-data-info h2 {
+.container .skills .skills-box section .experience .experience-data .box .experience-data-info h2 {
   margin: 0px;
   color: #21729A;
+}
+
+.container .skills .skills-box section .experience .experience-data .list {
+  color: #fff;
+}
+
+.container .skills .skills-box section .experience .experience-data .list p {
+  font-size: 2vmin;
+  line-height: 2.8vmin;
+}
+
+.container .skills .skills-box section .experience .experience-data .list li {
+  margin-left: 15px;
+  font-size: 2vmin;
 }
 
 .container .skills .skills-box section .skills-section {
