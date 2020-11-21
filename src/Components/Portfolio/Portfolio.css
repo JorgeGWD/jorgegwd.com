@@ -45,12 +45,12 @@
 .portfolio-info .porfolio-data .porfolio-data-text p {
   margin: 5px 0px;
   color: #21729A;
-  line-height: 18px;
+  line-height: 1rem;
 }
 
 .portfolio-info .porfolio-data .porfolio-data-text p span {
   color: #444;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 .portfolio-info .porfolio-data .porfolio-data-text a p {

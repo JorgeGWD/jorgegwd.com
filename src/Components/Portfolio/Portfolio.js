@@ -88,7 +88,7 @@ const Portfolio = () => {
                                     <img src={data.image} alt={data.title}/>
                                 </div>
                                 <div className="porfolio-data-text">
-                                    <h3>{data.title}</h3>
+                                    <h2>{data.title}</h2>
                                     <p>{data.description}</p>
                                     <p className="tech"><span>{data.tech}</span></p>
                                     {data.url ? <a href={data.url} target="_blank" rel="noopener noreferrer"><p>View web</p></a> : ''}

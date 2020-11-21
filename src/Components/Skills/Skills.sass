@@ -36,65 +36,91 @@
                 grid-template-row: repeat(2,1fr)
                 grid-gap: 40px
                 h2
-                    margin-top: 3vmin
                     font-weight: 500
                 .experience
                     display: grid
-                    grid-gap: 5vmin
+                    // grid-gap: 5vmin
                     margin-top: 5vmin
                     .experience-data
                         display: grid
-                        grid-template-columns: repeat(2,1fr)
-                        grid-gap: 40px
-                        .box
-                            .experience-data-info
-                                display: grid
-                                grid-template-columns: auto 1fr
-                                grid-gap: 10px
-                                svg
-                                    align-self: center
-                                &.title
-                                    svg
-                                        color: $soft-blue
-                                &.place
-                                    svg
-                                        color: $soft-blue
-                                        font-size: 18px
-                                &.date
-                                    svg
-                                        color: $soft-gray
-                                        font-size: 16px
-                                h2
-                                    margin: 0px
-                                    color: $soft-blue
+                        grid-template-columns: 1fr auto 1fr
+                        grid-gap: 20px
+                        &:nth-child(odd)
+                            grid-template-areas: "data line list"
+                        &:nth-child(even)
+                            grid-template-areas: "list line data"
+                        .data
+                            grid-area: data
+                            display: table
+                            margin: 10px 0px
+                            h2
+                                font-size: $sub-title-size
+                            p
+                                font-size: $small-size
+                        .line
+                            grid-area: line
+                            position: relative
+                            border: 1px solid #fff
+                            svg
+                                position: absolute
+                                top: 40%
+                                left: -8px
+                                color: #fff
                         .list
+                            grid-area: list
+                            margin: 10px 0px
                             color: #fff
                             p
-                                font-size: 2vmin
-                                line-height: 2.8vmin
+                                font-size: $medium-size
+                                line-height: $paragraph-size
                             li
                                 margin-left: 15px
-                                font-size: 2vmin
-                .skills-section
-                    color: #fff
+                                font-size: $medium-size
+                        .experience-data-info
+                            display: grid
+                            grid-template-columns: auto 1fr
+                            grid-gap: 10px
+                            svg
+                                align-self: center
+                            &.title
+                                svg
+                                    color: $soft-blue
+                            &.place
+                                svg
+                                    color: $soft-blue
+                                    font-size: 18px
+                            &.date
+                                svg
+                                    color: $soft-gray
+                                    font-size: 16px
+                            h2
+                                margin: 0px
+                                color: $soft-blue
+            .skills-section
+                color: #fff
+                .skills-data
+                    h2
+                        margin-top: 10px
 
-.data
-    grid-area: data
-
-.list
-    grid-area: list
-
-.experience-data
-    &:nth-child(odd)
-        grid-template-areas: "data list"
-    &:nth-child(even)
-        grid-template-areas: "list data"
-        
-
-@media screen and ( max-width: 850px )
+@media screen and ( max-width: 750px )
     .container
         .skills
             .skills-box
                 section
-                    grid-template-columns: 1fr
-                    grid-gap: 40px
+                    .experience
+                        .experience-data
+                            grid-template-columns: 1fr
+                            grid-gap: 10px
+                            border-bottom: 1px solid #fff
+                            &:nth-child(odd)
+                                grid-template-areas: "data" "list"
+                                margin-bottom: 20px
+                            &:nth-child(even)
+                                grid-template-areas: "data" "list"
+                                margin-bottom: 20px
+                            .data
+                                margin: 0px
+                            .line
+                                display: none
+                            .list
+                                padding-bottom: 10px

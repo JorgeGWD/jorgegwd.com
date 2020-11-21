@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import "./Skills.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faDesktop, faBuilding, faCalendarAlt } from "@fortawesome/free-solid-svg-icons"
+import { faDesktop, faBuilding, faCalendarAlt, faMapMarker } from "@fortawesome/free-solid-svg-icons"
 
 const Skills = () => {
 
@@ -116,8 +116,13 @@ const Skills = () => {
                                                     <FontAwesomeIcon icon={faCalendarAlt} /><p>{experience.date}</p>
                                                 </div>
                                             </div>
+                                            <div className="line">
+                                                <FontAwesomeIcon icon={faMapMarker} />
+                                            </div>
                                             <div className="list">
+                                                    <h4>Description:</h4>
                                                     <p>{experience.functions.description}</p>
+                                                    <h4>Functions:</h4>
                                                 <ul dangerouslySetInnerHTML={{
                                                     __html: experience.functions.details
                                                 }}>
