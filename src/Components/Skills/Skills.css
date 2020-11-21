@@ -51,7 +51,7 @@
 .container .skills .skills-box section .experience {
   display: -ms-grid;
   display: grid;
-  margin-top: 5vmin;
+  margin-top: 10px;
 }
 
 .container .skills .skills-box section .experience .experience-data {
@@ -103,6 +103,9 @@
   grid-area: data;
   display: table;
   margin: 10px 0px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 .container .skills .skills-box section .experience .experience-data .data h2 {
