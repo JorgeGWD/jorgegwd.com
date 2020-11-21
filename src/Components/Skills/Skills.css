@@ -66,8 +66,35 @@
       grid-template-areas: "data line list";
 }
 
+.container .skills .skills-box section .experience .experience-data:nth-child(odd) .line svg {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
 .container .skills .skills-box section .experience .experience-data:nth-child(even) {
       grid-template-areas: "list line data";
+}
+
+.container .skills .skills-box section .experience .experience-data:nth-child(even) .line svg {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.container .skills .skills-box section .experience .experience-data:first-child .line {
+  height: 50%;
+  bottom: -50%;
+}
+
+.container .skills .skills-box section .experience .experience-data:first-child .line svg {
+  top: -10px;
+}
+
+.container .skills .skills-box section .experience .experience-data:last-child .line {
+  height: 50%;
+}
+
+.container .skills .skills-box section .experience .experience-data:last-child .line svg {
+  top: 90%;
 }
 
 .container .skills .skills-box section .experience .experience-data .data {
@@ -87,17 +114,18 @@
 }
 
 .container .skills .skills-box section .experience .experience-data .line {
+  width: 2px;
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: line;
   position: relative;
-  border: 1px solid #fff;
+  background-color: #fff;
 }
 
 .container .skills .skills-box section .experience .experience-data .line svg {
   position: absolute;
   top: 40%;
-  left: -8px;
+  left: -7px;
   color: #fff;
 }
 
@@ -109,14 +137,20 @@
   color: #fff;
 }
 
+.container .skills .skills-box section .experience .experience-data .list h4 {
+  margin-bottom: 5px;
+}
+
 .container .skills .skills-box section .experience .experience-data .list p {
+  margin-bottom: 10px;
   font-size: 1rem;
   line-height: 1.3rem;
 }
 
 .container .skills .skills-box section .experience .experience-data .list li {
-  margin-left: 15px;
+  margin-left: 20px;
   font-size: 1rem;
+  list-style-type: square;
 }
 
 .container .skills .skills-box section .experience .experience-data .experience-data-info {
@@ -166,6 +200,9 @@
         grid-template-columns: 1fr;
     grid-gap: 10px;
     border-bottom: 1px solid #fff;
+  }
+  .container .skills .skills-box section .experience .experience-data:last-of-type {
+    border-bottom: none;
   }
   .container .skills .skills-box section .experience .experience-data:nth-child(odd) {
         grid-template-areas: "data" "list";

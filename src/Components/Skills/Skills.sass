@@ -47,8 +47,25 @@
                         grid-gap: 20px
                         &:nth-child(odd)
                             grid-template-areas: "data line list"
+                            .line
+                                svg
+                                    transform: rotate(-90deg)
                         &:nth-child(even)
                             grid-template-areas: "list line data"
+                            .line
+                                svg
+                                    transform: rotate(90deg)
+                        &:first-child
+                            .line
+                                height: 50%
+                                bottom: -50%
+                                svg
+                                    top: -10px
+                        &:last-child
+                            .line
+                                height: 50%
+                                svg
+                                    top: 90%
                         .data
                             grid-area: data
                             display: table
@@ -58,24 +75,29 @@
                             p
                                 font-size: $small-size
                         .line
+                            width: 2px
                             grid-area: line
                             position: relative
-                            border: 1px solid #fff
+                            background-color: #fff
                             svg
                                 position: absolute
                                 top: 40%
-                                left: -8px
+                                left: -7px
                                 color: #fff
                         .list
                             grid-area: list
                             margin: 10px 0px
                             color: #fff
+                            h4
+                                margin-bottom: 5px
                             p
+                                margin-bottom: 10px
                                 font-size: $medium-size
                                 line-height: $paragraph-size
                             li
-                                margin-left: 15px
+                                margin-left: 20px
                                 font-size: $medium-size
+                                list-style-type: square
                         .experience-data-info
                             display: grid
                             grid-template-columns: auto 1fr
@@ -101,7 +123,7 @@
                 .skills-data
                     h2
                         margin-top: 10px
-
+        
 @media screen and ( max-width: 750px )
     .container
         .skills
@@ -112,6 +134,8 @@
                             grid-template-columns: 1fr
                             grid-gap: 10px
                             border-bottom: 1px solid #fff
+                            &:last-of-type
+                                border-bottom: none
                             &:nth-child(odd)
                                 grid-template-areas: "data" "list"
                                 margin-bottom: 20px

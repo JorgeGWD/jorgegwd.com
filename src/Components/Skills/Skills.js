@@ -12,9 +12,9 @@ const Skills = () => {
                 company: "Laika",
                 date: "December 2019 - March 2020",
                 functions: {
-                    description: "",
-                    details: "<li>Layout mobile application according to design</li>"+
-                    "<li>Connect API to application</li>"
+                    description: "Develop the frontend of the new mobile application.",
+                    details:    "<li>Layout mobile application according to design.</li>"+
+                                "<li>Connect API to application.</li>"
                 }
             },
             {
@@ -23,7 +23,8 @@ const Skills = () => {
                 date: "April 2018 - April 2019",
                 functions: {
                     description: "Study and implementation of new web technologies, team management and workflow development.",
-                    details: ""
+                    details:    "<li>Using React JS / Angular 2 to build new applications.</li>"+
+                                "<li>Review of designs for web and social networks.</li>"
                 }
             },
             {
@@ -31,9 +32,9 @@ const Skills = () => {
                 company: "Minami Digital",
                 date: "October 2017 - April 2018",
                 functions: {
-                    description: "Develop layout web according to design approved by the client",
-                    details: "<li>Use of CMS (WordPress)</li>"+
-                    "<li>Use React JS to build a dashboard for Aera</li>"
+                    description: "Develop layout web according to design approved by the client.",
+                    details:    "<li>Use of CMS (WordPress).</li>"+
+                                "<li>Use React JS to build a dashboard for Aera.</li>"
                 }
             },
             {
@@ -41,11 +42,11 @@ const Skills = () => {
                 company: "Lear Express",
                 date: "October 2014 - August 2015",
                 functions: {
-                    description: "Redesign of the website and web api, achieving a more friendly design and intuitive for service users of the company. In addition to using analytics tools to optimize load times and improve SEO management",
-                    details: "<li>Use of CMS (WordPress) for better handling and modification of content</li>"+
-                    "<li>Use and modification of plugins</li>"+
-                    "<li> SEO Analysis and Optimization</li>"+
-                    "<li>Responsive design implementation</li>"
+                    description: "Redesign of the website and web api, achieving a more friendly design and intuitive for service users of the company. In addition to using analytics tools to optimize load times and improve SEO management.",
+                    details:    "<li>Use of CMS (WordPress) for better handling and modification of content.</li>"+
+                                "<li>Use and modification of plugins.</li>"+
+                                "<li>SEO Analysis and Optimization.</li>"+
+                                "<li>Responsive design implementation.</li>"
                 }
             },
             {
@@ -53,12 +54,12 @@ const Skills = () => {
                 company: "Fundación CENAMEC",
                 date: "July 2013 - September 2014",
                 functions: {
-                    description: "Development of a portal for the dissemination of news about the works, events and achievements of the foundation. Implementation of a distribution system of digital material for national teacher training",
-                    details: "<li>Creation of digital platforms using a CMS (Joomla)</li>"+
-                    "<li>Use and modification of plugins for managing news and events.</li>"+
-                    "<li>Using SEO to position both portals.</li>"+
-                    "<li>User system analysis.</li>"+
-                    "<li>Content analysis and categorization.</li>"
+                    description: "Development of a portal for the dissemination of news about the works, events and achievements of the foundation. Implementation of a distribution system of digital material for national teacher training.",
+                    details:    "<li>Creation of digital platforms using a CMS (Joomla).</li>"+
+                                "<li>Use and modification of plugins for managing news and events.</li>"+
+                                "<li>Using SEO to position both portals.</li>"+
+                                "<li>User system analysis.</li>"+
+                                "<li>Content analysis and categorization.</li>"
                 }
             },
             {
@@ -66,10 +67,10 @@ const Skills = () => {
                 company: "Tecnología Venova, C.A.",
                 date: "August 2010 - September 2011",
                 functions: {
-                    description: "Design and development of the company website and creation of a catalog for offer the products and services thereof",
-                    details: "<li>Layout in HTML and layout in CSS and JavaScript</li>"+
-                    "<li>Implementation of a CMS (Joomla) to create a catalog of products and services.</li>"+
-                    "<li>Use and modification of plugins.</li>"
+                    description: "Design and development of the company website and creation of a catalog for offer the products and services thereof.",
+                    details:    "<li>Layout in HTML and layout in CSS and JavaScript.</li>"+
+                                "<li>Implementation of a CMS (Joomla) to create a catalog of products and services.</li>"+
+                                "<li>Use and modification of plugins.</li>"
                 }
             }
     ])
@@ -122,7 +123,7 @@ const Skills = () => {
                                             <div className="list">
                                                     <h4>Description:</h4>
                                                     <p>{experience.functions.description}</p>
-                                                    <h4>Functions:</h4>
+                                                    <h4>Details:</h4>
                                                 <ul dangerouslySetInnerHTML={{
                                                     __html: experience.functions.details
                                                 }}>
