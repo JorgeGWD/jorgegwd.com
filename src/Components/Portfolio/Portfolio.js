@@ -57,19 +57,19 @@ const Portfolio = () => {
         },
         {
             image: require('../../assets/images/portfolio-konvergy-web.jpg'),
-            title: 'Konvergy web',
+            title: 'Konvergy',
             description: 'Demo page.',
             tech: 'Web design, HTML5, Css3, Javascript.'
         },
         {
             image: require('../../assets/images/portfolio-hollywood-hel-web.jpg'),
-            title: 'Hollywood heladeria web',
+            title: 'Hollywood heladeria',
             description: 'Demo page.',
             tech: 'Web design, WordPress, HTML5, Css3, Javascript.'
         },
         {
             image: require('../../assets/images/portfolio-mealtohome-web.jpg'),
-            title: 'Delivery web',
+            title: 'Delivery',
             description: 'Demo page.',
             tech: 'Web design, HTML5, Css3, Javascript.'
         }
