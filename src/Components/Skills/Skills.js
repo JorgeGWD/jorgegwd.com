@@ -136,14 +136,16 @@ const Skills = () => {
                         </div>
                         <div className="skills-section">
                             <h1>Skills</h1>
-                            {
-                                skills.map((skills, key) =>
-                                    <div id={skills.id} className="skills-data" key={key}>
-                                        <h2>{skills.title}</h2>
-                                        <p>{skills.skills}</p>
-                                    </div>
-                                )
-                            }
+                            <div className="skills-content">
+                                {
+                                    skills.map((skills, key) =>
+                                        <div id={skills.id} className="skills-data" key={key}>
+                                            <h2>{skills.title}</h2>
+                                            <p>{skills.skills}</p>
+                                        </div>
+                                    )
+                                }
+                            </div>
                         </div>
                     </section>
                 </div>

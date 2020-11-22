@@ -21,4 +21,12 @@
   -webkit-mask: url("../../assets/images/bruhspainted-bg.svg") no-repeat bottom center;
   -webkit-mask-size: cover;
 }
+
+.home-content .home-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
+  grid-gap: 5vmin;
+}
 /*# sourceMappingURL=Home.css.map */

@@ -51,7 +51,6 @@
 .container .skills .skills-box section .experience {
   display: -ms-grid;
   display: grid;
-  margin-top: 10px;
 }
 
 .container .skills .skills-box section .experience .experience-data {
@@ -189,12 +188,24 @@
   color: #21729A;
 }
 
+.container .skills .skills-box .experience-section, .container .skills .skills-box .skills-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr;
+      grid-template-rows: auto 1fr;
+  grid-gap: 5vmin;
+}
+
 .container .skills .skills-box .skills-section {
   color: #fff;
 }
 
-.container .skills .skills-box .skills-section .skills-data h2 {
-  margin-top: 10px;
+.container .skills .skills-box .skills-section .skills-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+  grid-gap: 20px;
 }
 
 @media screen and (max-width: 750px) {

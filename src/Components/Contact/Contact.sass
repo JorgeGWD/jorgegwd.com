@@ -21,24 +21,28 @@
         // padding: 50px
         height: 100%
         background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
-        h1
-            color: #fff
-        h3, h4
-            font-weight: lighter
-        .contact-data-box
+        section.contact-section
             display: grid
-            grid-template-columns: repeat(2,1fr)
-            grid-gap: 20px
-            text-align: left
-            .contact-data
+            grid-template-rows: repeat(3,auto)
+            grid-gap: 5vmin
+            h1
+                color: #fff
+            h3, h4
+                font-weight: lighter
+            .contact-data-box
                 display: grid
-                a
-                    color: #fff
-                .contact-data-info
+                grid-template-columns: repeat(2,1fr)
+                grid-gap: 20px
+                text-align: left
+                .contact-data
                     display: grid
-                    grid-template-columns: auto 1fr
-                    grid-gap: 15px
-                    margin-top: 10px
+                    a
+                        color: #fff
+                    .contact-data-info
+                        display: grid
+                        grid-template-columns: auto 1fr
+                        grid-gap: 15px
+                        margin-top: 10px
 
 @media screen and ( max-width: 600px )
     .contact.content

@@ -3,7 +3,7 @@
   display: grid;
   -ms-grid-rows: auto 1fr;
       grid-template-rows: auto 1fr;
-  grid-gap: 20px;
+  grid-gap: 5vmin;
 }
 
 .about section .section-content {

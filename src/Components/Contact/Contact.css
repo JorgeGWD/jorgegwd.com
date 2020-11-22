@@ -22,15 +22,23 @@
   background: -webkit-gradient(linear, left top, right top, from(#21729A), to(#002450));
 }
 
-.contact.content .contact-box h1 {
+.contact.content .contact-box section.contact-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[3];
+      grid-template-rows: repeat(3, auto);
+  grid-gap: 5vmin;
+}
+
+.contact.content .contact-box section.contact-section h1 {
   color: #fff;
 }
 
-.contact.content .contact-box h3, .contact.content .contact-box h4 {
+.contact.content .contact-box section.contact-section h3, .contact.content .contact-box section.contact-section h4 {
   font-weight: lighter;
 }
 
-.contact.content .contact-box .contact-data-box {
+.contact.content .contact-box section.contact-section .contact-data-box {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -39,16 +47,16 @@
   text-align: left;
 }
 
-.contact.content .contact-box .contact-data-box .contact-data {
+.contact.content .contact-box section.contact-section .contact-data-box .contact-data {
   display: -ms-grid;
   display: grid;
 }
 
-.contact.content .contact-box .contact-data-box .contact-data a {
+.contact.content .contact-box section.contact-section .contact-data-box .contact-data a {
   color: #fff;
 }
 
-.contact.content .contact-box .contact-data-box .contact-data .contact-data-info {
+.contact.content .contact-box section.contact-section .contact-data-box .contact-data .contact-data-info {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto 1fr;

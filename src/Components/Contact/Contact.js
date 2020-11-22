@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="container">
             <div className="contact content">
                 <div className="contact-box">
-                    <section>
+                    <section className="contact-section">
                         <h1>Contact</h1>
                         <Button className={"ghost-btn"} onClick={openModal} text="Let's talk" />
                         {

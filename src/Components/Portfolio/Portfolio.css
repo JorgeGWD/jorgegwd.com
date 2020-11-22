@@ -1,59 +1,66 @@
-.portfolio-info {
+section.portfolio-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[3];
+      grid-template-rows: repeat(3, auto);
+  grid-gap: 5vmin;
+}
+
+section.portfolio-section .portfolio-info {
   display: -ms-grid;
   display: grid;
   grid-gap: 5vmin;
-  margin-top: 5vmin;
 }
 
-.portfolio-info.big-card {
+section.portfolio-section .portfolio-info.big-card {
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
 }
 
-.portfolio-info.small-card {
+section.portfolio-section .portfolio-info.small-card {
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
 }
 
-.portfolio-info .porfolio-data:hover img {
+section.portfolio-section .portfolio-info .porfolio-data:hover img {
   -webkit-transform: translateY(calc( -100% + 200px));
           transform: translateY(calc( -100% + 200px));
   -webkit-transition: all 3.5s;
   transition: all 3.5s;
 }
 
-.portfolio-info .porfolio-data.box {
+section.portfolio-section .portfolio-info .porfolio-data.box {
   padding: 0px;
 }
 
-.portfolio-info .porfolio-data .porfolio-data-img {
+section.portfolio-section .portfolio-info .porfolio-data .porfolio-data-img {
   max-height: 200px;
   overflow: hidden;
 }
 
-.portfolio-info .porfolio-data .porfolio-data-img img {
+section.portfolio-section .portfolio-info .porfolio-data .porfolio-data-img img {
   width: 100%;
   height: auto;
   -webkit-transition: all 5s;
   transition: all 5s;
 }
 
-.portfolio-info .porfolio-data .porfolio-data-text {
+section.portfolio-section .portfolio-info .porfolio-data .porfolio-data-text {
   padding: 20px;
 }
 
-.portfolio-info .porfolio-data .porfolio-data-text p {
+section.portfolio-section .portfolio-info .porfolio-data .porfolio-data-text p {
   margin: 5px 0px;
   color: #21729A;
   line-height: 1rem;
 }
 
-.portfolio-info .porfolio-data .porfolio-data-text p span {
+section.portfolio-section .portfolio-info .porfolio-data .porfolio-data-text p span {
   color: #444;
   font-size: 0.9rem;
 }
 
-.portfolio-info .porfolio-data .porfolio-data-text a p {
+section.portfolio-section .portfolio-info .porfolio-data .porfolio-data-text a p {
   display: inline;
   padding: 5px 10px;
   color: #fff;
@@ -63,22 +70,22 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .portfolio-info.big-card {
+  section.portfolio-section .portfolio-info.big-card {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
-  .portfolio-info.small-card {
+  section.portfolio-section .portfolio-info.small-card {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 500px) {
-  .portfolio-info.big-card {
+  section.portfolio-section .portfolio-info.big-card {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
-  .portfolio-info.small-card {
+  section.portfolio-section .portfolio-info.small-card {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }

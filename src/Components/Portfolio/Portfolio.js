@@ -78,7 +78,7 @@ const Portfolio = () => {
     return (
         <div className="container">
             <div className="portfolio content">
-                <section>
+                <section className="portfolio-section">
                     <h1>Portfolio</h1>
                     <div className="portfolio-info big-card">
                         {
