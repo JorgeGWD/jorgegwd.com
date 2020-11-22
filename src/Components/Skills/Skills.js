@@ -12,8 +12,10 @@ const Skills = () => {
                 company: "Laika",
                 date: "December 2019 - March 2020",
                 functions: {
-                    description: "Develop the frontend of the new mobile application.",
-                    details:    "<li>Layout mobile application according to design.</li>"+
+                    description: "Work with the UI/UX designer to study technical implementation and include translation of the design wireframes to actual code that will produce visual elements of the application.",
+                    details:    "<li>Build reusable code and libraries for future use.</li>"+
+                                "<li>Optimize application for maximum speed and scalability.</li>"+
+                                "<li>Assure that all user input is validated before submitting to backend.</li>"+
                                 "<li>Connect API to application.</li>"
                 }
             },
@@ -22,9 +24,11 @@ const Skills = () => {
                 company: "SoftArs",
                 date: "April 2018 - April 2019",
                 functions: {
-                    description: "Study and implementation of new web technologies, team management and workflow development.",
-                    details:    "<li>Using React JS / Angular 2 to build new applications.</li>"+
-                                "<li>Review of designs for web and social networks.</li>"
+                    description: "As a Lead Frontend Developer I spearhead efforts to develop and design frontend applications, web-user interface, standalone websites, and the tools to navigate websites.",
+                    details:    "<li>Frontend decision making: technology, methodology, architecture.</li>"+
+                                "<li>Team management and workflow development.</li>"+
+                                "<li>Participate in dev scoping, creative review, and UI/UX discussions.</li>"+
+                                "<li>Lead code review with other developers.</li>"
                 }
             },
             {
