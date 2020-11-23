@@ -65,8 +65,8 @@
   margin-top: 10px;
 }
 
-@media screen and (max-width: 600px) {
-  .contact.content .contact-box .contact-data-box {
+@media screen and (max-width: 550px) {
+  .container .contact.content .contact-box section.contact-section .contact-data-box {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
