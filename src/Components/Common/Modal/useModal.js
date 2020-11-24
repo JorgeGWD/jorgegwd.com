@@ -7,11 +7,13 @@ const useModal = () => {
 
     const openModal = () => {
         onOpenModal(true);
+        document.body.style.overflow = 'hidden'
     };
 
     const closeModal = () => {
         onCloseModal(true);
         onOpenModal(false);
+        document.body.style.overflow = 'unset'
     };
 
     return { open, close, openModal, closeModal };
