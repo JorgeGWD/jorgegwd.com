@@ -94,8 +94,8 @@ const Form = () => {
             <div className={isSubmitting ? "confirmation active" : "confirmation"}>
                 <div className="confirmation-content">
                     <h2>Great!</h2>
-                    <p>Thank you for contacting me <br/>I will be in touch with you soon</p>
-                    <Button className={"primary-btn"} text="Ok" />
+                    <p>Thank you for contacting me, <br/>I will be in touch with you soon.</p>
+                    <Button className={"primary-btn"} onClick={() => { setIsSubmitting(!isSubmitting) }} text="Ok" />
                 </div>
             </div>
         </div>
