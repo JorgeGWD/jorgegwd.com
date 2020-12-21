@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
+import * as emailjs from "emailjs-com"
 import Button from '../Button/Button'
 import './Form.css'
 
@@ -56,6 +57,13 @@ const Form = () => {
             // console.log('Error')
             
         } else {
+            emailjs.sendForm('gmail', 'template_ad2qa7w', e.target, 'user_JTQJVcOB79rqsNlT6vbWb')
+            .then((result) => {
+                console.log(result.text)
+            }, (error) => {
+                console.log(error.text)
+            });
+
             setErrors(validateInfo(data))
 
             setIsSubmitting(true)
@@ -67,15 +75,15 @@ const Form = () => {
         }
     }
 
-    useEffect(() => {
+    /*useEffect(() => {
         if(Object.keys(errors).length === 0 && isSubmitting) {
-            console.log(data)
+            // console.log(data)
 
             setData(prevState => {
                 return {...prevState, name: '', email: '', message: ''}
             })
         }
-    }, [errors])
+    }, [errors])*/
 
     return (
         <div className="contact-form">
