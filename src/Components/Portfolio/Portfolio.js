@@ -8,35 +8,35 @@ const Portfolio = () => {
             image: require('../../assets/images/portfolio-luvania-web.jpg'),
             title: 'Luvania',
             description: 'Landing page.',
-            tech: 'NextJs, ReacJS, HTML5, Sass, Javascript.',
+            tech: 'NextJs, React Js, HTML5, Sass, Javascript.',
             url: 'https://tratamientos-medicos-co-pmqajvfj2.vercel.app/'
         },
         {
             image: require('../../assets/images/portfolio-kiero-web.jpg'),
             title: 'Kiero Marketplace',
             description: 'Online shop.',
-            tech: 'ReacJS, HTML5, Sass, Javascript.',
+            tech: 'React Js, HTML5, Sass, Javascript.',
             url: 'https://kiero.co/'
         },
         {
             image: require('../../assets/images/portfolio-laika-app.jpg'),
             title: 'Laika app',
             description: 'Mobile app.',
-            tech: 'Reac Native, Flex, React Router Dom, Javascript.',
+            tech: 'React Native, Flex, React Router Dom, Javascript.',
             url: 'https://laika.com.co/city/bog/dog'
         },
         {
             image: require('../../assets/images/portfolio-tigy-web.jpg'),
             title: 'Tigy web',
             description: 'Web app / Social network.',
-            tech: 'ReacJS, HTML5, React Router Dom, Sass, Javascript.',
+            tech: 'React Js, HTML5, React Router Dom, Sass, Javascript.',
             url: 'https://tigyweb.tigyapp.com/'
         },
         {
             image: require('../../assets/images/portfolio-softars-web.jpg'),
             title: 'SoftArs',
             description: 'Company website.',
-            tech: 'ReacJS, HTML5, Sass, Javascript.',
+            tech: 'React Js, HTML5, Sass, Javascript.',
             url: 'http://softars.com/'
         },
         {
