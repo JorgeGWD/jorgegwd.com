@@ -48,6 +48,24 @@
   font-weight: 500;
 }
 
+.container .skills .skills-box section a {
+  margin: auto;
+  padding: 15px 40px;
+  color: #fff;
+  background-color: transparent;
+  font-size: 1rem;
+  border: 1px solid #fff;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
+.container .skills .skills-box section a:hover {
+  color: #21729A;
+  background-color: #fff;
+  -webkit-transition: all .25s;
+  transition: all .25s;
+}
+
 .container .skills .skills-box section .experience {
   display: -ms-grid;
   display: grid;
