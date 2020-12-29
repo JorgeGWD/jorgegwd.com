@@ -53,10 +53,13 @@
   padding: 15px 40px;
   color: #fff;
   background-color: transparent;
-  font-size: 1rem;
   border: 1px solid #fff;
   -webkit-transition: all .25s;
   transition: all .25s;
+}
+
+.container .skills .skills-box section a p {
+  font-size: 1rem;
 }
 
 .container .skills .skills-box section a:hover {
