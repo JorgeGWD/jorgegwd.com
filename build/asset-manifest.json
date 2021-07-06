@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/jorgegwd-web/static/css/main.62af8005.chunk.css",
-    "main.js": "/jorgegwd-web/static/js/main.b16ab6d9.chunk.js",
-    "main.js.map": "/jorgegwd-web/static/js/main.b16ab6d9.chunk.js.map",
+    "main.css": "/jorgegwd-web/static/css/main.7002954f.chunk.css",
+    "main.js": "/jorgegwd-web/static/js/main.5969004b.chunk.js",
+    "main.js.map": "/jorgegwd-web/static/js/main.5969004b.chunk.js.map",
     "runtime~main.js": "/jorgegwd-web/static/js/runtime~main.9d10bb10.js",
     "runtime~main.js.map": "/jorgegwd-web/static/js/runtime~main.9d10bb10.js.map",
-    "static/js/2.f91149c9.chunk.js": "/jorgegwd-web/static/js/2.f91149c9.chunk.js",
-    "static/js/2.f91149c9.chunk.js.map": "/jorgegwd-web/static/js/2.f91149c9.chunk.js.map",
+    "static/js/2.587d9e6b.chunk.js": "/jorgegwd-web/static/js/2.587d9e6b.chunk.js",
+    "static/js/2.587d9e6b.chunk.js.map": "/jorgegwd-web/static/js/2.587d9e6b.chunk.js.map",
     "index.html": "/jorgegwd-web/index.html",
-    "precache-manifest.559552298a26450b2235ace07df81d30.js": "/jorgegwd-web/precache-manifest.559552298a26450b2235ace07df81d30.js",
+    "precache-manifest.32dffed5747507c42910594af1150e30.js": "/jorgegwd-web/precache-manifest.32dffed5747507c42910594af1150e30.js",
     "service-worker.js": "/jorgegwd-web/service-worker.js",
-    "static/css/main.62af8005.chunk.css.map": "/jorgegwd-web/static/css/main.62af8005.chunk.css.map",
-    "static/media/Home.css": "/jorgegwd-web/static/media/bruhspainted-bg.414c2fcd.svg",
+    "static/css/main.7002954f.chunk.css.map": "/jorgegwd-web/static/css/main.7002954f.chunk.css.map",
+    "static/media/Home.css": "/jorgegwd-web/static/media/experience-bg.6b9bd09f.jpg",
     "static/media/Skills.css": "/jorgegwd-web/static/media/bruhspainted-bottom.5d0a5482.svg",
     "static/media/Contact.css": "/jorgegwd-web/static/media/bruhspainted-top.a14e51e2.svg",
     "static/media/logo.svg": "/jorgegwd-web/static/media/logo.dd29f64c.svg",
@@ -25,6 +25,6 @@
     "static/media/portfolio-mealtohome-web.jpg": "/jorgegwd-web/static/media/portfolio-mealtohome-web.0c40a5ee.jpg",
     "static/media/portfolio-softars-web.jpg": "/jorgegwd-web/static/media/portfolio-softars-web.f6a1b607.jpg",
     "static/media/portfolio-tigy-web.jpg": "/jorgegwd-web/static/media/portfolio-tigy-web.0038dfe9.jpg",
-    "static/media/profile-pic.jpg": "/jorgegwd-web/static/media/profile-pic.a49ae873.jpg"
+    "static/media/profile-pic.jpg": "/jorgegwd-web/static/media/profile-pic.b0d1a90f.jpg"
   }
 }
