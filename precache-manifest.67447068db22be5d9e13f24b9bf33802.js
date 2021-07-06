@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "27807316f8d982bf0e97d35d11b503fe",
+    "revision": "c92ab9faeb3327c7fcf717a93901489b",
     "url": "/jorgegwd-web/index.html"
   },
   {
-    "revision": "7e3126bc1feaf6a98656",
-    "url": "/jorgegwd-web/static/css/main.62af8005.chunk.css"
+    "revision": "847471a545db4e90745e",
+    "url": "/jorgegwd-web/static/css/main.7002954f.chunk.css"
   },
   {
     "revision": "4eb3d7d0be2840073e31",
     "url": "/jorgegwd-web/static/js/2.f91149c9.chunk.js"
   },
   {
-    "revision": "7e3126bc1feaf6a98656",
-    "url": "/jorgegwd-web/static/js/main.b16ab6d9.chunk.js"
+    "revision": "847471a545db4e90745e",
+    "url": "/jorgegwd-web/static/js/main.7f75c66f.chunk.js"
   },
   {
     "revision": "a2d0775c58fa290df0a0",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a14e51e257c9ec1dd37a42a6f96eaff5",
     "url": "/jorgegwd-web/static/media/bruhspainted-top.a14e51e2.svg"
+  },
+  {
+    "revision": "6b9bd09fea548c2cd21d4d7aa74c53a1",
+    "url": "/jorgegwd-web/static/media/experience-bg.6b9bd09f.jpg"
   },
   {
     "revision": "dd29f64c71bb30a992a1c97cae759b72",
@@ -76,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jorgegwd-web/static/media/portfolio-tigy-web.0038dfe9.jpg"
   },
   {
-    "revision": "a49ae8738aae01204422e0018e5d96b2",
-    "url": "/jorgegwd-web/static/media/profile-pic.a49ae873.jpg"
+    "revision": "b0d1a90fe0d2c93f876f515b8d4b5a55",
+    "url": "/jorgegwd-web/static/media/profile-pic.b0d1a90f.jpg"
   }
 ]);
