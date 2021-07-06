@@ -54,7 +54,10 @@ section.portfolio-section .portfolio-info .porfolio-data .porfolio-data-text {
   bottom: -100%;
   padding: 20px;
   width: calc( 100% - 38px);
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
+  background: -moz-linear-gradient(to right, white, white);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
