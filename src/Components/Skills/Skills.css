@@ -136,6 +136,11 @@
   font-size: 0.9rem;
 }
 
+.container .skills .skills-box section .experience .experience-data .data:hover {
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+}
+
 .container .skills .skills-box section .experience .experience-data .data:hover ~ .list {
   opacity: 1;
 }
@@ -262,6 +267,16 @@
   }
   .container .skills .skills-box section .experience .experience-data .list {
     padding-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container .skills .skills-box section .experience .experience-data .data:hover {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .container .skills .skills-box section .experience .experience-data .list {
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=Skills.css.map */

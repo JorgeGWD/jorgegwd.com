@@ -87,8 +87,10 @@
                                 font-size: $sub-title-size
                             p
                                 font-size: $small-size
-                            &:hover~.list
-                                opacity: 1
+                            &:hover
+                                transform: scale(1.07)
+                                &~.list
+                                    opacity: 1
                         .line
                             width: 2px
                             grid-area: line
@@ -170,3 +172,16 @@
                                 display: none
                             .list
                                 padding-bottom: 10px
+
+@media screen and ( max-width: 1024px )
+    .container
+        .skills
+            .skills-box
+                section
+                    .experience
+                        .experience-data
+                            .data
+                                &:hover
+                                    transform: scale(1)
+                            .list
+                                opacity: 1
