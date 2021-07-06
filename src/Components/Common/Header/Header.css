@@ -9,8 +9,9 @@ header {
 
 header.sticky {
   background-color: rgba(33, 114, 154, 0.85);
-  backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background: -moz-linear-gradient(to right, #21729a, #21729a);
 }
 
 header .main-header {
