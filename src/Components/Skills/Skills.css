@@ -137,8 +137,8 @@
 }
 
 .container .skills .skills-box section .experience .experience-data .data:hover {
-  -webkit-transform: scale(1.07);
-          transform: scale(1.07);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
 }
 
 .container .skills .skills-box section .experience .experience-data .data:hover ~ .list {
@@ -167,7 +167,7 @@
   grid-area: list;
   margin: 10px 0px;
   color: #fff;
-  opacity: 0;
+  opacity: .1;
   -webkit-transition: all .25s;
   transition: all .25s;
 }
