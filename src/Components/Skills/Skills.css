@@ -136,6 +136,10 @@
   font-size: 0.9rem;
 }
 
+.container .skills .skills-box section .experience .experience-data .data:hover ~ .list {
+  opacity: 1;
+}
+
 .container .skills .skills-box section .experience .experience-data .line {
   width: 2px;
   -ms-grid-row: 1;
@@ -158,6 +162,9 @@
   grid-area: list;
   margin: 10px 0px;
   color: #fff;
+  opacity: 0;
+  -webkit-transition: all .25s;
+  transition: all .25s;
 }
 
 .container .skills .skills-box section .experience .experience-data .list h4 {
