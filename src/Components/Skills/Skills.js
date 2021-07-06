@@ -9,6 +9,17 @@ const Skills = () => {
         [
             {
                 title: "Frontend Developer",
+                company: "Tita Media",
+                date: "March 2021 - June 2021",
+                functions: {
+                    description: "Development of solutions tailored to customer needs.",
+                    details:    "<li>Building custom components for the VTEX platform.</li>"+
+                                "<li>VTEX load optimization.</li>"+
+                                "<li>Design tweaks for WordPress.</li>"
+                }
+            },
+            {
+                title: "Frontend Developer",
                 company: "Laika",
                 date: "December 2019 - March 2020",
                 functions: {
