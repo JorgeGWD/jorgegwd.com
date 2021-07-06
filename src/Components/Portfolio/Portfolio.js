@@ -84,9 +84,7 @@ const Portfolio = () => {
                         {
                             bigCard.map((data, key) =>
                             <div className="porfolio-data box" key={key}>
-                                <div className="porfolio-data-img">
-                                    <img src={data.image} alt={data.title}/>
-                                </div>
+                                <img src={data.image} alt={data.title}/>
                                 <div className="porfolio-data-text">
                                     <h2>{data.title}</h2>
                                     <p>{data.description}</p>

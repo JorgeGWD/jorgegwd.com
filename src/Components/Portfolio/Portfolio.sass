@@ -12,27 +12,41 @@ section.portfolio-section
         &.small-card
             grid-template-columns: repeat(4,1fr)
         .porfolio-data
+            position: relative
             // display: grid
             // grid-template-row: 28vh 1fr
             // grid-gap: 20px
+            height: 350px
+            overflow: hidden
+            img
+                width: 100%
+                transition: all 3.5s
             &:hover
                 img
-                    transform: translateY(calc( -100% + 200px ))
-                    transition: all 3.5s
+                    transform: translateY(calc( -100% + 350px ))
+                & .porfolio-data-text
+                    bottom: 0%
             &.box
                 padding: 0px
                 // max-height: 200px
             .porfolio-data-img
-                max-height: 200px
-                overflow: hidden
+                // max-height: 200px
+                // overflow: hidden
                 img
                     // margin: -20px
-                    width: 100%
-                    height: auto
-                    transition: all 5s
+                    // width: 100%
+                    // height: auto
+                    // transition: all 5s
             .porfolio-data-text
+                z-index: 10
+                position: absolute
+                right: 0px
+                bottom: -100%
                 padding: 20px
+                width: calc( 100% - 38px )
                 // align-self: center
+                background-color: #fff
+                transition: all .5s
                 p
                     margin: 5px 0px
                     color: $soft-blue
@@ -57,6 +71,9 @@ section.portfolio-section
                 grid-template-columns: repeat(2,1fr)
             &.small-card
                 grid-template-columns: repeat(2,1fr)
+            .porfolio-data
+                .porfolio-data-text
+                    bottom: 0%
 
 @media screen and ( max-width: 500px )
     section.portfolio-section
