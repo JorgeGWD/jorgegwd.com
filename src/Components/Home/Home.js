@@ -12,10 +12,10 @@ const Home = () => {
 
     return (
         <div className="container">
-            <div className="home-content">
-                <div className="home-box">
+            <div className="home__content">
+                <div className="home__box">
                     <Typing />
-                    <Button className={"ghost-btn"} onClick={openModal} text="Tell me about your project" />
+                    <Button className={"ghost__btn"} onClick={openModal} text="Tell me about your project" />
                     {
                         open ? (
                             <Modal

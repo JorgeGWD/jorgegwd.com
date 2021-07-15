@@ -1,17 +1,17 @@
 @import ../../_variables
 
-section.portfolio-section
+section.portfolio__section
     display: grid
     grid-template-rows: repeat(3,auto)
     grid-gap: 5vmin
-    .portfolio-info
+    .portfolio__info
         display: grid
         grid-gap: 5vmin
-        &.big-card
+        &.big__card
             grid-template-columns: repeat(3,1fr)
-        &.small-card
+        &.small__card
             grid-template-columns: repeat(4,1fr)
-        .porfolio-data
+        .porfolio__data
             position: relative
             // display: grid
             // grid-template-row: 28vh 1fr
@@ -24,12 +24,12 @@ section.portfolio-section
             &:hover
                 img
                     transform: translateY(calc( -100% + 350px ))
-                & .porfolio-data-text
+                & .porfolio__data__text
                     bottom: 0%
             &.box
                 padding: 0px
                 // max-height: 200px
-            .porfolio-data-img
+            .porfolio__data__img
                 // max-height: 200px
                 // overflow: hidden
                 img
@@ -37,7 +37,7 @@ section.portfolio-section
                     // width: 100%
                     // height: auto
                     // transition: all 5s
-            .porfolio-data-text
+            .porfolio__data__text
                 z-index: 10
                 position: absolute
                 right: 0px
@@ -67,20 +67,20 @@ section.portfolio-section
                         // border-radius: 5px
 
 @media screen and ( max-width: 1150px )
-    section.portfolio-section
-        .portfolio-info
-            &.big-card
+    section.portfolio__section
+        .portfolio__info
+            &.big__card
                 grid-template-columns: repeat(2,1fr)
-            &.small-card
+            &.small__card
                 grid-template-columns: repeat(2,1fr)
-            .porfolio-data
-                .porfolio-data-text
+            .porfolio__data
+                .porfolio__data__text
                     bottom: 0%
 
 @media screen and ( max-width: 500px )
-    section.portfolio-section
-        .portfolio-info
-            &.big-card
+    section.portfolio__section
+        .portfolio__info
+            &.big__card
                 grid-template-columns: 1fr
-            &.small-card
+            &.small__card
                 grid-template-columns: 1fr

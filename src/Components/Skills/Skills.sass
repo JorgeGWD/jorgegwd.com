@@ -25,7 +25,7 @@
             background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
             -webkit-mask: url("../../assets/images/bruhspainted-bottom.svg") bottom center
             -webkit-mask-size: cover
-        .skills-box
+        .skills__box
             // padding: 50px
             height: 100%
             background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
@@ -53,7 +53,7 @@
                 .experience
                     display: grid
                     // grid-gap: 5vmin
-                    .experience-data
+                    .experience__data
                         display: grid
                         grid-template-columns: 1fr auto 1fr
                         grid-gap: 20px
@@ -117,7 +117,7 @@
                                 margin-left: 20px
                                 font-size: $medium-size
                                 list-style-type: square
-                        .experience-data-info
+                        .experience__data__info
                             display: grid
                             grid-template-columns: auto 1fr
                             grid-gap: 10px
@@ -137,13 +137,13 @@
                             h2
                                 margin: 0px
                                 color: $soft-blue
-            .experience-section, .skills-section
+            .experience__section, .skills__section
                 display: grid
                 grid-template-rows: auto 1fr
                 grid-gap: 5vmin
-            .skills-section
+            .skills__section
                 color: #fff
-                .skills-content
+                .skills__content
                     display: grid
                     grid-template-rows: repeat(4,auto)
                     grid-gap: 20px
@@ -151,10 +151,10 @@
 @media screen and ( max-width: 750px )
     .container
         .skills
-            .skills-box
+            .skills__box
                 section
                     .experience
-                        .experience-data
+                        .experience__data
                             grid-template-columns: 1fr
                             grid-gap: 10px
                             border-bottom: 1px solid #fff
@@ -176,10 +176,10 @@
 @media screen and ( max-width: 1024px )
     .container
         .skills
-            .skills-box
+            .skills__box
                 section
                     .experience
-                        .experience-data
+                        .experience__data
                             .data
                                 &:hover
                                     transform: scale(1)

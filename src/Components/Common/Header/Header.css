@@ -14,7 +14,7 @@ header.sticky {
   background: -moz-linear-gradient(to right, #21729a, #21729a);
 }
 
-header .main-header {
+header .main__header {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr auto;

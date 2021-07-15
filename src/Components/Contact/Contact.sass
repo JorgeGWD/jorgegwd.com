@@ -17,11 +17,11 @@
     padding: 6.8vh 0px 0px 0px
     color: #fff
     text-align: center
-    .contact-box
+    .contact__box
         // padding: 50px
         height: 100%
         background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
-        section.contact-section
+        section.contact__section
             display: grid
             grid-template-rows: repeat(3,auto)
             grid-gap: 5vmin
@@ -29,16 +29,16 @@
                 color: #fff
             h3, h4
                 font-weight: lighter
-            .contact-data-box
+            .contact__data__box
                 display: grid
                 grid-template-columns: repeat(2,1fr)
                 grid-gap: 20px
                 text-align: left
-                .contact-data
+                .contact__data
                     display: grid
                     a
                         color: #fff
-                    .contact-data-info
+                    .contact__data__info
                         display: grid
                         grid-template-columns: auto 1fr
                         grid-gap: 15px
@@ -47,7 +47,7 @@
 @media screen and ( max-width: 550px )
     .container
         .contact.content
-            .contact-box
-                section.contact-section
-                    .contact-data-box
+            .contact__box
+                section.contact__section
+                    .contact__data__box
                             grid-template-columns: 1fr

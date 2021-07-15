@@ -1,4 +1,4 @@
-.home-content {
+.home__content {
   display: -ms-grid;
   display: grid;
   color: #fff;
@@ -9,7 +9,7 @@
           align-items: center;
 }
 
-.home-content::before {
+.home__content::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -25,7 +25,7 @@
   -webkit-mask-size: cover;
 }
 
-.home-content::after {
+.home__content::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -38,7 +38,7 @@
   -webkit-mask-size: cover;
 }
 
-.home-content .home-box {
+.home__content .home__box {
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: (auto)[2];

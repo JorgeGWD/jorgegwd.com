@@ -86,24 +86,24 @@ const Form = () => {
     }, [errors])*/
 
     return (
-        <div className="contact-form">
+        <div className="contact__form">
             <div className={isSubmitting ? "form hide" : "form active" } >
                 <h2>Say hello!</h2>
                 <form onSubmit={handleSubmit} noValidate autoComplete="off" >
-                    {errors.name && <p className="error-text">{errors.name}</p>}
+                    {errors.name && <p className="error__text">{errors.name}</p>}
                     <input type="text" name="name" placeholder="Enter your name" onChange={handleChange} required />
-                    {errors.email && <p className="error-text">{errors.email}</p>}
+                    {errors.email && <p className="error__text">{errors.email}</p>}
                     <input type="email" name="email" placeholder="Enter your email address" onChange={handleChange} />
-                    {errors.message && <p className="error-text">{errors.message}</p>}
+                    {errors.message && <p className="error__text">{errors.message}</p>}
                     <textarea name="message" rows="6" placeholder="Your message here..." onChange={handleChange} />
-                    <Button className={"primary-btn"} type={"submit"} text="Submit" />
+                    <Button className={"primary__btn"} type={"submit"} text="Submit" />
                 </form>
             </div>
             <div className={isSubmitting ? "confirmation active" : "confirmation"}>
-                <div className="confirmation-content">
+                <div className="confirmation__content">
                     <h2>Great!</h2>
                     <p>Thank you for contacting me, <br/>I will be in touch with you soon.</p>
-                    <Button className={"primary-btn"} onClick={() => { setIsSubmitting(!isSubmitting) }} text="Ok" />
+                    <Button className={"primary__btn"} onClick={() => { setIsSubmitting(!isSubmitting) }} text="Ok" />
                 </div>
             </div>
         </div>

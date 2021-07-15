@@ -113,19 +113,19 @@ const Skills = () => {
     return (
         <div className="container">
             <div className="skills content">
-                <div className="skills-box">
+                <div className="skills__box">
                     <section>
-                        <div className="experience-section">
+                        <div className="experience__section">
                             <h1>Experience</h1>
                             <div className="experience">
                                 {
                                     experience.map((experience, key) =>
-                                        <div className="experience-data" key={key}>
+                                        <div className="experience__data" key={key}>
                                             <div className="data box">
-                                                <div className="experience-data-info title">
+                                                <div className="experience__data__info title">
                                                     <FontAwesomeIcon icon={faDesktop} /><h2>{experience.title}</h2>
                                                 </div>
-                                                <div className="experience-data-info place">
+                                                <div className="experience__data__info place">
                                                     <FontAwesomeIcon icon={faBuilding} /><span>{experience.company}</span>
                                                 </div>
                                                 <div className="experience-data-info date">
@@ -149,12 +149,12 @@ const Skills = () => {
                                 }
                             </div>
                         </div>
-                        <div className="skills-section">
+                        <div className="skills__section">
                             <h1>Skills</h1>
-                            <div className="skills-content">
+                            <div className="skills__content">
                                 {
                                     skills.map((skills, key) =>
-                                        <div id={skills.id} className="skills-data" key={key}>
+                                        <div id={skills.id} className="skills__data" key={key}>
                                             <h2>{skills.title}</h2>
                                             <p>{skills.skills}</p>
                                         </div>
@@ -162,7 +162,7 @@ const Skills = () => {
                                 }
                             </div>
                         </div>
-                        <a className="ghost-btn" href="https://drive.google.com/file/d/1Lz0e5qHc-Gl9cBhySZUl4DoYL3EuO0ob/view?usp=sharing" target="_blank" rel="noopener noreferrer" ><p>Download CV</p></a>
+                        <a className="ghost__btn" href="https://drive.google.com/file/d/1Lz0e5qHc-Gl9cBhySZUl4DoYL3EuO0ob/view?usp=sharing" target="_blank" rel="noopener noreferrer" ><p>Download CV</p></a>
                     </section>
                 </div>
             </div>

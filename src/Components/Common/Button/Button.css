@@ -7,7 +7,7 @@ button p {
   font-size: 1rem;
 }
 
-button.primary-btn {
+button.primary__btn {
   color: #fff;
   padding: 15px 40px;
   background-color: #21729A;
@@ -16,7 +16,7 @@ button.primary-btn {
   transition: all .25s;
 }
 
-button.ghost-btn {
+button.ghost__btn {
   color: #fff;
   padding: 15px 40px;
   background-color: transparent;
@@ -25,7 +25,7 @@ button.ghost-btn {
   transition: all .25s;
 }
 
-button.ghost-btn:hover {
+button.ghost__btn:hover {
   color: #21729A;
   background-color: #fff;
   -webkit-transition: all .25s;

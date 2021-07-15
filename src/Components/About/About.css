@@ -6,7 +6,7 @@
   grid-gap: 5vmin;
 }
 
-.about section .section-content {
+.about section .section__content {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -15,46 +15,46 @@
   grid-gap: 20px;
 }
 
-.about section .section-content .profile-pic {
+.about section .section__content .profile__pic {
   text-align: center;
 }
 
-.about section .section-content .profile-pic img {
+.about section .section__content .profile__pic img {
   width: 70%;
   min-width: 200px;
   height: auto;
   border-radius: 50%;
 }
 
-.about section .section-content .profile-pic p {
+.about section .section__content .profile__pic p {
   line-height: 45px;
 }
 
-.profile-description {
+.profile__description {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: description;
 }
 
-.profile-description .data-text {
+.profile__description .data-text {
   display: -ms-grid;
   display: grid;
   grid-gap: 20px;
 }
 
-.profile-pic {
+.profile__pic {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: pic;
 }
 
 @media screen and (max-width: 850px) {
-  .about section .section-content {
+  .about section .section__content {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
         grid-template-areas: "pic" "description";
   }
-  .about section .section-content .profile-pic img {
+  .about section .section__content .profile__pic img {
     min-width: 200px;
   }
 }

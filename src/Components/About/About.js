@@ -19,19 +19,19 @@ const About = () => {
         <div className="container">
             <div className="about content">
                 <section>
-                    <h1 className="section-title">About</h1>
-                    <div className="section-content">
-                        <div className="profile-description">
+                    <h1 className="section__title">About</h1>
+                    <div className="section__content">
+                        <div className="profile__description">
                             {
                                 data.map((data, key) => 
-                                    <div className="data-text" key={key} dangerouslySetInnerHTML={{
+                                    <div className="data__text" key={key} dangerouslySetInnerHTML={{
                                         __html: data.text
                                     }}>
                                     </div>
                                 )
                             }
                         </div>
-                        <div className="profile-pic">
+                        <div className="profile__pic">
                             <img src={ProfilePic} alt="JorgeGWD"/>
                         </div>
                     </div>

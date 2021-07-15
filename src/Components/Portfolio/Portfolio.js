@@ -78,14 +78,14 @@ const Portfolio = () => {
     return (
         <div className="container">
             <div className="portfolio content">
-                <section className="portfolio-section">
+                <section className="portfolio__section">
                     <h1>Portfolio</h1>
-                    <div className="portfolio-info big-card">
+                    <div className="portfolio__info big__card">
                         {
                             bigCard.map((data, key) =>
-                            <div className="porfolio-data box" key={key}>
+                            <div className="porfolio__data box" key={key}>
                                 <img src={data.image} alt={data.title}/>
-                                <div className="porfolio-data-text">
+                                <div className="porfolio__data__text">
                                     <h2>{data.title}</h2>
                                     <p>{data.description}</p>
                                     <p className="tech"><span>{data.tech}</span></p>
@@ -95,14 +95,14 @@ const Portfolio = () => {
                             )
                         }
                     </div>
-                    <div className="portfolio-info small-card">
+                    <div className="portfolio__info small__card">
                         {
                             smallCard.map((data, key) =>
-                            <div className="porfolio-data box" key={key}>
-                                <div className="porfolio-data-img">
+                            <div className="porfolio__data box" key={key}>
+                                <div className="porfolio__data__img">
                                     <img src={data.image} alt={data.title}/>
                                 </div>
-                                <div className="porfolio-data-text">
+                                <div className="porfolio__data__text">
                                     <h3>{data.title}</h3>
                                     <p>{data.description}</p>
                                     <p className="tech"><span>{data.tech}</span></p>

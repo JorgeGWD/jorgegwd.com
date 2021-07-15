@@ -9,15 +9,15 @@ const Modal = ({ children, close, render }) => {
 
     return (
         <Portal>
-            <div className="modal-container">
-                <div className="modal-box">
-                    <div className="modal-content" >
-                        <Button className={"close-btn"} onClick={close} text={<FontAwesomeIcon icon={faTimes} />} />
+            <div className="modal__container">
+                <div className="modal__box">
+                    <div className="modal__content" >
+                        <Button className={"close__btn"} onClick={close} text={<FontAwesomeIcon icon={faTimes} />} />
                         {render(children) || children}
                     </div>
                 </div>
             </div>
-            <div className="modal-background" onClick={close} />
+            <div className="modal__background" onClick={close} />
         </Portal>
     );
 };

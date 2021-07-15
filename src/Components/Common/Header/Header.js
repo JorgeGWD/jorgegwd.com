@@ -32,7 +32,7 @@ const Header = () => {
 
   return (
     <header className={`header${sticky.isSticky ? ' sticky' : ''}`} ref={ref}>
-        <div className="main-header">
+        <div className="main__header">
             <Logo />
             <Codes />
         </div>
