@@ -128,7 +128,7 @@ const Skills = () => {
                                                 <div className="experience__data__info place">
                                                     <FontAwesomeIcon icon={faBuilding} /><span>{experience.company}</span>
                                                 </div>
-                                                <div className="experience-data-info date">
+                                                <div className="experience__data__info date">
                                                     <FontAwesomeIcon icon={faCalendarAlt} /><p>{experience.date}</p>
                                                 </div>
                                             </div>
