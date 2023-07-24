@@ -1,6 +1,6 @@
 {
   "proxy": "http://localhost:5000",
-  "homepage": "https://JorgeGWD.github.io/jorgegwd-web",
+  "homepage": "https://jorgegwd.com",
   "name": "jorgegwd",
   "version": "0.1.0",
   "private": false,
