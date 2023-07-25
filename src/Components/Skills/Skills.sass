@@ -11,9 +11,9 @@
             left: 0px
             width: 100%
             height: 7vh
-            background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
-            -webkit-mask: url("../../assets/images/bruhspainted-top.svg") top center
-            -webkit-mask-size: cover
+            background: linear-gradient(to right, ($soft-blue, $dark-blue))
+            mask-image: url("../../assets/images/bruhspainted-top.svg")
+            mask-size: cover
         &::after
             content: ""
             position: absolute
@@ -22,18 +22,18 @@
             left: 0px
             width: 100%
             height: 7vh
-            background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
-            -webkit-mask: url("../../assets/images/bruhspainted-bottom.svg") bottom center
-            -webkit-mask-size: cover
+            background: linear-gradient(to right, ($soft-blue, $dark-blue))
+            mask-image: url("../../assets/images/bruhspainted-bottom.svg")
+            mask-size: cover
         .skills__box
             // padding: 50px
             height: 100%
-            background: -webkit-gradient(linear,left top,right top,from($soft-blue),to($dark-blue))
+            background: linear-gradient(to right, ($soft-blue, $dark-blue))
             h1
                 color: #fff
             section
                 display: grid
-                grid-template-row: repeat(2,1fr)
+                // grid-template-rows: repeat(2,1fr)
                 grid-gap: 40px
                 h2
                     font-weight: 500
