@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a3f46edc.chunk.css",
+    "main.css": "/static/css/main.dde754a0.chunk.css",
     "main.js": "/static/js/main.4443ba01.chunk.js",
     "main.js.map": "/static/js/main.4443ba01.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.587d9e6b.chunk.js": "/static/js/2.587d9e6b.chunk.js",
     "static/js/2.587d9e6b.chunk.js.map": "/static/js/2.587d9e6b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b185cc62ed87c818ba699eadff54078a.js": "/precache-manifest.b185cc62ed87c818ba699eadff54078a.js",
+    "precache-manifest.b35482b309cffe53eef723bab0245dc1.js": "/precache-manifest.b35482b309cffe53eef723bab0245dc1.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a3f46edc.chunk.css.map": "/static/css/main.a3f46edc.chunk.css.map",
+    "static/css/main.dde754a0.chunk.css.map": "/static/css/main.dde754a0.chunk.css.map",
     "static/media/Home.css": "/static/media/experience-bg.6b9bd09f.jpg",
     "static/media/Skills.css": "/static/media/bruhspainted-bottom.5d0a5482.svg",
     "static/media/Contact.css": "/static/media/bruhspainted-top.a14e51e2.svg",
