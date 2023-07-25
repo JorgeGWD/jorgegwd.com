@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.a60e5b8a.chunk.css",
-    "main.js": "/static/js/main.6e26bca8.chunk.js",
-    "main.js.map": "/static/js/main.6e26bca8.chunk.js.map",
+    "main.js": "/static/js/main.4443ba01.chunk.js",
+    "main.js.map": "/static/js/main.4443ba01.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.587d9e6b.chunk.js": "/static/js/2.587d9e6b.chunk.js",
     "static/js/2.587d9e6b.chunk.js.map": "/static/js/2.587d9e6b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5789af09274eb06076a151027f69b9fa.js": "/precache-manifest.5789af09274eb06076a151027f69b9fa.js",
+    "precache-manifest.40e73c132f10840805586337ed295ca0.js": "/precache-manifest.40e73c132f10840805586337ed295ca0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.a60e5b8a.chunk.css.map": "/static/css/main.a60e5b8a.chunk.css.map",
     "static/media/Home.css": "/static/media/experience-bg.6b9bd09f.jpg",
@@ -25,6 +25,6 @@
     "static/media/portfolio-mealtohome-web.jpg": "/static/media/portfolio-mealtohome-web.0c40a5ee.jpg",
     "static/media/portfolio-softars-web.jpg": "/static/media/portfolio-softars-web.f6a1b607.jpg",
     "static/media/portfolio-tigy-web.jpg": "/static/media/portfolio-tigy-web.0038dfe9.jpg",
-    "static/media/profile-pic.jpg": "/static/media/profile-pic.b0d1a90f.jpg"
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.17a05833.jpg"
   }
 }

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5ccbf76cec7d46d91cd195328945ee9d",
+    "revision": "ff4f113552b880175fce0f0b9dab5daf",
     "url": "/index.html"
   },
   {
-    "revision": "72fc04cec9c242c4d1ac",
+    "revision": "68ae2c5490e71547fc55",
     "url": "/static/css/main.a60e5b8a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.587d9e6b.chunk.js"
   },
   {
-    "revision": "72fc04cec9c242c4d1ac",
-    "url": "/static/js/main.6e26bca8.chunk.js"
+    "revision": "68ae2c5490e71547fc55",
+    "url": "/static/js/main.4443ba01.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -80,7 +80,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/portfolio-tigy-web.0038dfe9.jpg"
   },
   {
-    "revision": "b0d1a90fe0d2c93f876f515b8d4b5a55",
-    "url": "/static/media/profile-pic.b0d1a90f.jpg"
+    "revision": "17a0583308f0d9f0cedd134ed4ef29a4",
+    "url": "/static/media/profile-pic.17a05833.jpg"
   }
 ]);
