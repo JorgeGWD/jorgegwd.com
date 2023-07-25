@@ -16,59 +16,42 @@
   color: #fff;
   text-align: center;
 }
-
 .contact.content .contact__box {
   height: 100%;
   background: -webkit-gradient(linear, left top, right top, from(#21729A), to(#002450));
 }
-
 .contact.content .contact__box section.contact__section {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-rows: (auto)[3];
-      grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
   grid-gap: 5vmin;
 }
-
 .contact.content .contact__box section.contact__section h1 {
   color: #fff;
 }
-
 .contact.content .contact__box section.contact__section h3, .contact.content .contact__box section.contact__section h4 {
   font-weight: lighter;
 }
-
 .contact.content .contact__box section.contact__section .contact__data__box {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 20px;
   text-align: left;
 }
-
 .contact.content .contact__box section.contact__section .contact__data__box .contact__data {
-  display: -ms-grid;
   display: grid;
 }
-
 .contact.content .contact__box section.contact__section .contact__data__box .contact__data a {
   color: #fff;
 }
-
 .contact.content .contact__box section.contact__section .contact__data__box .contact__data .contact__data__info {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 1fr;
-      grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr;
   grid-gap: 15px;
   margin-top: 10px;
 }
 
 @media screen and (max-width: 550px) {
   .container .contact.content .contact__box section.contact__section .contact__data__box {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
-}
-/*# sourceMappingURL=Contact.css.map */
+}/*# sourceMappingURL=Contact.css.map */

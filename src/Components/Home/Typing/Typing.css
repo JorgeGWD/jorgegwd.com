@@ -3,7 +3,6 @@
   font-size: 3rem;
   font-weight: lighter !important;
 }
-
 .typing h1 span {
   color: #fff;
   font-size: 3rem;
@@ -12,9 +11,8 @@
 }
 
 /*@media (max-width: 600px)
-    .typing
-        h1
-            font-size: 8vw
-            span
-                font-size: 8vw*/
-/*# sourceMappingURL=Typing.css.map */
+ *  .typing
+ *      h1
+ *          font-size: 8vw
+ *          span
+ *              font-size: 8vw*//*# sourceMappingURL=Typing.css.map */

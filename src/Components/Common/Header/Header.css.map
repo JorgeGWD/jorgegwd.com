@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAEA,AAAA,MAAM,CAAC;EACH,OAAO,EAAE,GAAG;EACZ,QAAQ,EAAE,KAAK;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,OAAO;CASQ;;AAd/B,AAMI,MANE,AAMD,OAAO,CAAC;EACL,gBAAgB,ECRZ,wBAAO;EDSX,eAAe,EAAE,SAAS;EAC1B,UAAU,EAAE,gDAAwE;CAAG;;AAT/F,AAUI,MAVE,CAUF,aAAa,CAAC;EACV,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,QAAQ;EAC/B,QAAQ,EAAE,IAAI;EACd,OAAO,EAAE,SAAS;CAAG",
-    "sources": [
-        "Header.sass",
-        "../../../_variables.sass"
-    ],
-    "names": [],
-    "file": "Header.css"
-}
+{"version":3,"sources":["Header.sass","Header.css"],"names":[],"mappings":"AAEA;EACI,YAAA;EACA,eAAA;EACA,WAAA;EACA,aAAA;EACA,oBAAA;ACDJ;ADEI;EACI,0CAAA;EACA,kCAAA;UAAA,0BAAA;EACA,4DAAA;ACAR;ADCI;EACI,aAAA;EACA,+BAAA;EACA,cAAA;EACA,kBAAA;ACCR","file":"Header.css"}

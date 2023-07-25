@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAEA,AACI,OADG,CACH,EAAE,CAAC;EACC,KAAK,EAAE,eAAe;EACtB,SAAS,ECDJ,IAAI;EDET,WAAW,EAAE,kBAAkB;CAKJ;;AATnC,AAKQ,OALD,CACH,EAAE,CAIE,IAAI,CAAC;EACD,KAAK,EAAE,IAAI;EACX,SAAS,ECLR,IAAI;EDML,WAAW,EAAE,OAAO;EACpB,UAAU,EAAE,MAAM;CAAG;;AAEjC;;;;;gCAKgC",
-    "sources": [
-        "Typing.sass",
-        "../../../_variables.sass"
-    ],
-    "names": [],
-    "file": "Typing.css"
-}
+{"version":3,"sources":["Typing.sass","../../../_variables.sass","Typing.css"],"names":[],"mappings":"AAGI;EACI,sBAAA;EACA,eCDK;EDEL,+BAAA;AEFR;AFGQ;EACI,WAAA;EACA,eCLC;EDMD,oBAAA;EACA,kBAAA;AEDZ;;AFGA;;;;;+BAAA","file":"Typing.css"}
