@@ -8,6 +8,17 @@ const Skills = () => {
     const [ experience ] = useState(
         [
             {
+                title: "Web UI Developer",
+                company: "Globant",
+                date: "June 2022 - June 2023",
+                functions: {
+                    description: "Development of solutions tailored to customer needs.",
+                    details:    "<li>Construction of custom components.</li>"+
+                                "<li>API connections.</li>"+
+                                "<li>CI/CD implementation.</li>"
+                }
+            },
+            {
                 title: "Frontend Developer",
                 company: "Tita Media",
                 date: "March 2021 - June 2021",
