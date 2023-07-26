@@ -42,7 +42,7 @@ const Skills = () => {
                 }
             },
             {
-                title: "Development Lead / Frontend",
+                title: "Frontend / Development Lead",
                 company: "SoftArs",
                 date: "April 2018 - April 2019",
                 functions: {
@@ -54,7 +54,7 @@ const Skills = () => {
                 }
             },
             {
-                title: "Development Lead / Frontend",
+                title: "Frontend / Development Lead",
                 company: "Minami Digital",
                 date: "October 2017 - April 2018",
                 functions: {
