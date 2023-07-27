@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.dde754a0.chunk.css",
-    "main.js": "/static/js/main.4443ba01.chunk.js",
-    "main.js.map": "/static/js/main.4443ba01.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.587d9e6b.chunk.js": "/static/js/2.587d9e6b.chunk.js",
-    "static/js/2.587d9e6b.chunk.js.map": "/static/js/2.587d9e6b.chunk.js.map",
+    "main.css": "/static/css/main.0c7624be.chunk.css",
+    "main.js": "/static/js/main.59422703.chunk.js",
+    "main.js.map": "/static/js/main.59422703.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.50bced3e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.50bced3e.js.map",
+    "static/js/2.0fc7e832.chunk.js": "/static/js/2.0fc7e832.chunk.js",
+    "static/js/2.0fc7e832.chunk.js.map": "/static/js/2.0fc7e832.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b35482b309cffe53eef723bab0245dc1.js": "/precache-manifest.b35482b309cffe53eef723bab0245dc1.js",
+    "precache-manifest.edfaea7c2306fae94efdd21df02e94da.js": "/precache-manifest.edfaea7c2306fae94efdd21df02e94da.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.dde754a0.chunk.css.map": "/static/css/main.dde754a0.chunk.css.map",
+    "static/css/main.0c7624be.chunk.css.map": "/static/css/main.0c7624be.chunk.css.map",
+    "static/js/2.0fc7e832.chunk.js.LICENSE.txt": "/static/js/2.0fc7e832.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/static/media/experience-bg.6b9bd09f.jpg",
     "static/media/Skills.css": "/static/media/bruhspainted-bottom.5d0a5482.svg",
     "static/media/Contact.css": "/static/media/bruhspainted-top.a14e51e2.svg",
@@ -26,5 +27,11 @@
     "static/media/portfolio-softars-web.jpg": "/static/media/portfolio-softars-web.f6a1b607.jpg",
     "static/media/portfolio-tigy-web.jpg": "/static/media/portfolio-tigy-web.0038dfe9.jpg",
     "static/media/profile-pic.jpg": "/static/media/profile-pic.17a05833.jpg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50bced3e.js",
+    "static/js/2.0fc7e832.chunk.js",
+    "static/css/main.0c7624be.chunk.css",
+    "static/js/main.59422703.chunk.js"
+  ]
 }
