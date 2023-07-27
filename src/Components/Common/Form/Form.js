@@ -18,11 +18,11 @@ const Form = () => {
             <div className={isSubmitting ? "form hide" : "form active" } >
                 <h2>Say hello!</h2>
                 <form onSubmit={handleSubmit(onSubmit)}>
-                    {errors.name && <p className="error__text"></p>}
+                    {errors.name?.type === 'required' && <p className="error__text">This field is required</p>}
                     <input type="text" name="name" placeholder="Enter your name" {...register('name', {required: true,})} />
-                    {errors.email && <p className="error__text"></p>}
+                    {errors.email?.type === 'required' && <p className="error__text">This field is required</p>}
                     <input type="email" name="email" placeholder="Enter your email address" {...register('email', {required: true,})} />
-                    {errors.message && <p className="error__text"></p>}
+                    {errors.message?.type === 'required' && <p className="error__text">This field is required</p>}
                     <textarea name="message" rows="6" placeholder="Your message here..." {...register('message', {required: true,})} />
                     <Button className={"primary__btn"} type={"submit"} text="Submit" />
                 </form>
