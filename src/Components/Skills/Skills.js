@@ -12,10 +12,10 @@ const Skills = () => {
                 company: "Globant",
                 date: "June 2022 - June 2023",
                 functions: {
-                    description: "Development of solutions tailored to customer needs.",
-                    details:    "<li>Construction of custom components.</li>"+
-                                "<li>API connections.</li>"+
-                                "<li>CI/CD implementation.</li>"
+                    description: "Integrate directly into the client's team and work alongside their existing designers and engineers daily.",
+                    details:    "<li>Take control of designing and implementing solutions for the most complex areas of the team's codebase in all phases of the software development lifecycle.</li>"+
+                                "<li>Represent the team in technical discussions with team leads, product, design, and all other external stakeholders.</li>"+
+                                "<li>Collaborate closely with DevOps/DevSuccess to drive iterative improvements to your team's build system, test automation, and CI/CD pipelines.</li>"
                 }
             },
             {
@@ -23,10 +23,10 @@ const Skills = () => {
                 company: "Tita Media",
                 date: "March 2021 - June 2021",
                 functions: {
-                    description: "Development of solutions tailored to customer needs.",
-                    details:    "<li>Building custom components for the VTEX platform.</li>"+
-                                "<li>VTEX load optimization.</li>"+
-                                "<li>Design tweaks for WordPress.</li>"
+                    description: "Develop solutions adapted to customer needs.",
+                    details:    "<li>Convert an outdated frontend architecture into easy-to-read components using React for the VTEX platform.</li>"+
+                                "<li>Optimize VTEX load.</li>"+
+                                "<li>Adjust the layout for WordPress.</li>"
                 }
             },
             {
@@ -34,11 +34,11 @@ const Skills = () => {
                 company: "Laika",
                 date: "December 2019 - March 2020",
                 functions: {
-                    description: "Work with the UI/UX designer to study technical implementation and include translation of the design wireframes to actual code that will produce visual elements of the application.",
-                    details:    "<li>Build reusable code and libraries for future use.</li>"+
-                                "<li>Optimize application for maximum speed and scalability.</li>"+
-                                "<li>Assure that all user input is validated before submitting to backend.</li>"+
-                                "<li>Connect API to application.</li>"
+                    description: "Work with the UI/UX designer to study the technical implementation and include the translation of design wireframes into actual code that will produce visual elements of the application.",
+                    details:    "<li>Create reusable code and libraries for future use.</li>"+
+                                "<li>Optimize the application for maximum speed and scalability.</li>"+
+                                "<li>Make sure all user input is validated before sending it to the backend.</li>"+
+                                "<li>Connect the API to the application.</li>"
                 }
             },
             {
@@ -46,10 +46,10 @@ const Skills = () => {
                 company: "SoftArs",
                 date: "April 2018 - April 2019",
                 functions: {
-                    description: "As a Lead Frontend Developer I spearhead efforts to develop and design frontend applications, web-user interface, standalone websites, and the tools to navigate websites.",
-                    details:    "<li>Frontend decision making: technology, methodology, architecture.</li>"+
+                    description: "Lead efforts to develop and design frontend applications, web user interfaces, standalone websites, and the tools to navigate websites.",
+                    details:    "<li>Make frontend decisions: technology, methodology, architecture.</li>"+
                                 "<li>Team management and workflow development.</li>"+
-                                "<li>Participate in dev scoping, creative review, and UI/UX discussions.</li>"+
+                                "<li>Participate in discussions regarding development scoping, creative review, and UI/UX.</li>"+
                                 "<li>Lead code review with other developers.</li>"
                 }
             },
@@ -58,9 +58,9 @@ const Skills = () => {
                 company: "Minami Digital",
                 date: "October 2017 - April 2018",
                 functions: {
-                    description: "Develop layout web according to design approved by the client.",
-                    details:    "<li>Use of CMS (WordPress).</li>"+
-                                "<li>Use React JS to build a dashboard for Aera.</li>"
+                    description: "Develop web layout according to the design approved by the client.",
+                    details:    "<li>Use CMS (WordPress).</li>"+
+                                "<li>Use React JS to create a dashboard for Aera.</li>"
                 }
             },
             {
@@ -68,11 +68,11 @@ const Skills = () => {
                 company: "Lear Express",
                 date: "October 2014 - August 2015",
                 functions: {
-                    description: "Redesign of the website and web api, achieving a more friendly design and intuitive for service users of the company. In addition to using analytics tools to optimize load times and improve SEO management.",
-                    details:    "<li>Use of CMS (WordPress) for better handling and modification of content.</li>"+
-                                "<li>Use and modification of plugins.</li>"+
-                                "<li>SEO Analysis and Optimization.</li>"+
-                                "<li>Responsive design implementation.</li>"
+                    description: "Redesign the website and web API, achieving a more friendly and intuitive design for users of the company's service. In addition to using analysis tools to optimize loading times and improve SEO management.",
+                    details:    "<li>Use CMS (WordPress) for better content management and modification.</li>"+
+                                "<li>Use and modify plugins.</li>"+
+                                "<li>Analyze and optimize SEO.</li>"+
+                                "<li>Implement responsive design.</li>"
                 }
             },
             {
@@ -80,12 +80,12 @@ const Skills = () => {
                 company: "Fundación CENAMEC",
                 date: "July 2013 - September 2014",
                 functions: {
-                    description: "Development of a portal for the dissemination of news about the works, events and achievements of the foundation. Implementation of a distribution system of digital material for national teacher training.",
-                    details:    "<li>Creation of digital platforms using a CMS (Joomla).</li>"+
-                                "<li>Use and modification of plugins for managing news and events.</li>"+
-                                "<li>Using SEO to position both portals.</li>"+
-                                "<li>User system analysis.</li>"+
-                                "<li>Content analysis and categorization.</li>"
+                    description: "Develop a portal for the dissemination of news about the works, events, and achievements of the foundation. Implement a digital material distribution system for national teacher training.",
+                    details:    "<li>Create digital platforms using a CMS (Joomla).</li>"+
+                                "<li>Use and modify plugins for news and event management.</li>"+
+                                "<li>Use SEO to position both portals.</li>"+
+                                "<li>Analyze the user system.</li>"+
+                                "<li>Analyze and categorize content.</li>"
                 }
             },
             {
@@ -93,10 +93,10 @@ const Skills = () => {
                 company: "Tecnología Venova, C.A.",
                 date: "August 2010 - September 2011",
                 functions: {
-                    description: "Design and development of the company website and creation of a catalog for offer the products and services thereof.",
+                    description: "Design and develop the company's website, creating a catalog to offer their products and services.",
                     details:    "<li>Layout in HTML and layout in CSS and JavaScript.</li>"+
-                                "<li>Implementation of a CMS (Joomla) to create a catalog of products and services.</li>"+
-                                "<li>Use and modification of plugins.</li>"
+                                "<li>Implement a CMS (Joomla) to create a catalog of products and services.</li>"+
+                                "<li>Using and modifying plugins.</li>"
                 }
             }
     ])

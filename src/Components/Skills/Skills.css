@@ -104,9 +104,6 @@
 .container .skills .skills__box section .experience .experience__data .data p {
   font-size: 0.9rem;
 }
-.container .skills .skills__box section .experience .experience__data .data:hover {
-  transform: scale(1.03);
-}
 .container .skills .skills__box section .experience .experience__data .data:hover ~ .list {
   opacity: 1;
 }
@@ -126,7 +123,7 @@
   grid-area: list;
   margin: 10px 0px;
   color: #fff;
-  opacity: 0.1;
+  opacity: 1;
   transition: all 0.25s;
 }
 .container .skills .skills__box section .experience .experience__data .list h4 {
