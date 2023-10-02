@@ -1,16 +1,16 @@
 import React from 'react'
 import "./Contact.css"
 import Button from '../Common/Button/Button'
-import Modal from '../Common/Modal/Modal'
-import useModal from '../Common/Modal/useModal'
-import Form from '../Common/Form/Form'
+// import Modal from '../Common/Modal/Modal'
+// import useModal from '../Common/Modal/useModal'
+// import Form from '../Common/Form/Form'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMobile, faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
 
-    const { open, openModal, closeModal } = useModal()
+    // const { open, openModal, closeModal } = useModal()
 
     return (
         <div className="container">
@@ -18,15 +18,15 @@ const Contact = () => {
                 <div className="contact__box">
                     <section className="contact__section">
                         <h1>Contact</h1>
-                        <Button className={"ghost__btn"} onClick={openModal} text="Let's talk" />
-                        {
+                        <a className="contact__anchor" href="mailto:jorge.rodriguez.r@gmail.com"><Button className={"ghost__btn"} onClick={{/*openModal*/}} text="Let's talk" /></a>
+                        {/*
                             open ? (
                                 <Modal
                                     close={closeModal}
                                     render={() => <Form />}
                                 />
                             ) : null
-                        }
+                            */}
                         <div className="contact__data__box">
                             <div className="contact__data">
                                 <h3>We can also speak for</h3>
