@@ -36,7 +36,7 @@ const Contact = () => {
                             <div className="contact__data">
                                 <h3>Or maybe</h3>
                                 <div className="contact__data__info">
-                                    <FontAwesomeIcon icon={faMobile} /><h5 className="phone">(+57) 311 2766863</h5>
+                                    <FontAwesomeIcon icon={faMobile} /><h5 className="phone">(+57) 310 7325482</h5>
                                 </div>
                                 <div className="contact__data__info">
                                     <FontAwesomeIcon icon={faEnvelope} /><h5 className="email">jorge.rodriguez.r@gmail.com</h5>
