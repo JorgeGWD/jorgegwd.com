@@ -24,7 +24,7 @@ const Skills = () => {
                 date: "March 2021 - June 2021",
                 functions: {
                     description: "Develop solutions adapted to customer needs.",
-                    details:    "<li>Convert an outdated frontend architecture into easy-to-read components using React for the VTEX platform.</li>"+
+                    details:    "<li>Convert an outdated frontend architecture into easy-to-read components using ReactJS for the VTEX platform.</li>"+
                                 "<li>Optimize VTEX load.</li>"+
                                 "<li>Adjust the layout for WordPress.</li>"
                 }
@@ -60,7 +60,7 @@ const Skills = () => {
                 functions: {
                     description: "Develop web layout according to the design approved by the client.",
                     details:    "<li>Use CMS (WordPress).</li>"+
-                                "<li>Use React JS to create a dashboard for Aera.</li>"
+                                "<li>Use ReactJS to create a dashboard for Aera.</li>"
                 }
             },
             {
@@ -113,11 +113,11 @@ const Skills = () => {
             },
             {
                 title: "Frameworks And Libraries",
-                skills: "React, Redux, React Native, SASS, LESS, MaterialUI for React, Bootstrap, Materialize CSS, JQuery."
+                skills: "ReactJS, React Native, SASS, LESS, MaterialUI for React, Bootstrap, Materialize CSS, JQuery."
             },
             {
                 title: "Other skills",
-                skills: "Wordpress, Design UI/UX, Responsive design, API manipulation."
+                skills: "Wordpress, Design UI/UX, Responsive design, API manipulation, CI/CD."
             }
     ])
 
