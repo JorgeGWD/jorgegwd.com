@@ -8,14 +8,14 @@ const Portfolio = () => {
             image: require('../../assets/images/portfolio-luvania-web.jpg'),
             title: 'Luvania',
             description: 'Landing page.',
-            tech: 'NextJs, React Js, HTML5, Sass, Javascript.',
+            tech: 'NextJs, ReactJS, HTML5, Sass, Javascript.',
             url: 'https://tratamientos-medicos-co-pmqajvfj2.vercel.app/'
         },
         {
             image: require('../../assets/images/portfolio-kiero-web.jpg'),
             title: 'Kiero Marketplace',
             description: 'Online shop.',
-            tech: 'React Js, HTML5, Sass, Javascript.',
+            tech: 'ReactJS, HTML5, Sass, Javascript.',
             url: 'https://kiero.co/'
         },
         {
@@ -29,15 +29,15 @@ const Portfolio = () => {
             image: require('../../assets/images/portfolio-tigy-web.jpg'),
             title: 'Tigy web',
             description: 'Web app / Social network.',
-            tech: 'React Js, HTML5, React Router Dom, Sass, Javascript.',
+            tech: 'ReactJS, HTML5, React Router Dom, Sass, Javascript.',
             url: 'https://tigyweb.tigyapp.com/'
         },
         {
             image: require('../../assets/images/portfolio-softars-web.jpg'),
             title: 'SoftArs',
             description: 'Company website.',
-            tech: 'React Js, HTML5, Sass, Javascript.',
-            url: 'http://softars.com/'
+            tech: 'ReactJS, HTML5, Sass, Javascript.',
+            url: 'http://softars.io/'
         },
         {
             image: require('../../assets/images/portfolio-lorusso-web.jpg'),
