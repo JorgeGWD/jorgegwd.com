@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/static/media/profile-pic.17a05833.jpg"
   },
   {
-    "revision": "6b9bd09fea548c2cd21d4d7aa74c53a1",
-    "url": "/static/media/experience-bg.6b9bd09f.jpg"
-  },
-  {
     "revision": "414c2fcda54238526183d2e0649ea592",
     "url": "/static/media/bruhspainted-bg.414c2fcd.svg"
+  },
+  {
+    "revision": "6b9bd09fea548c2cd21d4d7aa74c53a1",
+    "url": "/static/media/experience-bg.6b9bd09f.jpg"
   },
   {
     "revision": "a14e51e257c9ec1dd37a42a6f96eaff5",
