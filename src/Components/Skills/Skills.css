@@ -52,7 +52,7 @@
   transition: all 0.25s;
 }
 .container .skills .skills__box section a p {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 .container .skills .skills__box section a:hover {
   color: #21729A;
@@ -93,13 +93,15 @@
   top: 90%;
 }
 .container .skills .skills__box section .experience .experience__data .data {
+  display: grid;
+  gap: 10px;
   grid-area: data;
-  display: table;
   margin: 30px 0px;
   align-self: center;
 }
 .container .skills .skills__box section .experience .experience__data .data h2 {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
+  line-height: 2rem;
 }
 .container .skills .skills__box section .experience .experience__data .data p {
   font-size: 0.9rem;
@@ -127,16 +129,18 @@
   transition: all 0.25s;
 }
 .container .skills .skills__box section .experience .experience__data .list h4 {
+  font-size: 1.6rem;
   margin-bottom: 5px;
 }
 .container .skills .skills__box section .experience .experience__data .list p {
   margin-bottom: 10px;
-  font-size: 1rem;
-  line-height: 1.3rem;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
 }
 .container .skills .skills__box section .experience .experience__data .list li {
   margin-left: 20px;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
   list-style-type: square;
 }
 .container .skills .skills__box section .experience .experience__data .experience__data__info {

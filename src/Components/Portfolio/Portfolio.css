@@ -47,7 +47,7 @@ section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__tex
 section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__text p {
   margin: 5px 0px;
   color: #21729A;
-  line-height: 1rem;
+  line-height: 1.1rem;
 }
 section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__text p span {
   color: #444;

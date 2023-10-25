@@ -79,12 +79,15 @@
                                 svg
                                     top: 90%
                         .data
+                            display: grid
+                            gap: 10px
                             grid-area: data
-                            display: table
+                            // display: table
                             margin: 30px 0px
                             align-self: center
                             h2
                                 font-size: $sub-title-size
+                                line-height: 2rem
                             p
                                 font-size: $small-size
                             &:hover
@@ -108,14 +111,16 @@
                             opacity: 1
                             transition: all .25s
                             h4
+                                font-size: 1.6rem
                                 margin-bottom: 5px
                             p
                                 margin-bottom: 10px
                                 font-size: $medium-size
-                                line-height: $paragraph-size
+                                line-height: 1.8rem
                             li
                                 margin-left: 20px
                                 font-size: $medium-size
+                                line-height: 1.8rem
                                 list-style-type: square
                         .experience__data__info
                             display: grid
