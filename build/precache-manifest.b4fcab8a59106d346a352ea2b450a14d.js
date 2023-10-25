@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "0475d79f75f76583e12e",
-    "url": "/static/css/main.c45ae953.chunk.css"
+    "revision": "140a3da51844633ff5aa",
+    "url": "/static/css/main.68454458.chunk.css"
   },
   {
-    "revision": "0475d79f75f76583e12e",
+    "revision": "140a3da51844633ff5aa",
     "url": "/static/js/main.755c3db4.chunk.js"
   },
   {
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/static/media/profile-pic.17a05833.jpg"
   },
   {
-    "revision": "414c2fcda54238526183d2e0649ea592",
-    "url": "/static/media/bruhspainted-bg.414c2fcd.svg"
-  },
-  {
     "revision": "6b9bd09fea548c2cd21d4d7aa74c53a1",
     "url": "/static/media/experience-bg.6b9bd09f.jpg"
+  },
+  {
+    "revision": "414c2fcda54238526183d2e0649ea592",
+    "url": "/static/media/bruhspainted-bg.414c2fcd.svg"
   },
   {
     "revision": "a14e51e257c9ec1dd37a42a6f96eaff5",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/portfolio-mealtohome-web.0c40a5ee.jpg"
   },
   {
-    "revision": "8b67c10fc5db4b08ce1446c1f5d51a76",
+    "revision": "5f11c1fc000ad8775cd60d0f970e9015",
     "url": "/index.html"
   }
 ];
