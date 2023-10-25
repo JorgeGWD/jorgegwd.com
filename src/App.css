@@ -16,7 +16,7 @@ code {
 }
 .container h1 {
   color: #21729A;
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: bold;
 }
 
@@ -68,5 +68,10 @@ span {
 @media screen and (max-width: 900px) {
   section {
     max-width: 100%;
+  }
+}
+@media (max-width: 870px) {
+  .container h1 {
+    font-size: 3rem;
   }
 }/*# sourceMappingURL=App.css.map */

@@ -1,18 +1,16 @@
 .typing h1 {
   color: #fff !important;
-  font-size: 3rem;
-  font-weight: lighter !important;
+  font-size: 5rem;
 }
 .typing h1 span {
   color: #fff;
-  font-size: 3rem;
-  font-weight: lighter;
+  font-size: 5rem;
+  font-weight: bold;
   font-style: italic;
 }
 
-/*@media (max-width: 600px)
- *  .typing
- *      h1
- *          font-size: 8vw
- *          span
- *              font-size: 8vw*//*# sourceMappingURL=Typing.css.map */
+@media (max-width: 870px) {
+  .typing h1 span {
+    font-size: 3rem;
+  }
+}/*# sourceMappingURL=Typing.css.map */
