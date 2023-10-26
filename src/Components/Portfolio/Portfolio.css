@@ -17,6 +17,11 @@ section.portfolio__section .portfolio__info .porfolio__data {
   position: relative;
   height: 350px;
   overflow: hidden;
+  view-timeline-name: --card;
+  view-timeline-axis: block;
+  animation-timeline: --card;
+  animation-name: cardAnimation;
+  animation-fill-mode: both;
 }
 section.portfolio__section .portfolio__info .porfolio__data img {
   width: 100%;
@@ -62,6 +67,16 @@ section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__tex
   background-color: #21729A;
 }
 
+@keyframes cardAnimation {
+  0% {
+    opacity: 0;
+    scale: 25%;
+  }
+  40% {
+    opacity: 1;
+    scale: 100%;
+  }
+}
 @media screen and (max-width: 1150px) {
   section.portfolio__section .portfolio__info.big__card {
     grid-template-columns: repeat(2, 1fr);
