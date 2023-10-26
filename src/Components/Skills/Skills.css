@@ -98,6 +98,11 @@
   grid-area: data;
   margin: 30px 0px;
   align-self: center;
+  view-timeline-name: --card;
+  view-timeline-axis: block;
+  animation-timeline: --card;
+  animation-name: dataBox;
+  animation-fill-mode: both;
 }
 .container .skills .skills__box section .experience .experience__data .data h2 {
   font-size: 1.9rem;
@@ -127,6 +132,11 @@
   color: #fff;
   opacity: 1;
   transition: all 0.25s;
+  view-timeline-name: --card;
+  view-timeline-axis: block;
+  animation-timeline: --card;
+  animation-name: dataList;
+  animation-fill-mode: both;
 }
 .container .skills .skills__box section .experience .experience__data .list h4 {
   font-size: 1.6rem;
@@ -180,6 +190,30 @@
   grid-gap: 20px;
 }
 
+@keyframes dataList {
+  0% {
+    opacity: 0;
+    scale: 25%;
+  }
+  40% {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+@keyframes dataBox {
+  0% {
+    opacity: 0;
+    scale: 25%;
+  }
+  20% {
+    transform: rotateX(90deg);
+  }
+  40% {
+    opacity: 1;
+    scale: 100%;
+    transform: rotateX(0deg);
+  }
+}
 @media screen and (max-width: 750px) {
   .container .skills .skills__box section .experience .experience__data {
     grid-template-columns: 1fr;

@@ -85,6 +85,12 @@
                             // display: table
                             margin: 30px 0px
                             align-self: center
+                            view-timeline-name: --card
+                            view-timeline-axis: block
+                            animation-timeline: --card
+                            // animation: dataBox .5s ease
+                            animation-name: dataBox
+                            animation-fill-mode: both
                             h2
                                 font-size: $sub-title-size
                                 line-height: 2rem
@@ -110,6 +116,12 @@
                             color: #fff
                             opacity: 1
                             transition: all .25s
+                            view-timeline-name: --card
+                            view-timeline-axis: block
+                            animation-timeline: --card
+                            // animation: dataList .5s ease
+                            animation-name: dataList
+                            animation-fill-mode: both
                             h4
                                 font-size: 1.6rem
                                 margin-bottom: 5px
@@ -152,7 +164,26 @@
                     display: grid
                     grid-template-rows: repeat(4,auto)
                     grid-gap: 20px
-        
+
+@keyframes dataList 
+    0%
+        opacity: 0
+        scale: 25%
+    40%
+        opacity: 1
+        scale: 100%
+
+@keyframes dataBox 
+    0%
+        opacity: 0
+        scale: 25%
+    20%
+        transform: rotateX(90deg)
+    40%
+        opacity: 1
+        scale: 100%
+        transform: rotateX(0deg)
+
 @media screen and ( max-width: 750px )
     .container
         .skills
