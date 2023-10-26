@@ -10,7 +10,7 @@ body
 
 html
     scroll-behavior: smooth
-    
+
 code
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace
 
@@ -28,6 +28,13 @@ section
     padding: 50px 20px
     margin: auto
     max-width: 70%
+    h1
+        view-timeline-name: --card
+        view-timeline-axis: block
+        animation-timeline: --card
+        // animation: mainTitle .5s ease
+        animation-name: mainTitle
+        animation-fill-mode: both
 
 h1, h2, h3, h4, h5, h6, p, li
     font-weight: lighter
@@ -60,6 +67,15 @@ span
 
 .contact__anchor
     display: contents
+
+@keyframes mainTitle 
+    0%
+        opacity: 0
+        // scale: 25%
+        transform: translate(-200px, 0px)
+    40%
+        opacity: 1
+        transform: translate(0px, 0px)
 
 @media screen and ( max-width: 900px )
     section

@@ -29,6 +29,13 @@ section {
   margin: auto;
   max-width: 70%;
 }
+section h1 {
+  view-timeline-name: --card;
+  view-timeline-axis: block;
+  animation-timeline: --card;
+  animation-name: mainTitle;
+  animation-fill-mode: both;
+}
 
 h1, h2, h3, h4, h5, h6, p, li {
   font-weight: lighter;
@@ -69,6 +76,16 @@ span {
   display: contents;
 }
 
+@keyframes mainTitle {
+  0% {
+    opacity: 0;
+    transform: translate(-200px, 0px);
+  }
+  40% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
 @media screen and (max-width: 900px) {
   section {
     max-width: 100%;
