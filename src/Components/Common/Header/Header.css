@@ -4,7 +4,6 @@ header {
   width: 100%;
   height: 100px;
   transition: all 0.2s;
-  animation: header 0.5s ease;
 }
 header.sticky {
   background-color: rgba(33, 114, 154, 0.85);
@@ -17,6 +16,7 @@ header .main__header {
   grid-template-columns: 1fr auto;
   grid-gap: 15px;
   padding: 20px 15px;
+  animation: header 0.5s ease;
 }
 
 @keyframes header {
