@@ -28,6 +28,13 @@
 .contact.content .contact__box section.contact__section h1 {
   color: #fff;
 }
+.contact.content .contact__box section.contact__section h1.top-down {
+  view-timeline-name: --card;
+  view-timeline-axis: block;
+  animation-timeline: --card;
+  animation-name: contactTitle;
+  animation-fill-mode: both;
+}
 .contact.content .contact__box section.contact__section h3, .contact.content .contact__box section.contact__section h4 {
   font-weight: lighter;
 }
@@ -50,6 +57,16 @@
   margin-top: 10px;
 }
 
+@keyframes contactTitle {
+  0% {
+    opacity: 0;
+    transform: translate(0px, -100px);
+  }
+  40% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
 @media screen and (max-width: 550px) {
   .container .contact.content .contact__box section.contact__section .contact__data__box {
     grid-template-columns: 1fr;

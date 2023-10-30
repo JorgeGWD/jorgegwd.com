@@ -17,7 +17,7 @@ const Contact = () => {
             <div className="contact content">
                 <div className="contact__box">
                     <section className="contact__section">
-                        <h1>Contact</h1>
+                        <h1 className='top-down'>Contact</h1>
                         <a className="contact__anchor" href="mailto:jorge.rodriguez.r@gmail.com"><Button className={"ghost__btn"} onClick={{/*openModal*/}} text="Let's talk" /></a>
                         {/*
                             open ? (

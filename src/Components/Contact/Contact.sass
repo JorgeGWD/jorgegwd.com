@@ -27,6 +27,13 @@
             grid-gap: 5vmin
             h1
                 color: #fff
+                &.top-down
+                    view-timeline-name: --card
+                    view-timeline-axis: block
+                    animation-timeline: --card
+                    // animation: contactTitle .5s ease
+                    animation-name: contactTitle
+                    animation-fill-mode: both
             h3, h4
                 font-weight: lighter
             .contact__data__box
@@ -43,6 +50,15 @@
                         grid-template-columns: auto 1fr
                         grid-gap: 15px
                         margin-top: 10px
+
+@keyframes contactTitle 
+    0%
+        opacity: 0
+        // scale: 25%
+        transform: translate(0px, -100px)
+    40%
+        opacity: 1
+        transform: translate(0px, 0px)
 
 @media screen and ( max-width: 550px )
     .container
