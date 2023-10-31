@@ -35,6 +35,7 @@ section.portfolio__section .portfolio__info .porfolio__data:hover .porfolio__dat
 }
 section.portfolio__section .portfolio__info .porfolio__data.box {
   padding: 0px;
+  border-radius: 1rem;
 }
 section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__text {
   z-index: 10;
