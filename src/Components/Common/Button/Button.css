@@ -2,6 +2,7 @@ button {
   margin: auto;
   border-radius: 1rem;
   cursor: pointer;
+  animation: button 0.5s ease;
 }
 button p {
   font-size: 1.1rem;
@@ -24,4 +25,15 @@ button.ghost__btn:hover {
   color: #21729A;
   background-color: #fff;
   transition: all 0.25s;
+}
+
+@keyframes button {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
 }/*# sourceMappingURL=Button.css.map */

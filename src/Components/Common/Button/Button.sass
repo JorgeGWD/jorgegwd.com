@@ -4,6 +4,7 @@ button
     margin: auto
     border-radius: $radius-big
     cursor: pointer
+    animation: button .5s ease
     p
         font-size: $medium-size
     &.primary__btn
@@ -22,3 +23,11 @@ button
             color: $soft-blue
             background-color: #fff
             transition: all .25s
+
+@keyframes button
+    0%
+        opacity: 0
+        transform: translateY(-50px) scale(0.9)
+    100%
+        opacity: 1
+        transform: translateY(0px) scale(1)
