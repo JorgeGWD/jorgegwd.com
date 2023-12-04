@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./Skills.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDesktop, faBuilding, faCalendarAlt, faMapMarker } from "@fortawesome/free-solid-svg-icons"
+import Button from '../Common/Button/Button'
 
 const Skills = () => {
 
@@ -173,7 +174,8 @@ const Skills = () => {
                                 }
                             </div>
                         </div>
-                        <a className="ghost__btn" href="https://drive.google.com/file/d/1Qrl6tbWGN312WsRu5VLBTmb9256VXfOA/view?usp=drive_link" target="_blank" rel="noopener noreferrer" ><p>Download CV</p></a>
+                        
+                        <a className="ghost__btn" href="https://drive.google.com/file/d/1Qrl6tbWGN312WsRu5VLBTmb9256VXfOA/view?usp=drive_link" target="_blank" rel="noopener noreferrer" ><Button className='ghost__btn' text='Download CV'/></a>
                     </section>
                 </div>
             </div>

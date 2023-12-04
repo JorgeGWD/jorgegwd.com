@@ -45,20 +45,6 @@
 }
 .container .skills .skills__box section a {
   margin: auto;
-  padding: 15px 40px;
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #fff;
-  transition: all 0.25s;
-  border-radius: 1rem;
-}
-.container .skills .skills__box section a p {
-  font-size: 1.1rem;
-}
-.container .skills .skills__box section a:hover {
-  color: #21729A;
-  background-color: #fff;
-  transition: all 0.25s;
 }
 .container .skills .skills__box section .experience {
   display: grid;
