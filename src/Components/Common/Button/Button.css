@@ -1,10 +1,14 @@
 button {
+  position: relative;
   margin: auto;
   border-radius: 1rem;
   cursor: pointer;
   animation: button 0.5s ease;
+  overflow: hidden;
 }
 button p {
+  z-index: 1;
+  position: relative;
   font-size: 1.1rem;
 }
 button.primary__btn {
@@ -21,10 +25,26 @@ button.ghost__btn {
   border: 1px solid #fff;
   transition: all 0.25s;
 }
-button.ghost__btn:hover {
-  color: #21729A;
+button.ghost__btn::after {
+  content: "";
+  position: absolute;
+  top: -25%;
+  left: 48%;
+  width: 10px;
+  height: 100px;
+  z-index: 0;
+  transform: rotate(15deg);
   background-color: #fff;
   transition: all 0.25s;
+  opacity: 0;
+}
+button.ghost__btn:hover {
+  color: #21729A;
+  transition: all 0.25s;
+}
+button.ghost__btn:hover::after {
+  transform: rotate(15deg) scale(29, 2);
+  opacity: 1;
 }
 
 @keyframes button {
