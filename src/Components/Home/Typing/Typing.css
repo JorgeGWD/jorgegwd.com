@@ -6,10 +6,12 @@
   font-size: 5rem;
 }
 .typing h1 span {
-  color: #fff;
   font-size: 5rem;
   font-weight: bold;
   font-style: italic;
+  background: linear-gradient(to left, #E67E22, #F4D03F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @keyframes typing {
