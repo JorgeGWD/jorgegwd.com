@@ -14,7 +14,11 @@
 }
 .codes ul li a {
   color: #fff;
+  transition: 0.2s linear all;
 }
 .codes ul li a i {
   font-size: 1.5rem;
+}
+.codes ul li a:hover {
+  color: #E67E22;
 }/*# sourceMappingURL=Codes.css.map */
