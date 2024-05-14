@@ -61,6 +61,9 @@ span {
   font-size: 1.3rem;
   color: #21729A;
   font-weight: 400;
+  background: linear-gradient(to left, #E67E22, #F4D03F);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .box {
