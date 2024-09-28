@@ -22,7 +22,7 @@ const Skills = () => {
             {
                 title: "Frontend Developer",
                 company: "Tita Media",
-                date: "March 2021 - June 2021",
+                date: "January 2021 - June 2021",
                 functions: {
                     description: "Develop solutions adapted to customer needs.",
                     details:    "<li>Convert an outdated frontend architecture into easy-to-read components using ReactJS for the VTEX platform.</li>"+
