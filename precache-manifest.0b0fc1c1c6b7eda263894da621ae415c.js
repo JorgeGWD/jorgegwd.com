@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "16f31799b8cdd3b58194",
+    "revision": "f2456a631e3fe5764623",
     "url": "/jorgegwd-web/static/css/main.d37352cf.chunk.css"
   },
   {
-    "revision": "16f31799b8cdd3b58194",
-    "url": "/jorgegwd-web/static/js/main.c0e0ed6c.chunk.js"
+    "revision": "f2456a631e3fe5764623",
+    "url": "/jorgegwd-web/static/js/main.830a20bb.chunk.js"
   },
   {
     "revision": "a2d0775c58fa290df0a0",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/jorgegwd-web/static/media/portfolio-mealtohome-web.0c40a5ee.jpg"
   },
   {
-    "revision": "27fb103bb853d57b21b5b8e94a8ec5a4",
+    "revision": "6b2b81e07ed1004d3beaef55d2fe9836",
     "url": "/jorgegwd-web/index.html"
   }
 ];
