@@ -15,7 +15,7 @@ const Home = () => {
             <div className="home__content">
                 <div className="home__box">
                     <Typing />
-                    <a className="contact__anchor" href="mailto:jorge.rodriguez.r@gmail.com"><Button className={"ghost__btn"} onClick={{/*openModal*/}} text="Tell me about your project" /></a>
+                    <a className="contact__anchor" href="mailto:jorge.rodriguez.r@gmail.com"><Button className={"ghost__btn"} text="Tell me about your project" /></a>
                     {/*
                         open ? (
                             <Modal
