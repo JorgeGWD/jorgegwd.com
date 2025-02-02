@@ -11,12 +11,12 @@ const Skills = () => {
             {
                 title: "Web UI Developer",
                 company: "Globant",
-                date: "June 2022 - June 2023",
+                date: "June 2022 - July 2023",
                 functions: {
                     description: "Integrate directly into the client's team and work alongside their existing designers and engineers daily.",
-                    details:    "<li>Take control of designing and implementing solutions for the most complex areas of the team's codebase in all phases of the software development lifecycle.</li>"+
-                                "<li>Represent the team in technical discussions with team leads, product, design, and all other external stakeholders.</li>"+
-                                "<li>Collaborate closely with DevOps/DevSuccess to drive iterative improvements to your team's build system, test automation, and CI/CD pipelines.</li>"
+                    details:    "<li>Developed an online magazine using NextJS.</li>"+
+                                "<li>Supported the implementation of CI/CD practices, reducing delivery times and increasing error mitigation efficiency.</li>"+
+                                "<li>Implemented web performance optimizations, achieving improved display and loading times.</li>"
                 }
             },
             {
@@ -25,9 +25,9 @@ const Skills = () => {
                 date: "January 2021 - June 2021",
                 functions: {
                     description: "Develop solutions adapted to customer needs.",
-                    details:    "<li>Convert an outdated frontend architecture into easy-to-read components using ReactJS for the VTEX platform.</li>"+
-                                "<li>Optimize VTEX load.</li>"+
-                                "<li>Adjust the layout for WordPress.</li>"
+                    details:    "<li>Created ReactJS components for VTEX, significantly improving development efficiency across projects.</li>"+
+                                "<li>Enhanced the loading time and efficiency of web products through file compression and image optimization.</li>"+
+                                "<li>Designed and built client websites using WordPress.</li>"
                 }
             },
             {
@@ -36,44 +36,43 @@ const Skills = () => {
                 date: "December 2019 - March 2020",
                 functions: {
                     description: "Work with the UI/UX designer to study the technical implementation and include the translation of design wireframes into actual code that will produce visual elements of the application.",
-                    details:    "<li>Create reusable code and libraries for future use.</li>"+
-                                "<li>Optimize the application for maximum speed and scalability.</li>"+
-                                "<li>Make sure all user input is validated before sending it to the backend.</li>"+
-                                "<li>Connect the API to the application.</li>"
+                    details:    "<li>Developed a component library with React Native for a new Android and iOS platform.</li>"+
+                                "<li>Collaborated with UX/UI designers and backend developers to resolve issues and improve site functionality.</li>"
                 }
             },
             {
-                title: "Frontend / Development Lead",
+                title: "Frontend / Development Leader",
                 company: "SoftArs",
                 date: "April 2018 - April 2019",
                 functions: {
                     description: "Lead efforts to develop and design frontend applications, web user interfaces, standalone websites, and the tools to navigate websites.",
-                    details:    "<li>Make frontend decisions: technology, methodology, architecture.</li>"+
-                                "<li>Team management and workflow development.</li>"+
-                                "<li>Participate in discussions regarding development scoping, creative review, and UI/UX.</li>"+
-                                "<li>Lead code review with other developers.</li>"
-                }
-            },
-            {
-                title: "Frontend / Development Lead",
-                company: "Minami Digital",
-                date: "October 2017 - April 2018",
-                functions: {
-                    description: "Develop web layout according to the design approved by the client.",
-                    details:    "<li>Use CMS (WordPress).</li>"+
-                                "<li>Use ReactJS to create a dashboard for Aera.</li>"
+                    details:    "<li>Lead a team of developers, assigning tasks and fostering a collaborative environment to boost productivity."+
+                                "<li>Coordinated with design, marketing, and product management teams to align technological efforts with strategic objectives.</li>"+
+                                "<li>Utilized Agile methodologies for efficient project planning and delivery, ensuring timely completion of tasks.</li>"+
+                                "<li>Conducted code reviews to ensure quality and maintainability.</li>"
                 }
             },
             {
                 title: "Frontend Developer",
+                company: "Minami Design",
+                date: "October 2017 - April 2018",
+                functions: {
+                    description: "Develop web layout according to the design approved by the client.",
+                    details:    "<li>Built the company's primary website using WordPress.</li>"+
+                                "<li>Use ReactJS to create a dashboard for Aera.</li>"+
+                                "<li>Created a dashboard for the Aera client using ReactJS.</li>"
+                }
+            },
+            {
+                title: "Web Developer",
                 company: "Lear Express",
                 date: "October 2014 - August 2015",
                 functions: {
                     description: "Redesign the website and web API, achieving a more friendly and intuitive design for users of the company's service. In addition to using analysis tools to optimize loading times and improve SEO management.",
-                    details:    "<li>Use CMS (WordPress) for better content management and modification.</li>"+
-                                "<li>Use and modify plugins.</li>"+
-                                "<li>Analyze and optimize SEO.</li>"+
-                                "<li>Implement responsive design.</li>"
+                    details:    "<li>Develop and maintain the company's main website using WordPress.</li>"+
+                                "<li>Applied SEO practices to enhance site visibility.</li>"+
+                                "<li>Optimized responsiveness for diverse devices and screen sizes.</li>"+
+                                "<li>Collaborated with the backend team, performing tasks in PHP.</li>"
                 }
             },
             {
@@ -82,11 +81,8 @@ const Skills = () => {
                 date: "July 2013 - September 2014",
                 functions: {
                     description: "Develop a portal for the dissemination of news about the works, events, and achievements of the foundation. Implement a digital material distribution system for national teacher training.",
-                    details:    "<li>Create digital platforms using a CMS (Joomla).</li>"+
-                                "<li>Use and modify plugins for news and event management.</li>"+
-                                "<li>Use SEO to position both portals.</li>"+
-                                "<li>Analyze the user system.</li>"+
-                                "<li>Analyze and categorize content.</li>"
+                    details:    "<li>Led the development of a teacher education portal, providing access to educational materials such as PDFs and videos.</li>"+
+                                "<li>Use and modify add-ons and plugins for web portal management.</li>"
                 }
             },
             {
@@ -95,9 +91,8 @@ const Skills = () => {
                 date: "August 2010 - September 2011",
                 functions: {
                     description: "Design and develop the company's website, creating a catalog to offer their products and services.",
-                    details:    "<li>Layout in HTML and layout in CSS and JavaScript.</li>"+
-                                "<li>Implement a CMS (Joomla) to create a catalog of products and services.</li>"+
-                                "<li>Using and modifying plugins.</li>"
+                    details:    "<li>Developed an e-commerce platform using Joomla.</li>"+
+                                "<li>Customized plugins using PHP to meet development needs."
                 }
             }
     ])
@@ -175,7 +170,7 @@ const Skills = () => {
                             </div>
                         </div>
                         
-                        <a className="ghost__btn" href="https://drive.google.com/file/d/1Qrl6tbWGN312WsRu5VLBTmb9256VXfOA/view?usp=drive_link" target="_blank" rel="noopener noreferrer" ><Button className='ghost__btn' text='Download CV'/></a>
+                        <a className="ghost__btn" href="https://drive.google.com/file/d/1SUGgcBcXiTxnV_5QTiiA9Gk_5YSzhTaa/view?usp=drive_link" target="_blank" rel="noopener noreferrer" ><Button className='ghost__btn' text='Download CV'/></a>
                     </section>
                 </div>
             </div>
