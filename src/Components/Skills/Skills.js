@@ -104,7 +104,7 @@ const Skills = () => {
                 skills: "Visual Studio Code, Sublime Text, Git (Github, Bitbucket, Gitlab), Jira, Trello, Slack."
             },
             {
-                title: "Languajes",
+                title: "Languages",
                 skills: "Javascript, PHP, HTML/5, CSS/3, Bash."
             },
             {
