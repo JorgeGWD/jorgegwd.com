@@ -1,14 +1,11 @@
 {
   "files": {
     "main.css": "/jorgegwd-web/static/css/main.f8ab4d83.css",
-<<<<<<< HEAD
     "main.js": "/jorgegwd-web/static/js/main.b591f833.js",
     "static/media/experience-bg.jpg": "/jorgegwd-web/static/media/experience-bg.3fc5119e6405767ebc45.jpg",
-=======
     "main.js": "/jorgegwd-web/static/js/main.99c3d44a.js",
     "static/media/experience-bg.jpg": "/jorgegwd-web/static/media/experience-bg.3fc5119e6405767ebc45.jpg",
     "static/media/portfolio-comfama-magazine.jpg": "/jorgegwd-web/static/media/portfolio-comfama-magazine.a8f8d38bed6d00fb790c.jpg",
->>>>>>> 79dbfc3e8565f9ecd1abbd7924d2ee198d190909
     "static/media/portfolio-konvergy-web.jpg": "/jorgegwd-web/static/media/portfolio-konvergy-web.05dc7be2814027f1ba73.jpg",
     "static/media/bruhspainted-bg.svg": "/jorgegwd-web/static/media/bruhspainted-bg.6afd56e38a41dd4e8b4e.svg",
     "static/media/profile-pic.jpg": "/jorgegwd-web/static/media/profile-pic.2029d665a03df1993b6a.jpg",
@@ -21,26 +18,15 @@
     "static/media/portfolio-equifax-web.jpg": "/jorgegwd-web/static/media/portfolio-equifax-web.8a5dea7b1d19e75ab19b.jpg",
     "static/media/portfolio-lorusso-web.jpg": "/jorgegwd-web/static/media/portfolio-lorusso-web.7005fe104e0814559818.jpg",
     "static/media/portfolio-laika-app.jpg": "/jorgegwd-web/static/media/portfolio-laika-app.14bc65176e1f5aca5270.jpg",
-<<<<<<< HEAD
     "static/media/portfolio-softars-web.jpg": "/jorgegwd-web/static/media/portfolio-softars-web.c67fb318335947c69d8a.jpg",
-=======
->>>>>>> 79dbfc3e8565f9ecd1abbd7924d2ee198d190909
     "static/media/portfolio-tigy-web.jpg": "/jorgegwd-web/static/media/portfolio-tigy-web.73aa3062277155bac522.jpg",
     "static/media/logo.svg": "/jorgegwd-web/static/media/logo.8a899c2128d14202d5ba71f91f9ab060.svg",
     "index.html": "/jorgegwd-web/index.html",
     "main.f8ab4d83.css.map": "/jorgegwd-web/static/css/main.f8ab4d83.css.map",
-<<<<<<< HEAD
     "main.b591f833.js.map": "/jorgegwd-web/static/js/main.b591f833.js.map"
   },
   "entrypoints": [
     "static/css/main.f8ab4d83.css",
     "static/js/main.b591f833.js"
-=======
-    "main.99c3d44a.js.map": "/jorgegwd-web/static/js/main.99c3d44a.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.f8ab4d83.css",
-    "static/js/main.99c3d44a.js"
->>>>>>> 79dbfc3e8565f9ecd1abbd7924d2ee198d190909
   ]
 }
