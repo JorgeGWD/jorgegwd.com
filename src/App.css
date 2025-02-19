@@ -35,9 +35,6 @@ section h1 {
   animation-timeline: --card;
   animation-name: mainTitle;
   animation-fill-mode: both;
-  background: linear-gradient(to left, #E67E22, #F4D03F);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 }
 
 h1, h2, h3, h4, h5, h6, p, li {
@@ -61,9 +58,6 @@ span {
   font-size: 1.3rem;
   color: #21729A;
   font-weight: 400;
-  background: linear-gradient(to left, #E67E22, #F4D03F);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
 }
 
 .box {
