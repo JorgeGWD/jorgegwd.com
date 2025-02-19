@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jorgegwd-web/static/css/main.f8ab4d83.css",
+    "main.css": "/jorgegwd-web/static/css/main.66484830.css",
     "main.js": "/jorgegwd-web/static/js/main.e10c06cd.js",
     "static/media/experience-bg.jpg": "/jorgegwd-web/static/media/experience-bg.3fc5119e6405767ebc45.jpg",
     "static/media/portfolio-comfama-magazine.jpg": "/jorgegwd-web/static/media/portfolio-comfama-magazine.a8f8d38bed6d00fb790c.jpg",
@@ -19,11 +19,11 @@
     "static/media/portfolio-tigy-web.jpg": "/jorgegwd-web/static/media/portfolio-tigy-web.73aa3062277155bac522.jpg",
     "static/media/logo.svg": "/jorgegwd-web/static/media/logo.8a899c2128d14202d5ba71f91f9ab060.svg",
     "index.html": "/jorgegwd-web/index.html",
-    "main.f8ab4d83.css.map": "/jorgegwd-web/static/css/main.f8ab4d83.css.map",
+    "main.66484830.css.map": "/jorgegwd-web/static/css/main.66484830.css.map",
     "main.e10c06cd.js.map": "/jorgegwd-web/static/js/main.e10c06cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8ab4d83.css",
+    "static/css/main.66484830.css",
     "static/js/main.e10c06cd.js"
   ]
 }
