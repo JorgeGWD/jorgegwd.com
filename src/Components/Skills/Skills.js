@@ -118,7 +118,7 @@ const Skills = () => {
     ])
 
     return (
-        <div className="container">
+        <div className="container" id='experience'>
             <div className="skills content">
                 <div className="skills__box">
                     <section>

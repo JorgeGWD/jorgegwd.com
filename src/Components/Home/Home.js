@@ -11,7 +11,7 @@ const Home = () => {
     // const { open, openModal, closeModal } = useModal()
 
     return (
-        <div className="container">
+        <div className="container" id='home'>
             <div className="home__content">
                 <div className="home__box">
                     <Typing />

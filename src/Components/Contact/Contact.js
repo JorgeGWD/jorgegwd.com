@@ -13,7 +13,7 @@ const Contact = () => {
     // const { open, openModal, closeModal } = useModal()
 
     return (
-        <div className="container">
+        <div className="container" id='contact'>
             <div className="contact content">
                 <div className="contact__box">
                     <section className="contact__section">
