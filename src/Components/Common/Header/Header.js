@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import './Header.css'
 import Logo from './Logo/Logo'
+import Navbar from './Navbar/Navbar'
 import Codes from './Codes/Codes'
 
 const Header = () => {
@@ -34,6 +35,7 @@ const Header = () => {
     <header className={`header${sticky.isSticky ? ' sticky' : ''}`} ref={ref}>
         <div className="main__header">
             <Logo />
+            <Navbar />
             <Codes />
         </div>
     </header>
