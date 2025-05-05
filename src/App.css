@@ -29,6 +29,7 @@ section {
   margin: auto;
   max-width: 70%;
 }
+
 section h1 {
   view-timeline-name: --card;
   view-timeline-axis: block;

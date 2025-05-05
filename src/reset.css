@@ -1,10 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 h1, h2, h3, h4, h5, h6, p, ul, ol, li, span {
     margin: 0px;
     padding: 0px;
 }
 
 a {
-    text-decoration: none
+    text-decoration: none;
+    color: white
 }
 
 input:focus, textarea:focus, select:focus, button:focus {
