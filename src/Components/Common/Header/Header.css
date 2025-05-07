@@ -22,6 +22,9 @@ header .main__header {
   justify-content: space-between;
   padding: 20px 15px;
 }
+header .main__header nav label img {
+  width: 1.5rem;
+}
 
 @keyframes header {
   0% {

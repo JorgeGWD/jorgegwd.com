@@ -1,7 +1,60 @@
+@import ../../../../_variables
+
 nav
+    position: relative
     display: flex
+    justify-content: center
     align-self: center
-    gap: 20px
     padding: 0 20px
-    text-transform: uppercase
-    font-size: 1rem
+    width: 100%
+    .navbar__content-menu
+        display: flex
+        gap: 20px
+        text-transform: uppercase
+        font-size: 1rem
+    label
+        display: none
+        cursor: pointer
+        img
+            position: absolute
+            top: -10px
+            right: 30px
+            width: 1.5rem
+
+@media screen and (max-width: 768px)
+    nav
+        .navbar__content-menu
+            z-index: 0
+            position: absolute
+            top: 46px
+            right: -90px
+            flex-direction: column
+            width: 100vw
+            height: 0px
+            padding: 0 20px
+            overflow: hidden
+            background-color: rgba($soft-blue, .85)
+            backdrop-filter: blur(5px)
+            background: -moz-linear-gradient(to right, rgba($soft-blue, 1), rgba($soft-blue, 1))
+            transition: 0.3s
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1)
+        label
+            display: flex
+            img.close-menu
+                opacity: 0
+    
+input#check:checked ~ .navbar__content-menu
+    padding: 20px
+    height: auto
+    img.close-menu
+        opacity: 1
+    img.open-menu 
+        opacity: 0
+
+input#check:checked ~ .navbar__content-checkbtn img.open-menu
+    opacity: 0
+    transform: rotate(180deg)
+
+input#check:checked ~ .navbar__content-checkbtn img.close-menu
+    opacity: 1
+    transform: rotate(180deg)
