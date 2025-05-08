@@ -27,7 +27,7 @@ code {
 section {
   padding: 50px 20px;
   margin: auto;
-  max-width: 70%;
+  width: clamp(300px, 95%, 1200px);
 }
 
 section h1 {
