@@ -8,7 +8,7 @@ nav {
 }
 nav .navbar__content-menu {
   display: flex;
-  gap: 20px;
+  gap: 50px;
   text-transform: uppercase;
   font-size: 1rem;
 }
