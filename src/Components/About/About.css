@@ -9,7 +9,16 @@
   grid-template-areas: "description pic";
   grid-gap: 20px;
 }
+.about section .section__content .profile__description {
+  grid-area: description;
+}
+.about section .section__content .profile__description .data__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 .about section .section__content .profile__pic {
+  grid-area: pic;
   text-align: center;
 }
 .about section .section__content .profile__pic img {
@@ -21,18 +30,6 @@
 }
 .about section .section__content .profile__pic p {
   line-height: 45px;
-}
-
-.profile__description {
-  grid-area: description;
-}
-.profile__description .data-text {
-  display: grid;
-  grid-gap: 20px;
-}
-
-.profile__pic {
-  grid-area: pic;
 }
 
 @media screen and (max-width: 850px) {
