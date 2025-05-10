@@ -1,78 +1,80 @@
 @import ../../_variables
 
-section.portfolio__section
-    display: grid
-    grid-template-rows: repeat(3,auto)
-    grid-gap: 5vmin
-    .portfolio__info
+.portfolio
+    padding: 50px 0px
+    .portfolio__section
         display: grid
+        grid-template-rows: repeat(3,auto)
         grid-gap: 5vmin
-        &.big__card
-            grid-template-columns: repeat(3,1fr)
-        &.small__card
-            grid-template-columns: repeat(4,1fr)
-        .porfolio__data
-            position: relative
-            // display: grid
-            // grid-template-row: 28vh 1fr
-            // grid-gap: 20px
-            height: 350px
-            overflow: hidden
-            view-timeline-name: --card
-            view-timeline-axis: block
-            animation-timeline: --card
-            // animation: cardAnimation .5s ease
-            animation-name: cardAnimation
-            animation-fill-mode: both
-            img
-                width: 100%
-                transition: all 3.5s
-            &:hover
+        .portfolio__info
+            display: grid
+            grid-gap: 5vmin
+            &.big__card
+                grid-template-columns: repeat(3,1fr)
+            &.small__card
+                grid-template-columns: repeat(4,1fr)
+            .porfolio__data
+                position: relative
+                // display: grid
+                // grid-template-row: 28vh 1fr
+                // grid-gap: 20px
+                height: 300px
+                overflow: hidden
+                view-timeline-name: --card
+                view-timeline-axis: block
+                animation-timeline: --card
+                // animation: cardAnimation .5s ease
+                animation-name: cardAnimation
+                animation-fill-mode: both
                 img
-                    transform: translateY(calc( -100% + 350px ))
-                & .porfolio__data__text
-                    bottom: 0%
-            &.box
-                padding: 0px
-                // max-height: 200px
-                border-radius: $radius-big
-            .porfolio__data__img
-                // max-height: 200px
-                // overflow: hidden
-                img
-                    // margin: -20px
-                    // width: 100%
-                    // height: auto
-                    // transition: all 5s
-            .porfolio__data__text
-                z-index: 10
-                position: absolute
-                right: 0px
-                bottom: -100%
-                padding: 20px
-                width: 100%
-                // align-self: center
-                background-color: rgba(255, 255, 255, .9)
-                background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))
-                backdrop-filter: blur(5px)
-                transition: all .5s
-                p
-                    margin: 5px 0px
-                    color: $soft-blue
-                    line-height: $medium-size
-                    span
-                        color: $soft-gray
-                        font-size: $small-size
-                a
-                    border-radius: $radius-small
+                    width: 100%
+                    transition: all 3.5s
+                &:hover
+                    img
+                        transform: translateY(calc( -100% + 350px ))
+                    & .porfolio__data__text
+                        bottom: 0%
+                &.box
+                    padding: 0px
+                    // max-height: 200px
+                    border-radius: $radius-big
+                .porfolio__data__img
+                    // max-height: 200px
+                    // overflow: hidden
+                    img
+                        // margin: -20px
+                        // width: 100%
+                        // height: auto
+                        // transition: all 5s
+                .porfolio__data__text
+                    z-index: 10
+                    position: absolute
+                    right: 0px
+                    bottom: -100%
+                    padding: 20px
+                    width: 100%
+                    // align-self: center
+                    background-color: rgba(255, 255, 255, .9)
+                    background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))
+                    backdrop-filter: blur(5px)
+                    transition: all .5s
                     p
-                        display: inline
-                        padding: 5px 10px
-                        color: #fff
-                        font-size: 12px
-                        line-height: 14px
-                        background-color: $soft-blue
+                        margin: 5px 0px
+                        color: $soft-blue
+                        line-height: $medium-size
+                        span
+                            color: $soft-gray
+                            font-size: $small-size
+                    a
                         border-radius: $radius-small
+                        p
+                            display: inline
+                            padding: 5px 10px
+                            color: #fff
+                            font-size: 12px
+                            line-height: 14px
+                            background-color: $soft-blue
+                            border-radius: $radius-small
 
 @keyframes cardAnimation 
     0%
@@ -83,20 +85,24 @@ section.portfolio__section
         scale: 100%
 
 @media screen and ( max-width: 1150px )
-    section.portfolio__section
-        .portfolio__info
-            &.big__card
-                grid-template-columns: repeat(2,1fr)
-            &.small__card
-                grid-template-columns: repeat(2,1fr)
-            .porfolio__data
-                .porfolio__data__text
-                    bottom: 0%
+    .portfolio
+        padding: 50px 0px
+        .portfolio__section
+            .portfolio__info
+                &.big__card
+                    grid-template-columns: repeat(2,1fr)
+                &.small__card
+                    grid-template-columns: repeat(2,1fr)
+                .porfolio__data
+                    height: 350px
+                    .porfolio__data__text
+                        bottom: 0%
 
 @media screen and ( max-width: 500px )
-    section.portfolio__section
-        .portfolio__info
-            &.big__card
-                grid-template-columns: 1fr
-            &.small__card
-                grid-template-columns: 1fr
+    .portfolio
+        .portfolio__section
+            .portfolio__info
+                &.big__card
+                    grid-template-columns: 1fr
+                &.small__card
+                    grid-template-columns: 1fr

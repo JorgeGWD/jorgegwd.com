@@ -1,21 +1,24 @@
-section.portfolio__section {
+.portfolio {
+  padding: 50px 0px;
+}
+.portfolio .portfolio__section {
   display: grid;
   grid-template-rows: repeat(3, auto);
   grid-gap: 5vmin;
 }
-section.portfolio__section .portfolio__info {
+.portfolio .portfolio__section .portfolio__info {
   display: grid;
   grid-gap: 5vmin;
 }
-section.portfolio__section .portfolio__info.big__card {
+.portfolio .portfolio__section .portfolio__info.big__card {
   grid-template-columns: repeat(3, 1fr);
 }
-section.portfolio__section .portfolio__info.small__card {
+.portfolio .portfolio__section .portfolio__info.small__card {
   grid-template-columns: repeat(4, 1fr);
 }
-section.portfolio__section .portfolio__info .porfolio__data {
+.portfolio .portfolio__section .portfolio__info .porfolio__data {
   position: relative;
-  height: 350px;
+  height: 300px;
   overflow: hidden;
   view-timeline-name: --card;
   view-timeline-axis: block;
@@ -23,21 +26,21 @@ section.portfolio__section .portfolio__info .porfolio__data {
   animation-name: cardAnimation;
   animation-fill-mode: both;
 }
-section.portfolio__section .portfolio__info .porfolio__data img {
+.portfolio .portfolio__section .portfolio__info .porfolio__data img {
   width: 100%;
   transition: all 3.5s;
 }
-section.portfolio__section .portfolio__info .porfolio__data:hover img {
+.portfolio .portfolio__section .portfolio__info .porfolio__data:hover img {
   transform: translateY(calc(-100% + 350px));
 }
-section.portfolio__section .portfolio__info .porfolio__data:hover .porfolio__data__text {
+.portfolio .portfolio__section .portfolio__info .porfolio__data:hover .porfolio__data__text {
   bottom: 0%;
 }
-section.portfolio__section .portfolio__info .porfolio__data.box {
+.portfolio .portfolio__section .portfolio__info .porfolio__data.box {
   padding: 0px;
   border-radius: 1rem;
 }
-section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__text {
+.portfolio .portfolio__section .portfolio__info .porfolio__data .porfolio__data__text {
   z-index: 10;
   position: absolute;
   right: 0px;
@@ -50,19 +53,19 @@ section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__tex
           backdrop-filter: blur(5px);
   transition: all 0.5s;
 }
-section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__text p {
+.portfolio .portfolio__section .portfolio__info .porfolio__data .porfolio__data__text p {
   margin: 5px 0px;
   color: #21729A;
   line-height: 1.1rem;
 }
-section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__text p span {
+.portfolio .portfolio__section .portfolio__info .porfolio__data .porfolio__data__text p span {
   color: #444;
   font-size: 0.9rem;
 }
-section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__text a {
+.portfolio .portfolio__section .portfolio__info .porfolio__data .porfolio__data__text a {
   border-radius: 0.5rem;
 }
-section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__text a p {
+.portfolio .portfolio__section .portfolio__info .porfolio__data .porfolio__data__text a p {
   display: inline;
   padding: 5px 10px;
   color: #fff;
@@ -83,21 +86,27 @@ section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__tex
   }
 }
 @media screen and (max-width: 1150px) {
-  section.portfolio__section .portfolio__info.big__card {
+  .portfolio {
+    padding: 50px 0px;
+  }
+  .portfolio .portfolio__section .portfolio__info.big__card {
     grid-template-columns: repeat(2, 1fr);
   }
-  section.portfolio__section .portfolio__info.small__card {
+  .portfolio .portfolio__section .portfolio__info.small__card {
     grid-template-columns: repeat(2, 1fr);
   }
-  section.portfolio__section .portfolio__info .porfolio__data .porfolio__data__text {
+  .portfolio .portfolio__section .portfolio__info .porfolio__data {
+    height: 350px;
+  }
+  .portfolio .portfolio__section .portfolio__info .porfolio__data .porfolio__data__text {
     bottom: 0%;
   }
 }
 @media screen and (max-width: 500px) {
-  section.portfolio__section .portfolio__info.big__card {
+  .portfolio .portfolio__section .portfolio__info.big__card {
     grid-template-columns: 1fr;
   }
-  section.portfolio__section .portfolio__info.small__card {
+  .portfolio .portfolio__section .portfolio__info.small__card {
     grid-template-columns: 1fr;
   }
 }/*# sourceMappingURL=Portfolio.css.map */
