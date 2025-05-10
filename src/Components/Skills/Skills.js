@@ -170,7 +170,7 @@ const Skills = () => {
                             </div>
                         </div>
                         
-                        <a className="ghost__btn" href="https://drive.google.com/file/d/1SUGgcBcXiTxnV_5QTiiA9Gk_5YSzhTaa/view?usp=drive_link" target="_blank" rel="noopener noreferrer" ><Button className='ghost__btn' text='Download CV'/></a>
+                        <a className="ghost__btn" href="https://drive.google.com/file/d/1qoV6yiPjRjc55rsfwb-CMWKCTISbpSDY/view?usp=drive_link" target="_blank" rel="noopener noreferrer" ><Button className='ghost__btn' text='Download CV'/></a>
                     </section>
                 </div>
             </div>
