@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jorgegwd-web/static/css/main.66484830.css",
-    "main.js": "/jorgegwd-web/static/js/main.e10c06cd.js",
+    "main.css": "/jorgegwd-web/static/css/main.40a56ff1.css",
+    "main.js": "/jorgegwd-web/static/js/main.d14a87d6.js",
     "static/media/experience-bg.jpg": "/jorgegwd-web/static/media/experience-bg.3fc5119e6405767ebc45.jpg",
     "static/media/portfolio-comfama-magazine.jpg": "/jorgegwd-web/static/media/portfolio-comfama-magazine.a8f8d38bed6d00fb790c.jpg",
     "static/media/portfolio-konvergy-web.jpg": "/jorgegwd-web/static/media/portfolio-konvergy-web.05dc7be2814027f1ba73.jpg",
@@ -15,15 +15,18 @@
     "static/media/portfolio-mealtohome-web.jpg": "/jorgegwd-web/static/media/portfolio-mealtohome-web.8c711ff538b9174e88ce.jpg",
     "static/media/portfolio-equifax-web.jpg": "/jorgegwd-web/static/media/portfolio-equifax-web.8a5dea7b1d19e75ab19b.jpg",
     "static/media/portfolio-lorusso-web.jpg": "/jorgegwd-web/static/media/portfolio-lorusso-web.7005fe104e0814559818.jpg",
+    "static/media/portfolio-grupo-minero-superior-web.jpg": "/jorgegwd-web/static/media/portfolio-grupo-minero-superior-web.3e2091199e1d09381c52.jpg",
     "static/media/portfolio-laika-app.jpg": "/jorgegwd-web/static/media/portfolio-laika-app.14bc65176e1f5aca5270.jpg",
     "static/media/portfolio-tigy-web.jpg": "/jorgegwd-web/static/media/portfolio-tigy-web.73aa3062277155bac522.jpg",
     "static/media/logo.svg": "/jorgegwd-web/static/media/logo.8a899c2128d14202d5ba71f91f9ab060.svg",
     "index.html": "/jorgegwd-web/index.html",
-    "main.66484830.css.map": "/jorgegwd-web/static/css/main.66484830.css.map",
-    "main.e10c06cd.js.map": "/jorgegwd-web/static/js/main.e10c06cd.js.map"
+    "static/media/icon-menu.svg": "/jorgegwd-web/static/media/icon-menu.3be5d965b0929e3542180707b1ee4816.svg",
+    "static/media/icon-close.svg": "/jorgegwd-web/static/media/icon-close.f54acf44e136f2a9f5e87278825f1562.svg",
+    "main.40a56ff1.css.map": "/jorgegwd-web/static/css/main.40a56ff1.css.map",
+    "main.d14a87d6.js.map": "/jorgegwd-web/static/js/main.d14a87d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.66484830.css",
-    "static/js/main.e10c06cd.js"
+    "static/css/main.40a56ff1.css",
+    "static/js/main.d14a87d6.js"
   ]
 }
