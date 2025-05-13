@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "JorgeGWD",
+  "name": "JorgeGWD Portfolio",
+  "description": "Portfolio of Jorge GWD",
   "icons": [
     {
       "src": "favicon.ico",
