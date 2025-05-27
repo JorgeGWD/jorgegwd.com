@@ -14,6 +14,8 @@
 }
 .about section .section__content .profile__description {
   grid-area: description;
+  display: flex;
+  align-self: center;
 }
 .about section .section__content .profile__description .data__text {
   display: flex;
@@ -23,13 +25,27 @@
 .about section .section__content .profile__pic {
   grid-area: pic;
   text-align: center;
+  display: flex;
+  align-self: center;
 }
 .about section .section__content .profile__pic img {
-  width: 70%;
-  min-width: 200px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  top: -15%;
+}
+.about section .section__content .profile__pic img.image-mask {
+  width: 100%;
   height: auto;
-  border-radius: 50%;
-  animation: morph 8s ease-in-out infinite;
+  mask-image: url("../../assets/images/bruhspainted-profile-pic.svg");
+  -webkit-mask-image: url("../../assets/images/bruhspainted-profile-pic.svg");
+  -webkit-mask-size: 100%;
+          mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
 }
 .about section .section__content .profile__pic p {
   line-height: 45px;
@@ -41,7 +57,7 @@
     grid-template-areas: "pic" "description";
   }
   .about section .section__content .profile__pic img {
-    min-width: 200px;
+    top: 0%;
   }
 }
 @keyframes morph {

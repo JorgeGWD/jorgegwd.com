@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ProfilePic from "../../assets/images/profile-pic.jpg"
+import BruhspaintedProfilePic from "../../assets/images/bruhspainted-profile-pic.svg"
 import './About.css'
 
 const About = () => {
@@ -32,7 +33,7 @@ const About = () => {
                             }
                         </div>
                         <div className="profile__pic">
-                            <img src={ProfilePic} alt="JorgeGWD"/>
+                            <img src={ProfilePic} className='image-mask' alt="JorgeGWD"/>
                         </div>
                     </div>
                 </section>
