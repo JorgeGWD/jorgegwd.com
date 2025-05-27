@@ -28,6 +28,7 @@ section
     padding: 50px 20px
     margin: auto
     max-width: 70%
+    width: clamp(300px, 95%, 1200px)
     h1
         view-timeline-name: --card
         view-timeline-axis: block
@@ -35,6 +36,9 @@ section
         // animation: mainTitle .5s ease
         animation-name: mainTitle
         animation-fill-mode: both
+        background: linear-gradient(to left, #E67E22, #F4D03F)
+        -webkit-text-fill-color: transparent
+        -webkit-background-clip: text
 
 h1, h2, h3, h4, h5, h6, p, li
     font-weight: lighter
@@ -53,6 +57,9 @@ span
     font-size: $paragraph-size
     color: $soft-blue
     font-weight: 400
+    background: linear-gradient(to left, #E67E22, #F4D03F)
+    -webkit-text-fill-color: transparent
+    -webkit-background-clip: text
 
 .box
     padding: 20px
