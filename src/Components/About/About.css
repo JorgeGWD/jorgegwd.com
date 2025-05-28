@@ -49,7 +49,7 @@
   opacity: 1;
 }
 .about section .profile__pic::before {
-  content: "VIDEO";
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -58,6 +58,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../../assets/images/icon-play.svg");
+  background-repeat: no-repeat;
+  background-position: center 43%;
+  background-size: 80px;
+  z-index: 2;
   background-color: rgba(0, 36, 80, 0.35);
   color: white;
   font-size: 5rem;
