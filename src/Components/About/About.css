@@ -80,6 +80,52 @@
   cursor: pointer;
 }
 
+.video__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 36, 80, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.video__overlay.fade-in {
+  opacity: 1;
+}
+.video__overlay.fade-out {
+  opacity: 0;
+}
+
+.video__container {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  background: black;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.video__container video {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+.video__close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: transparent;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 850px) {
   .about section .section__content {
     grid-template-columns: 1fr;
