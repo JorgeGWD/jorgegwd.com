@@ -12,32 +12,30 @@
   grid-template-areas: "description pic";
   grid-gap: 20px;
 }
-.about section .section__content .profile__description {
+.about section .profile__description {
   grid-area: description;
   display: flex;
   align-self: center;
 }
-.about section .section__content .profile__description .data__text {
+.about section .profile__description .data__text {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.about section .section__content .profile__pic {
+.about section .profile__pic {
+  position: relative;
   grid-area: pic;
   text-align: center;
   display: flex;
   align-self: center;
 }
-.about section .section__content .profile__pic img {
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
+.about section .profile__pic .image-mask {
   position: relative;
-  top: -15%;
-}
-.about section .section__content .profile__pic img.image-mask {
   width: 100%;
-  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   mask-image: url("../../assets/images/bruhspainted-profile-pic.svg");
   -webkit-mask-image: url("../../assets/images/bruhspainted-profile-pic.svg");
   -webkit-mask-size: 100%;
@@ -47,30 +45,44 @@
   -webkit-mask-position: center;
           mask-position: center;
 }
-.about section .section__content .profile__pic p {
-  line-height: 45px;
+.about section .profile__pic:hover::before {
+  opacity: 1;
+}
+.about section .profile__pic::before {
+  content: "VIDEO";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 36, 80, 0.35);
+  color: white;
+  font-size: 5rem;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.25s;
+  mask-image: url("../../assets/images/bruhspainted-profile-pic.svg");
+  -webkit-mask-image: url("../../assets/images/bruhspainted-profile-pic.svg");
+  -webkit-mask-size: 100%;
+          mask-size: 100%;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+}
+.about section .profile__pic img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 850px) {
   .about section .section__content {
     grid-template-columns: 1fr;
     grid-template-areas: "pic" "description";
-  }
-  .about section .section__content .profile__pic img {
-    top: 0%;
-  }
-}
-@keyframes morph {
-  0% {
-    border-radius: 60% 50% 50% 70%/60% 50% 70% 50%;
-    transform: translatey(0px);
-  }
-  50% {
-    border-radius: 50% 60% 70% 50%/50% 60% 50% 60%;
-    transform: translatey(-20px);
-  }
-  100% {
-    border-radius: 60% 50% 50% 70%/60% 50% 70% 50%;
-    transform: translatey(0px);
   }
 }/*# sourceMappingURL=About.css.map */

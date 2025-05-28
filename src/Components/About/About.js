@@ -33,7 +33,9 @@ const About = () => {
                             }
                         </div>
                         <div className="profile__pic">
-                            <img src={ProfilePic} className='image-mask' alt="JorgeGWD"/>
+                            <div className='image-mask'>
+                                <img src={ProfilePic} alt="JorgeGWD"/>
+                            </div>
                         </div>
                     </div>
                 </section>
