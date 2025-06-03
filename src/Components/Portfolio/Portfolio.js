@@ -116,9 +116,7 @@ const Portfolio = () => {
                         {
                             smallCard.map((data, key) =>
                             <div className="porfolio__data box" key={key}>
-                                <div className="porfolio__data__img">
-                                    <img src={data.image} alt={data.title}/>
-                                </div>
+                                <img src={data.image} alt={data.title}/>
                                 <div className="porfolio__data__text">
                                     <h3>{data.title}</h3>
                                     <p>{data.description}</p>

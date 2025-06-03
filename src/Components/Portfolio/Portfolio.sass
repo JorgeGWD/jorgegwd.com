@@ -15,48 +15,40 @@
                 grid-template-columns: repeat(4,1fr)
             .porfolio__data
                 position: relative
-                // display: grid
-                // grid-template-row: 28vh 1fr
-                // grid-gap: 20px
                 height: 300px
                 overflow: hidden
                 view-timeline-name: --card
                 view-timeline-axis: block
                 animation-timeline: --card
-                // animation: cardAnimation .5s ease
                 animation-name: cardAnimation
                 animation-fill-mode: both
                 img
+                    position: absolute
+                    top: 0
+                    left: 0
                     width: 100%
+                    hweight: 100%
+                    object-fit: cover
                     transition: all 3.5s
-                &:hover
+                &:hover, &:focus-within
                     img
-                        transform: translateY(calc( -100% + 350px ))
-                    & .porfolio__data__text
-                        bottom: 0%
+                        top: -100%
+                    .porfolio__data__text
+                        bottom: 0px
                 &.box
                     padding: 0px
-                    // max-height: 200px
                     border-radius: $radius-big
-                .porfolio__data__img
-                    // max-height: 200px
-                    // overflow: hidden
-                    img
-                        // margin: -20px
-                        // width: 100%
-                        // height: auto
-                        // transition: all 5s
                 .porfolio__data__text
-                    z-index: 10
                     position: absolute
-                    right: 0px
-                    bottom: -100%
-                    padding: 20px
+                    bottom: 300px
+                    left: 0
                     width: 100%
-                    // align-self: center
+                    height: 300px
+                    z-index: 10
+                    padding: 20px
                     background-color: rgba(255, 255, 255, .9)
-                    background: -moz-linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1))
                     backdrop-filter: blur(5px)
+                    border-radius: $radius-big
                     transition: all .5s
                     p
                         margin: 5px 0px
@@ -96,7 +88,7 @@
                 .porfolio__data
                     height: 350px
                     .porfolio__data__text
-                        bottom: 0%
+                        bottom: -25%
 
 @media screen and ( max-width: 500px )
     .portfolio
