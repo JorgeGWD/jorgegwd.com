@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Portfolio.css'
 
 const Portfolio = () => {
@@ -92,6 +92,27 @@ const Portfolio = () => {
         }
     ])
 
+    useEffect(() => {
+        const items = document.querySelectorAll('.porfolio__data')
+
+        const handleFocus = (e) => {
+            e.target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            })
+        }
+
+        items.forEach(item => {
+            item.addEventListener('focus', handleFocus)
+        })
+
+        return () => {
+            items.forEach(item => {
+                item.removeEventListener('focus', handleFocus)
+            })
+        }
+    }, [])
+
     return (
         <div className="container" id='portfolio'>
             <div className="portfolio content">
@@ -100,7 +121,7 @@ const Portfolio = () => {
                     <div className="portfolio__info big__card">
                         {
                             bigCard.map((data, key) =>
-                            <div className="porfolio__data box" key={key}>
+                            <div className="porfolio__data box" key={key} tabIndex="0">
                                 <img src={data.image} alt={data.title}/>
                                 <div className="porfolio__data__text">
                                     <h2>{data.title}</h2>
@@ -115,7 +136,7 @@ const Portfolio = () => {
                     <div className="portfolio__info small__card">
                         {
                             smallCard.map((data, key) =>
-                            <div className="porfolio__data box" key={key}>
+                            <div className="porfolio__data box" key={key} tabIndex="0">
                                 <img src={data.image} alt={data.title}/>
                                 <div className="porfolio__data__text">
                                     <h3>{data.title}</h3>

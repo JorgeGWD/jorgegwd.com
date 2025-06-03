@@ -33,7 +33,7 @@ const About = () => {
                             }
                         </div>
                         <div className="profile__pic">
-                            <img src={ProfilePic} className='image-mask' alt="JorgeGWD"/>
+                            <img src={ProfilePic} className='image-mask' alt="JorgeGWD" tabIndex="0"/>
                         </div>
                     </div>
                 </section>
