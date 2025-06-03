@@ -18,7 +18,7 @@ const Contact = () => {
                 <div className="contact__box">
                     <section className="contact__section">
                         <h1 className='top-down'>Contact</h1>
-                        <a className="contact__anchor" href="mailto:jorge.rodriguez.r@gmail.com"><Button className={"ghost__btn"} text="Let's talk" /></a>
+                        <a className="ghost__btn" href="mailto:jorge.rodriguez.r@gmail.com"><Button className={"ghost__btn"} text="Let's talk" /></a>
                         {/*
                             open ? (
                                 <Modal

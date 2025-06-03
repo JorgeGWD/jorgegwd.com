@@ -38,6 +38,9 @@
 .contact.content .contact__box section.contact__section h3, .contact.content .contact__box section.contact__section h4 {
   font-weight: lighter;
 }
+.contact.content .contact__box section.contact__section a {
+  margin: inherit;
+}
 .contact.content .contact__box section.contact__section .contact__data__box {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
