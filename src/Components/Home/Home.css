@@ -39,6 +39,7 @@
 .home__content .home__box {
   display: grid;
   grid-template-rows: repeat(2, auto);
+  grid-gap: 5vmin;
 }
 .home__content .home__box a {
   margin: 0 auto;
