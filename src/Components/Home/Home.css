@@ -19,6 +19,8 @@
   background-attachment: fixed;
   -webkit-mask: url("../../assets/images/bruhspainted-bg.svg") no-repeat bottom center;
   -webkit-mask-size: cover;
+  -webkit-mask-position: inherit;
+          mask-position: inherit;
 }
 .home__content::after {
   content: "";
@@ -31,6 +33,8 @@
   background: -webkit-gradient(linear, left top, right top, from(rgba(33, 114, 154, 0.95)), to(rgba(0, 36, 80, 0.95)));
   -webkit-mask: url("../../assets/images/bruhspainted-bg.svg") no-repeat bottom center;
   -webkit-mask-size: cover;
+  -webkit-mask-position: inherit;
+          mask-position: inherit;
 }
 .home__content .home__box {
   display: grid;
