@@ -7,6 +7,7 @@ body
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
     -webkit-font-smoothing: antialiased
     -moz-osx-font-smoothing: grayscale
+    background-color: $light-gray
 
 html
     scroll-behavior: smooth
@@ -28,13 +29,16 @@ section
     padding: 50px 20px
     margin: auto
     max-width: 70%
+    gap: 40px
     h1
         view-timeline-name: --card
         view-timeline-axis: block
         animation-timeline: --card
-        // animation: mainTitle .5s ease
         animation-name: mainTitle
-        animation-fill-mode: both
+        animation-fill-mode: both  
+        background: linear-gradient(to left, #E67E22, #F4D03F)
+        -webkit-text-fill-color: transparent
+        -webkit-background-clip: text
 
 h1, h2, h3, h4, h5, h6, p, li
     font-weight: lighter
@@ -53,6 +57,15 @@ span
     font-size: $paragraph-size
     color: $soft-blue
     font-weight: 400
+    background: linear-gradient(to left, #E67E22, #F4D03F)
+    -webkit-text-fill-color: transparent
+    -webkit-background-clip: text
+
+.typing
+    h1
+        font-size: $title-size
+        span
+            font-size: $title-size
 
 .box
     padding: 20px
@@ -70,7 +83,7 @@ span
         opacity: 0
         // scale: 25%
         transform: translate(-200px, 0px)
-    40%
+    50%
         opacity: 1
         transform: translate(0px, 0px)
 
@@ -81,4 +94,17 @@ span
 @media (max-width: 870px)
     .container
         h1
+            font-size: 4rem
+
+    .typing
+        h1
+            font-size: 4rem
+            span
+                font-size: 4rem
+
+@media (max-width: 550px)
+    .typing
+        h1
             font-size: 3rem
+            span
+                font-size: 3rem

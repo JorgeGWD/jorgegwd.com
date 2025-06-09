@@ -3,10 +3,8 @@
 }
 .typing h1 {
   color: #fff !important;
-  font-size: 5rem;
 }
 .typing h1 span {
-  font-size: 5rem;
   font-weight: bold;
   font-style: italic;
   background: linear-gradient(to left, #E67E22, #F4D03F);
@@ -22,10 +20,5 @@
   100% {
     opacity: 1;
     transform: translateY(0px) scale(1);
-  }
-}
-@media (max-width: 870px) {
-  .typing h1 span {
-    font-size: 3rem;
   }
 }/*# sourceMappingURL=Typing.css.map */

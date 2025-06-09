@@ -167,7 +167,7 @@
 .container .skills .skills__box .experience__section, .container .skills .skills__box .skills__section {
   display: grid;
   grid-template-rows: auto 1fr;
-  grid-gap: 5vmin;
+  grid-gap: 40px;
 }
 .container .skills .skills__box .skills__section {
   color: #fff;

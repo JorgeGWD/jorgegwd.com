@@ -23,7 +23,6 @@
 .contact.content .contact__box section.contact__section {
   display: grid;
   grid-template-rows: repeat(3, auto);
-  grid-gap: 5vmin;
 }
 .contact.content .contact__box section.contact__section h1 {
   color: #fff;
@@ -49,6 +48,7 @@
 }
 .contact.content .contact__box section.contact__section .contact__data__box .contact__data {
   display: grid;
+  gap: 15px;
 }
 .contact.content .contact__box section.contact__section .contact__data__box .contact__data a {
   color: #fff;
@@ -57,7 +57,6 @@
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 15px;
-  margin-top: 10px;
 }
 
 @keyframes contactTitle {
