@@ -4,7 +4,6 @@
 .about section {
   display: grid;
   grid-template-rows: auto 1fr;
-  grid-gap: 5vmin;
 }
 .about section .section__content {
   display: grid;
