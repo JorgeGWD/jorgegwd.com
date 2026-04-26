@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.4176161c.css",
-    "main.js": "./static/js/main.f5571fa3.js",
+    "main.css": "./static/css/main.975c0ad6.css",
+    "main.js": "./static/js/main.e82cbab4.js",
     "static/media/experience-bg.jpg": "./static/media/experience-bg.3fc5119e6405767ebc45.jpg",
     "static/media/portfolio-comfama-magazine.jpg": "./static/media/portfolio-comfama-magazine.a8f8d38bed6d00fb790c.jpg",
     "static/media/portfolio-konvergy-web.jpg": "./static/media/portfolio-konvergy-web.05dc7be2814027f1ba73.jpg",
     "static/media/bruhspainted-bg.svg": "./static/media/bruhspainted-bg.6afd56e38a41dd4e8b4e.svg",
     "static/media/profile-pic.jpg": "./static/media/profile-pic.2029d665a03df1993b6a.jpg",
-    "static/media/bruhspainted-profile-pic.svg": "./static/media/bruhspainted-profile-pic.37b7aa64f64bfc92e943d23972ed88e1.svg",
+    "static/media/bruhspainted-profile-pic.svg": "./static/media/bruhspainted-profile-pic.7e7d4f1f786c48130671.svg",
     "static/media/portfolio-luvania-web.jpg": "./static/media/portfolio-luvania-web.0dfed6ad7a6818199d9a.jpg",
     "static/media/bruhspainted-bottom.svg": "./static/media/bruhspainted-bottom.aede2c7bad4eb7aac819.svg",
     "static/media/bruhspainted-top.svg": "./static/media/bruhspainted-top.e1e4d3710826bcde0ef9.svg",
@@ -21,13 +21,13 @@
     "static/media/portfolio-tigy-web.jpg": "./static/media/portfolio-tigy-web.73aa3062277155bac522.jpg",
     "static/media/logo.svg": "./static/media/logo.8a899c2128d14202d5ba71f91f9ab060.svg",
     "index.html": "./index.html",
-    "static/media/icon-menu.svg": "./static/media/icon-menu.3be5d965b0929e3542180707b1ee4816.svg",
-    "static/media/icon-close.svg": "./static/media/icon-close.f54acf44e136f2a9f5e87278825f1562.svg",
-    "main.4176161c.css.map": "./static/css/main.4176161c.css.map",
-    "main.f5571fa3.js.map": "./static/js/main.f5571fa3.js.map"
+    "static/media/icon-menu.svg": "./static/media/icon-menu.f5ba6732591f7340f7690f839244e93c.svg",
+    "static/media/icon-close.svg": "./static/media/icon-close.233f88095e3eb511991cda3f8a416dae.svg",
+    "main.975c0ad6.css.map": "./static/css/main.975c0ad6.css.map",
+    "main.e82cbab4.js.map": "./static/js/main.e82cbab4.js.map"
   },
   "entrypoints": [
-    "static/css/main.4176161c.css",
-    "static/js/main.f5571fa3.js"
+    "static/css/main.975c0ad6.css",
+    "static/js/main.e82cbab4.js"
   ]
 }
