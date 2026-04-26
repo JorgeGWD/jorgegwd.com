@@ -99,6 +99,22 @@
 .container .skills .skills__box section .experience .experience__data .data p {
   font-size: 0.9rem;
 }
+.container .skills .skills__box section .experience .experience__data .data .experience__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.container .skills .skills__box section .experience .experience__data .data .experience__technology {
+  font-size: 0.7rem;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #21729A;
+  color: #fff;
+  backdrop-filter: blur(4px);
+  -webkit-text-fill-color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
 .container .skills .skills__box section .experience .experience__data .data:hover ~ .list {
   opacity: 1;
 }
@@ -115,6 +131,8 @@
   color: #fff;
 }
 .container .skills .skills__box section .experience .experience__data .list {
+  display: flex;
+  align-items: anchor-center;
   grid-area: list;
   margin: 10px 0px;
   color: #fff;

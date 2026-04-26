@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import ProfilePic from "../../assets/images/profile-pic.jpg"
-import BruhspaintedProfilePic from "../../assets/images/bruhspainted-profile-pic.svg"
 import './About.css'
 
 const About = () => {
@@ -9,9 +8,10 @@ const About = () => {
             [
                 {
                 text:
-                "<p>Hi, I'm Jorge Rodríguez, I work as a <span>FrontEnd Developer and Web Designer</span> since 2010. Over the years, I’ve collaborated with various companies, both as a freelancer and within teams.</p>" +
-                "<p>I have had to develop some projects from scratch and others already started, as well as redesign some already finished, always looking to <span>implement new tools and technologies</span> that allow me to obtain <span>the best result</span>.</p>" +
-                "<p>To make this possible, I also dedicate myself to researching and learning about everything related to <span>new web development technologies</span>. This learning process has been part of my life for quite some time now and I hope it will be for much more.</p>"
+                "<p>Hi, I'm Jorge Rodríguez, a <span>Frontend Developer</span> with experience building web interfaces and digital products since 2010.</p>" +
+                "<p>I specialize in creating <span>responsive, scalable, and maintainable frontend solutions</span>, working with technologies such as React, Next.js, TypeScript, JavaScript, HTML, CSS, Sass, REST APIs, and modern web development tools.</p>" +
+                "<p>Throughout my career, I have worked as a freelancer and as part of multidisciplinary teams, contributing to projects involving <span>frontend architecture, reusable components, performance optimization, accessibility, SEO, and API integrations</span>.</p>" +
+                "<p>I’m focused on continuous improvement, clean implementation, and building user-centered interfaces that align technical quality with business goals.</p>"
             }
         ]
     )
@@ -24,7 +24,7 @@ const About = () => {
                     <div className="section__content">
                         <div className="profile__description">
                             {
-                                data.map((data, key) => 
+                                data.map((data, key) =>
                                     <div className="data__text" key={key} dangerouslySetInnerHTML={{
                                         __html: data.text
                                     }}>
@@ -33,7 +33,7 @@ const About = () => {
                             }
                         </div>
                         <div className="profile__pic">
-                            <img src={ProfilePic} className='image-mask' alt="JorgeGWD" tabIndex="0"/>
+                            <img src={ProfilePic} className='image-mask' alt="Jorge Rodríguez" tabIndex="0"/>
                         </div>
                     </div>
                 </section>

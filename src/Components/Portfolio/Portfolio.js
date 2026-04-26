@@ -8,24 +8,24 @@ const Portfolio = () => {
             image: require('../../assets/images/portfolio-grupo-minero-superior-web.jpg'),
             title: 'Grupo Minero Superior',
             description: 'Company website.',
-            tech: 'ReactJS, HTML5, CSS, Javascript.',
+            tech: 'React, HTML5, CSS, Javascript.',
             url: 'https://grupominerosuperior.com/'
         },
         {
             image: require('../../assets/images/portfolio-comfama-magazine.jpg'),
             title: 'Comfama',
             description: 'Online Magazine.',
-            tech: 'NextJS, ReactJS, HTML, Sass, Javascript.',
+            tech: 'Next.js, React, HTML, Sass, Javascript.',
             url: 'https://d3qcwili52gjl2.cloudfront.net/'
         },
         {
             image: require('../../assets/images/portfolio-luvania-web.jpg'),
             title: 'Luvania',
             description: 'Landing page.',
-            tech: 'NextJS, ReactJS, HTML, Sass, Javascript.',
+            tech: 'Next.js, React, HTML, Sass, Javascript.',
             url: 'https://tratamientos-medicos-co-pmqajvfj2.vercel.app/'
         },
-        
+
         {
             image: require('../../assets/images/portfolio-laika-app.jpg'),
             title: 'Laika app',
@@ -37,7 +37,7 @@ const Portfolio = () => {
             image: require('../../assets/images/portfolio-softars-web.jpg'),
             title: 'SoftArs',
             description: 'Company website.',
-            tech: 'ReactJS, HTML, Sass, Javascript.',
+            tech: 'React, HTML, Sass, Javascript.',
             url: 'http://softars.io/'
         },*/
         {
@@ -68,14 +68,14 @@ const Portfolio = () => {
             image: require('../../assets/images/portfolio-kiero-web.jpg'),
             title: 'Kiero Marketplace',
             description: 'Online shop.',
-            tech: 'ReactJS, HTML, Sass, Javascript.',
+            tech: 'React, HTML, Sass, Javascript.',
             // url: 'https://kiero.co/'
         },
         {
             image: require('../../assets/images/portfolio-tigy-web.jpg'),
             title: 'Tigy web',
             description: 'Web app / Social network.',
-            tech: 'ReactJS, HTML, React Router Dom, Sass, Javascript.',
+            tech: 'React, HTML, React Router Dom, Sass, Javascript.',
             // url: 'https://tigyweb.tigyapp.com/'
         },
         {
