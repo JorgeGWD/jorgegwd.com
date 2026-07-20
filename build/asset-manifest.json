@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.975c0ad6.css",
-    "main.js": "./static/js/main.e82cbab4.js",
+    "main.js": "./static/js/main.3bcee76c.js",
     "static/media/experience-bg.jpg": "./static/media/experience-bg.3fc5119e6405767ebc45.jpg",
     "static/media/portfolio-comfama-magazine.jpg": "./static/media/portfolio-comfama-magazine.a8f8d38bed6d00fb790c.jpg",
     "static/media/portfolio-konvergy-web.jpg": "./static/media/portfolio-konvergy-web.05dc7be2814027f1ba73.jpg",
@@ -18,16 +18,17 @@
     "static/media/portfolio-lorusso-web.jpg": "./static/media/portfolio-lorusso-web.7005fe104e0814559818.jpg",
     "static/media/portfolio-grupo-minero-superior-web.jpg": "./static/media/portfolio-grupo-minero-superior-web.3e2091199e1d09381c52.jpg",
     "static/media/portfolio-laika-app.jpg": "./static/media/portfolio-laika-app.14bc65176e1f5aca5270.jpg",
+    "static/media/portfolio-flixcy-web.jpg": "./static/media/portfolio-flixcy-web.b008851ee52605f3e1ae.jpg",
     "static/media/portfolio-tigy-web.jpg": "./static/media/portfolio-tigy-web.73aa3062277155bac522.jpg",
     "static/media/logo.svg": "./static/media/logo.8a899c2128d14202d5ba71f91f9ab060.svg",
     "index.html": "./index.html",
     "static/media/icon-menu.svg": "./static/media/icon-menu.f5ba6732591f7340f7690f839244e93c.svg",
     "static/media/icon-close.svg": "./static/media/icon-close.233f88095e3eb511991cda3f8a416dae.svg",
     "main.975c0ad6.css.map": "./static/css/main.975c0ad6.css.map",
-    "main.e82cbab4.js.map": "./static/js/main.e82cbab4.js.map"
+    "main.3bcee76c.js.map": "./static/js/main.3bcee76c.js.map"
   },
   "entrypoints": [
     "static/css/main.975c0ad6.css",
-    "static/js/main.e82cbab4.js"
+    "static/js/main.3bcee76c.js"
   ]
 }
