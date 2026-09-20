@@ -3,13 +3,13 @@ import './Portfolio.css'
 
 const Portfolio = () => {
   const [bigCard] = useState([
-    {
+    /*{
       image: require('../../assets/images/portfolio-flixcy-web.jpg'),
       title: 'Flixcy',
       description: 'Web application.',
       tech: 'React, Next.js, TypeScript.',
       url: 'https://flixcy.com/',
-    },
+    },*/
     {
       image: require('../../assets/images/portfolio-grupo-minero-superior-web.jpg'),
       title: 'Grupo Minero Superior',
