@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './Skills.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -160,27 +160,6 @@ const Skills = () => {
     },
   ])
 
-  useEffect(() => {
-    const items = document.querySelectorAll('.data')
-
-    const handleFocus = (e) => {
-      e.target.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center',
-      })
-    }
-
-    items.forEach((item) => {
-      item.addEventListener('focus', handleFocus)
-    })
-
-    return () => {
-      items.forEach((item) => {
-        item.removeEventListener('focus', handleFocus)
-      })
-    }
-  }, [])
-
   return (
     <div className="container" id="experience">
       <div className="skills content">
@@ -191,7 +170,7 @@ const Skills = () => {
               <div className="experience">
                 {experience.map((experience, key) => (
                   <div className="experience__data" key={key}>
-                    <div className="data box" tabIndex="0">
+                    <div className="data box">
                       <div className="experience__data__info title">
                         <FontAwesomeIcon icon={faDesktop} />
                         <h2>{experience.title}</h2>
