@@ -27,9 +27,10 @@ const Contact = () => {
                             open ? (
                                 <Modal
                                     close={closeModal}
-                                    render={() => <Form />
-                                ) : null
-                            */}
+                                    render={() => <Form />}
+                                />
+                            ) : null
+                        */}
                         <div className="contact__data__box">
                             <div className="contact__data">
                                 <h3>You can also find me on</h3>
