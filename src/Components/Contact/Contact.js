@@ -29,14 +29,14 @@ const Contact = () => {
                             */}
                         <div className="contact__data__box">
                             <div className="contact__data">
-                                <h3>We can also speak for</h3>
+                                <h3>You can also find me on</h3>
                                 <a className="contact__data__info" href="https://twitter.com/JorgeGWD" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /><h5>twitter.com/jorgegwd</h5></a>
-                                <a className="contact__data__info" href="https://ve.linkedin.com/in/jorgegwd" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /><h5>linkedin.com/in/jorgegwd</h5></a>
+                                <a className="contact__data__info" href="https://www.linkedin.com/in/jorgegwd" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /><h5>linkedin.com/in/jorgegwd</h5></a>
                             </div>
                             <div className="contact__data">
-                                <h3>Or maybe</h3>
+                                <h3>Or contact me directly</h3>
                                 <div className="contact__data__info">
-                                    <FontAwesomeIcon icon={faMobile} /><h5 className="phone"><a href="https://wa.me/573142624751" target="_blank">(+57) 314 262 4751</a></h5>
+                                    <FontAwesomeIcon icon={faMobile} /><h5 className="phone"><a href="https://wa.me/573142624751" target="_blank" rel="noopener noreferrer">(+57) 314 262 4751</a></h5>
                                 </div>
                                 <div className="contact__data__info">
                                     <FontAwesomeIcon icon={faEnvelope} /><h5 className="email"><a href="mailto:jorge.rodriguez.r@gmail.com">jorge.rodriguez.r@gmail.com</a></h5>
