@@ -1,4 +1,4 @@
-button {
+button, a.ghost__btn, a.primary__btn {
   position: relative;
   margin: auto;
   border-radius: 1rem;
@@ -6,26 +6,26 @@ button {
   animation: button 0.5s ease;
   overflow: hidden;
 }
-button p {
+button p, a.ghost__btn p, a.primary__btn p {
   z-index: 1;
   position: relative;
   font-size: 1.1rem;
 }
-button.primary__btn {
+button.primary__btn, a.primary__btn {
   color: #fff;
   padding: 15px 40px;
   background-color: #21729A;
   border: 1px solid #21729A;
   transition: all 0.25s;
 }
-button.ghost__btn {
+button.ghost__btn, a.ghost__btn {
   color: #fff;
   padding: 15px 40px;
   background-color: transparent;
   border: 1px solid #fff;
   transition: all 0.25s;
 }
-button.ghost__btn::after {
+button.ghost__btn::after, a.ghost__btn::after {
   content: "";
   position: absolute;
   top: -25%;
@@ -38,11 +38,11 @@ button.ghost__btn::after {
   transition: all 0.25s;
   opacity: 0;
 }
-button.ghost__btn:hover {
+button.ghost__btn:hover, a.ghost__btn:hover {
   color: #21729A;
   transition: all 0.25s;
 }
-button.ghost__btn:hover::after {
+button.ghost__btn:hover::after, a.ghost__btn:hover::after {
   transform: rotate(15deg) scale(29, 2);
   opacity: 1;
 }
