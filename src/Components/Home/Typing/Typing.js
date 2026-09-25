@@ -67,7 +67,7 @@ const Typing = () => {
                 data-rotate='[ "create", "design", "develop" ]'>
             </span>
             <br/>
-            greats things together.</h1>
+            great things together.</h1>
         </div>
     )
 }
