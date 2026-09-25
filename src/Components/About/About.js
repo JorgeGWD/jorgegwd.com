@@ -6,7 +6,7 @@ const About = () => {
   const [data] = useState([
     {
       text:
-        "<p>Hi, I'm Jorge Rodríguez, a <span>Frontend Developer</span> focused on building web applications and digital products.</p>" +
+        "<p>Hi, I'm Jorge Rodríguez, a <span>Frontend Developer</span> with 10+ years of experience building web applications and digital products.</p>" +
         '<p>I work mainly with <span>React, Next.js, TypeScript, and JavaScript</span>, with a focus on maintainable frontend architectures, reusable components, API integrations, performance, and responsive interfaces.</p>' +
         '<p>My experience spans <span>e-commerce, editorial platforms, mobility, booking, and other digital products</span>, working closely with multidisciplinary teams and contributing to technical and product decisions from solution definition to implementation.</p>',
     },
