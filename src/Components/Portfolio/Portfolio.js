@@ -14,7 +14,7 @@ const Portfolio = () => {
       image: require('../../assets/images/portfolio-grupo-minero-superior-web.jpg'),
       title: 'Grupo Minero Superior',
       description: 'Company website.',
-      tech: 'React, HTML5, CSS, Javascript.',
+      tech: 'React, HTML5, CSS, JavaScript.',
       url: 'https://grupominerosuperior.com/',
     },
     {
@@ -28,7 +28,7 @@ const Portfolio = () => {
       image: require('../../assets/images/portfolio-luvania-web.jpg'),
       title: 'Luvania',
       description: 'Landing page.',
-      tech: 'Next.js, React, HTML, Sass, Javascript.',
+      tech: 'Next.js, React, HTML, Sass, JavaScript.',
       url: 'https://tratamientos-medicos-co-pmqajvfj2.vercel.app/',
     },
 
@@ -36,7 +36,7 @@ const Portfolio = () => {
       image: require('../../assets/images/portfolio-laika-app.jpg'),
       title: 'Laika app',
       description: 'Mobile app.',
-      tech: 'React Native, Flex, React Router Dom, Javascript.',
+      tech: 'React Native, Flex, React Router Dom, JavaScript.',
       url: 'https://laika.com.co/city/bog/dog',
     },
     /*{
@@ -50,21 +50,21 @@ const Portfolio = () => {
       image: require('../../assets/images/portfolio-lorusso-web.jpg'),
       title: 'T.S. Lorusso',
       description: 'Company website.',
-      tech: 'HTML, CSS, Javascript.',
+      tech: 'HTML, CSS, JavaScript.',
       url: 'http://www.lorussonet.com/',
     },
     {
       image: require('../../assets/images/portfolio-equifax-web.jpg'),
       title: 'Equifax Ignite™',
       description: 'Demo page.',
-      tech: 'HTML, CSS, Javascript.',
+      tech: 'HTML, CSS, JavaScript.',
       url: 'https://equifax-demo-zeta.vercel.app/',
     },
     {
       image: require('../../assets/images/portfolio-konvergy-web.jpg'),
       title: 'Konvergy',
       description: 'Demo page.',
-      tech: 'Web design, HTML, CSS, Javascript.',
+      tech: 'Web design, HTML, CSS, JavaScript.',
       url: 'https://konvergy-web.vercel.app/',
     },
   ])
@@ -74,27 +74,27 @@ const Portfolio = () => {
       image: require('../../assets/images/portfolio-kiero-web.jpg'),
       title: 'Kiero Marketplace',
       description: 'Online shop.',
-      tech: 'React, HTML, Sass, Javascript.',
+      tech: 'React, HTML, Sass, JavaScript.',
       // url: 'https://kiero.co/'
     },
     {
       image: require('../../assets/images/portfolio-tigy-web.jpg'),
       title: 'Tigy web',
       description: 'Web app / Social network.',
-      tech: 'React, HTML, React Router Dom, Sass, Javascript.',
+      tech: 'React, HTML, React Router Dom, Sass, JavaScript.',
       // url: 'https://tigyweb.tigyapp.com/'
     },
     {
       image: require('../../assets/images/portfolio-hollywood-hel-web.jpg'),
       title: 'Hollywood heladeria',
       description: 'Demo page.',
-      tech: 'Web design, WordPress, HTML, CSS, Javascript.',
+      tech: 'Web design, WordPress, HTML, CSS, JavaScript.',
     },
     {
       image: require('../../assets/images/portfolio-mealtohome-web.jpg'),
       title: 'Delivery',
       description: 'Demo page.',
-      tech: 'Web design, HTML, CSS, Javascript.',
+      tech: 'Web design, HTML, CSS, JavaScript.',
     },
   ])
 
