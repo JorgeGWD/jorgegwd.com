@@ -238,14 +238,13 @@ const Skills = () => {
               </div>
             </div>
 
-            <a
+            <Button
               className="ghost__btn"
               href="https://drive.google.com/file/d/1pvO1xkI7ZKjdKUQ4cM0WPaBtjOMscJ2D/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
-            >
-              <Button className="ghost__btn" text="Download CV" />
-            </a>
+              text="Download CV"
+            />
           </section>
         </div>
       </div>
