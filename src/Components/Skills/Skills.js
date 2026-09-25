@@ -26,10 +26,10 @@ const Skills = () => {
         'Figma',
       ],
       details:
-        '<li>Designed and developed web interfaces for clients across multiple industries, delivering scalable and maintainable solutions.</li>' +
-        '<li>Translated UI/UX designs into responsive and functional applications using modern frontend technologies.</li>' +
-        '<li>Improved website performance and SEO, increasing visibility and user engagement.</li>' +
-        '<li>Built scalable frontend architectures using React and Next.js in recent projects.</li>' +
+        '<li>Designed and developed responsive web interfaces for clients across real estate, corporate, commercial, and service industries, balancing visual quality, maintainability, and business objectives.</li>' +
+        '<li>Translated UI/UX designs and business requirements into functional web experiences using HTML, CSS, JavaScript, and, in more recent projects, React, Next.js, and TypeScript.</li>' +
+        '<li>Improved website structure, loading behavior, and SEO foundations to support usability, visibility, and content discoverability.</li>' +
+        '<li>Worked directly with clients to understand requirements, define solutions, and deliver web projects aligned with their business needs.</li>' +
         '<li><strong>Selected projects:</strong> groupminerosuperior.com · lorussonet.com · realtypropiedades.com.</li>',
     },
     {
@@ -78,9 +78,9 @@ const Skills = () => {
         '<li>Worked with REST and GraphQL integrations to connect UI components with backend data and services.</li>',
     },
     {
-      title: 'Web Development Lead',
+      title: 'Frontend Developer / Development Leader',
       company: 'SoftArs',
-      date: 'Apr 2018 - Apr 2019',
+      date: 'Sep 2018 - Apr 2019',
       technologies: ['React', 'TypeScript', 'Angular', 'Sass', 'GraphQL', 'CI/CD', 'REST APIs'],
       details:
         '<li>Led a development team across frontend and platform-related initiatives, combining technical guidance, planning, code review, and coordination with business requirements.</li>' +
