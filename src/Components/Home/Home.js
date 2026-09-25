@@ -15,13 +15,17 @@ const Home = () => {
             <div className="home__content">
                 <div className="home__box">
                     <Typing />
-                    <a className="ghost__btn" href="mailto:jorge.rodriguez.r@gmail.com"><Button className={"ghost__btn"} text="Tell me about your project" /></a>
+                    <Button
+                        className="ghost__btn"
+                        href="mailto:jorge.rodriguez.r@gmail.com"
+                        text="Tell me about your project"
+                    />
                     {/*
                         open ? (
                             <Modal
                                 close={closeModal}
                                 render={() => <Form />}
-                            />
+                            /> 
                         ) : null
                         */}
                 </div>
