@@ -50,6 +50,11 @@ nav label img {
     opacity: 0;
   }
 }
+input#check:focus-visible + .navbar__content-checkbtn {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
 input#check:checked ~ .navbar__content-menu {
   padding: 20px;
   height: auto;
