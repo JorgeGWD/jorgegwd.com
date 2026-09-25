@@ -1,4 +1,4 @@
-.container .skills {
+ .container .skills {
   padding: 6.8vh 0px;
 }
 .container .skills::before {
@@ -83,6 +83,7 @@
   display: grid;
   gap: 10px;
   grid-area: data;
+  justify-self: center;
   margin: 30px 0px;
   align-self: center;
   view-timeline-name: --card;
@@ -134,6 +135,7 @@
   display: flex;
   align-items: anchor-center;
   grid-area: list;
+  justify-self: center;
   margin: 10px 0px;
   color: #fff;
   opacity: 1;
