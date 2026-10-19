@@ -29,7 +29,7 @@ const Portfolio = () => {
       title: 'Luvania',
       description: 'Landing page.',
       tech: 'Next.js, React, HTML, Sass, JavaScript.',
-      url: 'https://tratamientos-medicos-co-pmqajvfj2.vercel.app/',
+      url: 'https://tratamientos-medicos-co.vercel.app/',
     },
 
     {
